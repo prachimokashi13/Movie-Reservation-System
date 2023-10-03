@@ -1,0 +1,1529 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_-AvuUKGlEeyFcYzmq9og-A" name="MovieReservation">
+    <eAnnotations xmi:id="_-PJ9wKGlEeyFcYzmq9og-A" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_-PKk0KGlEeyFcYzmq9og-A" source="codegen">
+        <details xmi:id="_-PKk0aGlEeyFcYzmq9og-A" key="codegenDirectory" value="/MovieReservation/src/main/java"/>
+        <details xmi:id="_AF9uYKGmEeyFcYzmq9og-A" key="AssociatedSourceCode" value="/MovieReservation/src/main/java/com/project/dao/BookingDao.java;2087201782/1;/MovieReservation/src/main/java/com/project/dao/EntryDao.java;3192111908/1;/MovieReservation/src/main/java/com/project/dao/MovieDao.java;1712012227/1;/MovieReservation/src/main/java/com/project/dao/RetrieveBookingDao.java;389118961/1;/MovieReservation/src/main/java/com/project/dao/SeatDao.java;344036939/1;/MovieReservation/src/main/java/com/project/dao/TheatreShowsDao.java;3603903325/1;/MovieReservation/src/main/java/com/project/dao/impl/BookingDaoImpl.java;1862995471/1;/MovieReservation/src/main/java/com/project/dao/impl/EntryDaoImpl.java;1022794271/1;/MovieReservation/src/main/java/com/project/dao/impl/MovieDaoImpl.java;1973242216/1;/MovieReservation/src/main/java/com/project/dao/impl/RetrieveBookingDaoImpl.java;414405861/1;/MovieReservation/src/main/java/com/project/dao/impl/SeatDaoImpl.java;4057972762/1;/MovieReservation/src/main/java/com/project/dao/impl/TheatreShowsDaoImpl.java;1388363771/1;/MovieReservation/src/main/java/com/project/db/DBConnect.java;3003828101/1;/MovieReservation/src/main/java/com/project/model/BookShow.java;1075420419/1;/MovieReservation/src/main/java/com/project/model/BookedShows.java;1157885111/1;/MovieReservation/src/main/java/com/project/model/Movie.java;4229602292/1;/MovieReservation/src/main/java/com/project/model/Person.java;438007155/1;/MovieReservation/src/main/java/com/project/model/Screen.java;1735107293/1;/MovieReservation/src/main/java/com/project/model/Seat.java;3422213721/1;/MovieReservation/src/main/java/com/project/model/Show.java;219753439/1;/MovieReservation/src/main/java/com/project/model/Theatre.java;2799906918/1;/MovieReservation/src/main/java/com/project/model/User.java;2287873469/1;/MovieReservation/src/main/java/com/project/service/BookingService.java;3490707385/1;/MovieReservation/src/main/java/com/project/service/EntryService.java;2145057089/1;/MovieReservation/src/main/java/com/project/service/MovieService.java;669689199/1;/MovieReservation/src/main/java/com/project/service/SeatService.java;2555554397/1;/MovieReservation/src/main/java/com/project/service/TheatreShowService.java;2972060142/1;/MovieReservation/src/main/java/com/project/service/impl/BookingServiceImpl.java;1672396443/1;/MovieReservation/src/main/java/com/project/service/impl/EntryServiceImpl.java;1539824667/1;/MovieReservation/src/main/java/com/project/service/impl/MovieServiceImpl.java;3538512269/1;/MovieReservation/src/main/java/com/project/service/impl/RetrieveBookingServiceImpl.java;3565726157/1;/MovieReservation/src/main/java/com/project/service/impl/SeatServiceImpl.java;3710491548/1;/MovieReservation/src/main/java/com/project/service/impl/TheatreShowServiceImpl.java;4211989893/1;/MovieReservation/src/main/java/com/project/servlet/BookingServlet.java;128979357/1;/MovieReservation/src/main/java/com/project/servlet/CheckoutServlet.java;218477069/1;/MovieReservation/src/main/java/com/project/servlet/CityServlet.java;1613408635/1;/MovieReservation/src/main/java/com/project/servlet/LoginServlet.java;3638254118/1;/MovieReservation/src/main/java/com/project/servlet/LogoutServlet.java;3959073436/1;/MovieReservation/src/main/java/com/project/servlet/MovieServlet.java;3826630070/1;/MovieReservation/src/main/java/com/project/servlet/RetrieveBookingServlet.java;2301437422/1;/MovieReservation/src/main/java/com/project/servlet/SeatServlet.java;3999892583/1;/MovieReservation/src/main/java/com/project/servlet/SignupServlet.java;2819641636/1;/MovieReservation/src/main/java/com/project/servlet/TheatreShowsServlet.java;675954261/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_-jZvcKGlEeyFcYzmq9og-A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_-jaWgKGlEeyFcYzmq9og-A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_-jaWgaGlEeyFcYzmq9og-A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_-jaWgqGlEeyFcYzmq9og-A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_-jaWg6GlEeyFcYzmq9og-A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_-jaWhKGlEeyFcYzmq9og-A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_-jaWhaGlEeyFcYzmq9og-A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_-jaWhqGlEeyFcYzmq9og-A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_-jbkoKGlEeyFcYzmq9og-A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_-iJLMKGlEeyFcYzmq9og-A" name="com">
+      <packagedElement xmi:type="uml:Package" xmi:id="_-iJLMaGlEeyFcYzmq9og-A" name="project">
+        <packagedElement xmi:type="uml:Package" xmi:id="_-iMOgKGlEeyFcYzmq9og-A" name="model">
+          <packagedElement xmi:type="uml:Class" xmi:id="_-kAMYKGlEeyFcYzmq9og-A" name="BookShow">
+            <ownedAttribute xmi:id="_-vYV8KGlEeyFcYzmq9og-A" name="userid">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_-vYV8aGlEeyFcYzmq9og-A" name="showId">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_-vYV8qGlEeyFcYzmq9og-A" name="seats" type="_-kIvQKGlEeyFcYzmq9og-A" isOrdered="true" association="_-wCdQaGlEeyFcYzmq9og-A">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-vYV86GlEeyFcYzmq9og-A" value="*"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_-vYV9KGlEeyFcYzmq9og-A" name="bookingId">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_-vY9AKGlEeyFcYzmq9og-A" name="price">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedAttribute>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_-kCBkKGlEeyFcYzmq9og-A" name="BookedShows">
+            <generalization xmi:id="_-uch0KGlEeyFcYzmq9og-A" general="_-kAMYKGlEeyFcYzmq9og-A"/>
+            <ownedAttribute xmi:id="_-vY9AaGlEeyFcYzmq9og-A" name="show" type="_-kJ9YKGlEeyFcYzmq9og-A" association="_-v7IgKGlEeyFcYzmq9og-A"/>
+            <ownedAttribute xmi:id="_-vY9AqGlEeyFcYzmq9og-A" name="screenName">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_-vZkEKGlEeyFcYzmq9og-A" name="theatreName">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_-vZkEaGlEeyFcYzmq9og-A" name="movieName">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_-kD2wKGlEeyFcYzmq9og-A" name="Movie">
+            <ownedAttribute xmi:id="_-vaLIKGlEeyFcYzmq9og-A" name="movieId">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_-vaLIaGlEeyFcYzmq9og-A" name="movieName">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_-vayMKGlEeyFcYzmq9og-A" name="language">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_-vayMaGlEeyFcYzmq9og-A" name="genre">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_-vayMqGlEeyFcYzmq9og-A" name="description">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_-vbZQKGlEeyFcYzmq9og-A" name="releaseDate" type="_-udI4KGlEeyFcYzmq9og-A" association="_-v7vkKGlEeyFcYzmq9og-A"/>
+            <ownedAttribute xmi:id="_-vbZQaGlEeyFcYzmq9og-A" name="duration">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_-vbZQqGlEeyFcYzmq9og-A" name="rating">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_-vbZQ6GlEeyFcYzmq9og-A" name="availableShows" isOrdered="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-vcAUKGlEeyFcYzmq9og-A" value="*"/>
+            </ownedAttribute>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_-kGTAKGlEeyFcYzmq9og-A" name="Person">
+            <ownedAttribute xmi:id="_-vcAUaGlEeyFcYzmq9og-A" name="userId">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_-vcAUqGlEeyFcYzmq9og-A" name="email">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_-vcnYKGlEeyFcYzmq9og-A" name="password">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_-kHhIKGlEeyFcYzmq9og-A" name="Screen">
+            <ownedAttribute xmi:id="_-vcnYaGlEeyFcYzmq9og-A" name="screenId">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_-vcnYqGlEeyFcYzmq9og-A" name="screenName">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_-kIvQKGlEeyFcYzmq9og-A" name="Seat">
+            <ownedAttribute xmi:id="_-vcnY6GlEeyFcYzmq9og-A" name="seatId">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_-vdOcKGlEeyFcYzmq9og-A" name="seatNumber">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_-vdOcaGlEeyFcYzmq9og-A" name="categoryType">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_-vd1gKGlEeyFcYzmq9og-A" name="screenId">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_-vd1gaGlEeyFcYzmq9og-A" name="rownum">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_-veckKGlEeyFcYzmq9og-A" name="price">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_-veckaGlEeyFcYzmq9og-A" name="status">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_-kJ9YKGlEeyFcYzmq9og-A" name="Show">
+            <generalization xmi:id="_-ugzQKGlEeyFcYzmq9og-A" general="_-kD2wKGlEeyFcYzmq9og-A"/>
+            <ownedAttribute xmi:id="_-vfDoKGlEeyFcYzmq9og-A" name="showId">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_-vfDoaGlEeyFcYzmq9og-A" name="showTime">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_-vfDoqGlEeyFcYzmq9og-A" name="showDate">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_-vfDo6GlEeyFcYzmq9og-A" name="screen" type="_-kHhIKGlEeyFcYzmq9og-A" association="_-v7vkqGlEeyFcYzmq9og-A"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_-kLykKGlEeyFcYzmq9og-A" name="Theatre">
+            <ownedAttribute xmi:id="_-vfqsKGlEeyFcYzmq9og-A" name="theatreId">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_-vfqsaGlEeyFcYzmq9og-A" name="theatreName">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_-vfqsqGlEeyFcYzmq9og-A" name="address">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_-vfqs6GlEeyFcYzmq9og-A" name="shows" type="_-kJ9YKGlEeyFcYzmq9og-A" isOrdered="true" association="_-wDEUaGlEeyFcYzmq9og-A">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-vfqtKGlEeyFcYzmq9og-A" value="*"/>
+            </ownedAttribute>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_-kNAsKGlEeyFcYzmq9og-A" name="User">
+            <generalization xmi:id="_-uiBYKGlEeyFcYzmq9og-A" general="_-kGTAKGlEeyFcYzmq9og-A"/>
+            <ownedAttribute xmi:id="_-vgRwKGlEeyFcYzmq9og-A" name="name">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_-vgRwaGlEeyFcYzmq9og-A" name="phone">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedAttribute>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_-v7IgKGlEeyFcYzmq9og-A" name="" memberEnd="_-vY9AaGlEeyFcYzmq9og-A _-v7IgaGlEeyFcYzmq9og-A">
+            <ownedEnd xmi:id="_-v7IgaGlEeyFcYzmq9og-A" name="" type="_-kCBkKGlEeyFcYzmq9og-A" association="_-v7IgKGlEeyFcYzmq9og-A"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_-v7vkKGlEeyFcYzmq9og-A" name="" memberEnd="_-vbZQKGlEeyFcYzmq9og-A _-v7vkaGlEeyFcYzmq9og-A">
+            <ownedEnd xmi:id="_-v7vkaGlEeyFcYzmq9og-A" name="" type="_-kD2wKGlEeyFcYzmq9og-A" association="_-v7vkKGlEeyFcYzmq9og-A"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_-v7vkqGlEeyFcYzmq9og-A" name="" memberEnd="_-vfDo6GlEeyFcYzmq9og-A _-v8WoKGlEeyFcYzmq9og-A">
+            <ownedEnd xmi:id="_-v8WoKGlEeyFcYzmq9og-A" name="" type="_-kJ9YKGlEeyFcYzmq9og-A" association="_-v7vkqGlEeyFcYzmq9og-A"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_-wCdQaGlEeyFcYzmq9og-A" name="" memberEnd="_-wCdQqGlEeyFcYzmq9og-A _-vYV8qGlEeyFcYzmq9og-A">
+            <ownedEnd xmi:id="_-wCdQqGlEeyFcYzmq9og-A" name="" type="_-kAMYKGlEeyFcYzmq9og-A" association="_-wCdQaGlEeyFcYzmq9og-A"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_-wDEUaGlEeyFcYzmq9og-A" name="" memberEnd="_-wDEUqGlEeyFcYzmq9og-A _-vfqs6GlEeyFcYzmq9og-A">
+            <ownedEnd xmi:id="_-wDEUqGlEeyFcYzmq9og-A" name="" type="_-kLykKGlEeyFcYzmq9og-A" association="_-wDEUaGlEeyFcYzmq9og-A"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_-iPR0KGlEeyFcYzmq9og-A" name="dao">
+          <packagedElement xmi:type="uml:Package" xmi:id="_-ibfEKGlEeyFcYzmq9og-A" name="impl">
+            <packagedElement xmi:type="uml:Class" xmi:id="_-jsqYKGlEeyFcYzmq9og-A" name="BookingDaoImpl">
+              <interfaceRealization xmi:id="_-uPtgKGlEeyFcYzmq9og-A" client="_-jsqYKGlEeyFcYzmq9og-A" supplier="_-jTBwKGlEeyFcYzmq9og-A" contract="_-jTBwKGlEeyFcYzmq9og-A"/>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-vqp0KGlEeyFcYzmq9og-A" name="bookShow" specification="_-uQUkKGlEeyFcYzmq9og-A">
+                <ownedParameter xmi:id="_-vqp0aGlEeyFcYzmq9og-A" name="bookShow" type="_-kAMYKGlEeyFcYzmq9og-A"/>
+                <ownedParameter xmi:id="_-vqp0qGlEeyFcYzmq9og-A" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>DBConnect dbcon = new DBConnect();&#xD;
+		int rs1 = 1;&#xD;
+		int rs2 = 1;&#xD;
+		try {&#xD;
+&#xD;
+			Connection con = dbcon.getConnection();&#xD;
+&#xD;
+			Statement stmt1 = con.createStatement();&#xD;
+			String sq = &quot;insert into booking values('&quot; + bookShow.getBookingId() + &quot;',&quot;&#xD;
+					+ bookShow.getUserid() + &quot;,&quot; + bookShow.getShowId() + &quot;,&quot; + bookShow.getPrice() + &quot;);&quot;;&#xD;
+			System.out.println(sq);&#xD;
+			rs1 = stmt1.executeUpdate(&quot;insert into booking values('&quot; + bookShow.getBookingId() + &quot;',&quot;&#xD;
+					+ bookShow.getUserid() + &quot;,&quot; + bookShow.getShowId() + &quot;,&quot; + bookShow.getPrice() + &quot;);&quot;);&#xD;
+&#xD;
+			for (Seat seat : bookShow.getSeats()) {&#xD;
+				Statement stmt = con.createStatement();&#xD;
+				String sql = &quot;insert into seatsreserved (seatnumber , showid , bookingid,&quot;&#xD;
+						+ &quot;bookingstatus, seatid) values('&quot; + seat.getSeatNumber() + &quot;','&quot; + bookShow.getShowId()&#xD;
+						+ &quot;','&quot; + bookShow.getBookingId() + &quot;','&quot; + &quot;Reserved&quot; + &quot;',&quot; + seat.getSeatId() + &quot;);&quot;;&#xD;
+				System.out.println(sql);&#xD;
+				rs2 = rs2 &amp; stmt.executeUpdate(sql);&#xD;
+			}&#xD;
+&#xD;
+			con.close();&#xD;
+&#xD;
+		} catch (Exception e) {&#xD;
+			System.out.println(e);&#xD;
+		}&#xD;
+&#xD;
+		return rs1 &amp; rs2;&#xD;
+&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_-uQUkKGlEeyFcYzmq9og-A" name="bookShow" method="_-vqp0KGlEeyFcYzmq9og-A">
+                <ownedParameter xmi:id="_-uQUkaGlEeyFcYzmq9og-A" name="bookShow" type="_-kAMYKGlEeyFcYzmq9og-A"/>
+                <ownedParameter xmi:id="_-uQUkqGlEeyFcYzmq9og-A" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_-jvGoKGlEeyFcYzmq9og-A" name="EntryDaoImpl">
+              <interfaceRealization xmi:id="_-uRisaGlEeyFcYzmq9og-A" client="_-jvGoKGlEeyFcYzmq9og-A" supplier="_-jcLsKGlEeyFcYzmq9og-A" contract="_-jcLsKGlEeyFcYzmq9og-A"/>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-vwwcKGlEeyFcYzmq9og-A" name="userLogin" specification="_-jwUwKGlEeyFcYzmq9og-A">
+                <ownedParameter xmi:id="_-vxXgKGlEeyFcYzmq9og-A" name="email">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_-vxXgaGlEeyFcYzmq9og-A" type="_-kNAsKGlEeyFcYzmq9og-A" direction="return"/>
+                <language>java</language>
+                <body>DBConnect dbcon = new DBConnect();&#xD;
+		String pwd ;&#xD;
+		User loggedUser = new User();&#xD;
+		try {&#xD;
+&#xD;
+			Connection con = dbcon.getConnection();&#xD;
+			Statement stmt = con.createStatement();&#xD;
+			ResultSet rs = stmt.executeQuery(&quot;select * from user where email  = '&quot; + email + &quot;';&quot;);&#xD;
+			while(rs.next()) {&#xD;
+				loggedUser.setEmail(rs.getString(&quot;email&quot;));&#xD;
+				loggedUser.setUserId(rs.getInt(&quot;userid&quot;));&#xD;
+				loggedUser.setName(rs.getString(&quot;name&quot;));&#xD;
+				loggedUser.setPassword(rs.getString(&quot;password&quot;));&#xD;
+				loggedUser.setPhone(rs.getInt(&quot;phone&quot;));&#xD;
+			}&#xD;
+			con.close();&#xD;
+		} catch (Exception e) {&#xD;
+			System.out.println(e);&#xD;
+		}&#xD;
+&#xD;
+		return loggedUser;&#xD;
+&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-vxXgqGlEeyFcYzmq9og-A" name="userSignUp" specification="_-uSJwaGlEeyFcYzmq9og-A">
+                <ownedParameter xmi:id="_-vxXg6GlEeyFcYzmq9og-A" name="user" type="_-kNAsKGlEeyFcYzmq9og-A"/>
+                <ownedParameter xmi:id="_-vxXhKGlEeyFcYzmq9og-A" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>DBConnect dbcon = new DBConnect();&#xD;
+		int rs = 1 ; &#xD;
+		try {&#xD;
+&#xD;
+			Connection con = dbcon.getConnection();&#xD;
+			Statement stmt = con.createStatement();&#xD;
+			 rs = stmt.executeUpdate(&quot;INSERT INTO user ( name, email,password ,phone)\r\n&quot;&#xD;
+					+ &quot;VALUES ('&quot;+user.getName()+&quot;', '&quot;+user.getEmail()+&quot;', '&quot;+user.getPassword()+&quot;', &quot;+user.getPhone()+&quot;)&quot;);&#xD;
+		&#xD;
+			con.close();&#xD;
+		} catch (Exception e) {&#xD;
+			System.out.println(e);&#xD;
+		}&#xD;
+&#xD;
+		return rs;&#xD;
+&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_-jwUwKGlEeyFcYzmq9og-A" name="userLogin" method="_-vwwcKGlEeyFcYzmq9og-A">
+                <ownedParameter xmi:id="_-jwUwaGlEeyFcYzmq9og-A" name="email">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_-uSJwKGlEeyFcYzmq9og-A" type="_-kNAsKGlEeyFcYzmq9og-A" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_-uSJwaGlEeyFcYzmq9og-A" name="userSignUp" method="_-vxXgqGlEeyFcYzmq9og-A">
+                <ownedParameter xmi:id="_-uSJwqGlEeyFcYzmq9og-A" name="user" type="_-kNAsKGlEeyFcYzmq9og-A"/>
+                <ownedParameter xmi:id="_-uSJw6GlEeyFcYzmq9og-A" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_-jyxAKGlEeyFcYzmq9og-A" name="MovieDaoImpl">
+              <interfaceRealization xmi:id="_-uSw0KGlEeyFcYzmq9og-A" client="_-jyxAKGlEeyFcYzmq9og-A" supplier="_-jhEMKGlEeyFcYzmq9og-A" contract="_-jhEMKGlEeyFcYzmq9og-A"/>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-vx-kKGlEeyFcYzmq9og-A" name="getMovieDetails" specification="_-jzYEKGlEeyFcYzmq9og-A">
+                <ownedParameter xmi:id="_-vx-kaGlEeyFcYzmq9og-A" name="movieId">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_-vx-kqGlEeyFcYzmq9og-A" type="_-kD2wKGlEeyFcYzmq9og-A" direction="return"/>
+                <language>java</language>
+                <body>DBConnect dbcon = new DBConnect();&#xD;
+		Movie movie = new Movie();&#xD;
+		try {&#xD;
+&#xD;
+			Connection con = dbcon.getConnection();&#xD;
+			Statement stmt = con.createStatement();&#xD;
+			ResultSet rs = stmt.executeQuery(&quot;select * from movies where movieid = &quot; + movieId + &quot;;&quot;);&#xD;
+&#xD;
+			while (rs.next()) {&#xD;
+				movie.setMovieId(rs.getInt(&quot;movieid&quot;));&#xD;
+				movie.setMovieName(rs.getString(&quot;moviename&quot;));&#xD;
+				movie.setDescription(rs.getString(&quot;description&quot;));&#xD;
+				movie.setDuration(rs.getInt(&quot;duration&quot;));&#xD;
+				movie.setLanguage(rs.getString(&quot;language&quot;));&#xD;
+				movie.setGenre(rs.getString(&quot;genre&quot;));&#xD;
+				movie.setReleaseDate(rs.getDate(&quot;releasedate&quot;));&#xD;
+				movie.setRating(rs.getFloat(&quot;rating&quot;));&#xD;
+			//	movie.setAvailableShows(availableDates);&#xD;
+			}&#xD;
+			&#xD;
+&#xD;
+			con.close();&#xD;
+		} catch (Exception e) {&#xD;
+			System.out.println(e);&#xD;
+		}&#xD;
+&#xD;
+		return movie;&#xD;
+&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_-jzYEKGlEeyFcYzmq9og-A" name="getMovieDetails" method="_-vx-kKGlEeyFcYzmq9og-A">
+                <ownedParameter xmi:id="_-jzYEaGlEeyFcYzmq9og-A" name="movieId">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_-uSw0aGlEeyFcYzmq9og-A" type="_-kD2wKGlEeyFcYzmq9og-A" direction="return"/>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_-j0mMKGlEeyFcYzmq9og-A" name="RetrieveBookingDaoImpl">
+              <interfaceRealization xmi:id="_-uT-8aGlEeyFcYzmq9og-A" client="_-j0mMKGlEeyFcYzmq9og-A" supplier="_-jjgcKGlEeyFcYzmq9og-A" contract="_-jjgcKGlEeyFcYzmq9og-A"/>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-vx-k6GlEeyFcYzmq9og-A" name="retrieveBooking" specification="_-j10UKGlEeyFcYzmq9og-A">
+                <ownedParameter xmi:id="_-vx-lKGlEeyFcYzmq9og-A" name="userId">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_-vx-laGlEeyFcYzmq9og-A" type="_-kCBkKGlEeyFcYzmq9og-A" isOrdered="true" direction="return">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-vx-lqGlEeyFcYzmq9og-A" value="*"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>DBConnect dbcon = new DBConnect();&#xD;
+		List&lt;BookedShows> bookedShowslist = new ArrayList&lt;>();&#xD;
+&#xD;
+		try {&#xD;
+&#xD;
+			Connection con = dbcon.getConnection();&#xD;
+			Statement stmt = con.createStatement();&#xD;
+			ResultSet rs = stmt.executeQuery(&#xD;
+					&quot;select booking.bookingid , booking.showid,booking.bookingprice,shows.showdate,shows.starttime,shows.screenid,\r\n&quot;&#xD;
+							+ &quot;shows.movieid,screens.screenname,theatres.theatrename,movies.moviename\r\n&quot;&#xD;
+							+ &quot;from ((((booking join shows on booking.showid=shows.showid)join screens on shows.screenid = screens.screenid)\r\n&quot;&#xD;
+							+ &quot;join theatres on screens.theatreid = theatres.theatreid) join movies&quot;&#xD;
+							+ &quot; on shows.movieid = movies.movieid )where booking.userid = &quot;+userId+&quot;;&quot;);&#xD;
+&#xD;
+			while (rs.next()) {&#xD;
+				BookedShows bookedShows = new BookedShows();&#xD;
+				bookedShows.setBookingId(rs.getString(&quot;bookingid&quot;));&#xD;
+				bookedShows.setPrice(rs.getInt(&quot;bookingprice&quot;));&#xD;
+				bookedShows.setScreenName(rs.getString(&quot;screenname&quot;));&#xD;
+				bookedShows.setMovieName(rs.getString(&quot;moviename&quot;));&#xD;
+				// bookedShows.setSeats(null);&#xD;
+				Show show = new Show();&#xD;
+				show.setShowTime(rs.getString(&quot;starttime&quot;));&#xD;
+				show.setShowDate(rs.getString(&quot;showdate&quot;));&#xD;
+				bookedShows.setShow(show);&#xD;
+				bookedShows.setShowId(rs.getInt(&quot;showid&quot;));&#xD;
+				bookedShows.setTheatreName(rs.getString(&quot;theatrename&quot;));&#xD;
+				bookedShows.setUserid(userId);&#xD;
+				bookedShowslist.add(bookedShows);&#xD;
+			}&#xD;
+&#xD;
+			con.close();&#xD;
+		} catch (Exception e) {&#xD;
+			System.out.println(e);&#xD;
+		}&#xD;
+&#xD;
+		return bookedShowslist;&#xD;
+&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_-j10UKGlEeyFcYzmq9og-A" name="retrieveBooking" method="_-vx-k6GlEeyFcYzmq9og-A">
+                <ownedParameter xmi:id="_-j2bYKGlEeyFcYzmq9og-A" name="userId">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_-j2bYaGlEeyFcYzmq9og-A" type="_-kCBkKGlEeyFcYzmq9og-A" isOrdered="true" direction="return">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-j2bYqGlEeyFcYzmq9og-A" value="*"/>
+                </ownedParameter>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_-j3pgKGlEeyFcYzmq9og-A" name="SeatDaoImpl">
+              <interfaceRealization xmi:id="_-uWbMaGlEeyFcYzmq9og-A" client="_-j3pgKGlEeyFcYzmq9og-A" supplier="_-jnK0KGlEeyFcYzmq9og-A" contract="_-jnK0KGlEeyFcYzmq9og-A"/>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-vyloKGlEeyFcYzmq9og-A" name="getSeatDetails" specification="_-j43oKGlEeyFcYzmq9og-A">
+                <ownedParameter xmi:id="_-vyloaGlEeyFcYzmq9og-A" name="showId">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_-vyloqGlEeyFcYzmq9og-A" name="screenId">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_-vylo6GlEeyFcYzmq9og-A" type="_-kIvQKGlEeyFcYzmq9og-A" isOrdered="true" direction="return">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-vylpKGlEeyFcYzmq9og-A" value="*"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>DBConnect dbcon = new DBConnect();&#xD;
+		List&lt;Seat> seatList = new ArrayList&lt;Seat>();&#xD;
+		try {&#xD;
+&#xD;
+			Connection con = dbcon.getConnection();&#xD;
+&#xD;
+			Statement stmt1 = con.createStatement();&#xD;
+			ResultSet priceResultSet = stmt1&#xD;
+					.executeQuery(&quot; select seatcategorytype,price from seatprice where screenid =&quot; + screenId + &quot;;&quot;);&#xD;
+&#xD;
+			Statement stmt2 = con.createStatement();&#xD;
+			ResultSet seatResultSet = stmt2&#xD;
+					.executeQuery(&quot;select seats.seatid , seats.seatnumber,seats.categorytype,seats.screenid ,&quot;&#xD;
+							+ &quot; seats.rownum,seatsreserved.bookingstatus\r\n&quot;&#xD;
+							+ &quot;from seats left join seatsreserved   on seats.seatid = seatsreserved.seatid and  &quot;&#xD;
+							+ &quot;seatsreserved.showid = &quot; + showId + &quot; where seats.screenid = &quot; + screenId + &quot; ;\r\n&quot;&#xD;
+							+ &quot;&quot;);&#xD;
+			/*&#xD;
+			 * select s.seatId , s.seatnumber,s.categorytype,s.screenid ,&#xD;
+			 * s.rownum,sr.bookingstatus from seats s left join seatsreserved sr on s.seatId&#xD;
+			 * = sr.seatId and sr.showid = 333 where s.screenid = 222 ;&#xD;
+			 */&#xD;
+			Map&lt;String, Integer> priceMap = new HashMap&lt;String, Integer>();&#xD;
+			while (priceResultSet.next()) {&#xD;
+				priceMap.put(priceResultSet.getString(&quot;seatcategorytype&quot;), priceResultSet.getInt(&quot;price&quot;));&#xD;
+			}&#xD;
+&#xD;
+			while (seatResultSet.next()) {&#xD;
+				Seat seat = new Seat();&#xD;
+				seat.setSeatId(seatResultSet.getInt(&quot;seatid&quot;));&#xD;
+				seat.setSeatNumber(seatResultSet.getString(&quot;seatnumber&quot;));&#xD;
+				seat.setCategoryType(seatResultSet.getString(&quot;categorytype&quot;));&#xD;
+				seat.setRownum(seatResultSet.getInt(&quot;rownum&quot;));&#xD;
+				seat.setPrice(priceMap.get(seatResultSet.getString(&quot;categorytype&quot;)));&#xD;
+				seat.setStatus(&#xD;
+						seatResultSet.getString(&quot;bookingstatus&quot;) != null ? seatResultSet.getString(&quot;bookingstatus&quot;)&#xD;
+								: &quot;Available&quot;);&#xD;
+				seatList.add(seat);&#xD;
+			}&#xD;
+&#xD;
+			con.close();&#xD;
+&#xD;
+		} catch (Exception e) {&#xD;
+			System.out.println(e);&#xD;
+		}&#xD;
+&#xD;
+		return seatList;&#xD;
+&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_-j43oKGlEeyFcYzmq9og-A" name="getSeatDetails" method="_-vyloKGlEeyFcYzmq9og-A">
+                <ownedParameter xmi:id="_-j5esKGlEeyFcYzmq9og-A" name="showId">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_-j5esaGlEeyFcYzmq9og-A" name="screenId">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_-j5esqGlEeyFcYzmq9og-A" type="_-kIvQKGlEeyFcYzmq9og-A" isOrdered="true" direction="return">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-j5es6GlEeyFcYzmq9og-A" value="*"/>
+                </ownedParameter>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_-j7T4KGlEeyFcYzmq9og-A" name="TheatreShowsDaoImpl">
+              <interfaceRealization xmi:id="_-uYQYaGlEeyFcYzmq9og-A" client="_-j7T4KGlEeyFcYzmq9og-A" supplier="_-jpnEKGlEeyFcYzmq9og-A" contract="_-jpnEKGlEeyFcYzmq9og-A"/>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-vylpaGlEeyFcYzmq9og-A" name="getTheatreShowsByDate" specification="_-j768KGlEeyFcYzmq9og-A">
+                <ownedParameter xmi:id="_-vylpqGlEeyFcYzmq9og-A" name="movieId">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_-vylp6GlEeyFcYzmq9og-A" name="showDate">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_-vylqKGlEeyFcYzmq9og-A" type="_-kLykKGlEeyFcYzmq9og-A" isOrdered="true" direction="return">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-vylqaGlEeyFcYzmq9og-A" value="*"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>DBConnect dbcon = new DBConnect();&#xD;
+		Map&lt;Integer, Theatre> theatreMap = new HashMap&lt;>();&#xD;
+&#xD;
+		try {&#xD;
+&#xD;
+			Connection con = dbcon.getConnection();&#xD;
+			Statement stmt = con.createStatement();&#xD;
+			ResultSet rs = stmt.executeQuery(&quot;select shows.showid , shows.showdate,shows.starttime,shows.screenid ,\r\n&quot;&#xD;
+					+ &quot;screens.screenname, theatres.theatreid,theatres.theatrename,theatres.address\r\n&quot;&#xD;
+					+ &quot; from(( shows inner join screens\r\n&quot; + &quot; ON shows.showdate='&quot; + showDate&#xD;
+					+ &quot;' and shows.movieid = &quot; + movieId + &quot; and shows.screenid = screens.screenid)\r\n&quot;&#xD;
+					+ &quot;inner join theatres on screens.theatreid = theatres.theatreid);&quot;);&#xD;
+&#xD;
+			while (rs.next()) {&#xD;
+				if (theatreMap.containsKey(rs.getInt(&quot;theatreid&quot;))) {&#xD;
+					Theatre theatre = theatreMap.get(rs.getInt(&quot;theatreid&quot;));&#xD;
+					Show show = new Show();&#xD;
+					show.setShowId(rs.getInt(&quot;showid&quot;));&#xD;
+					show.setShowTime(rs.getString(&quot;starttime&quot;));&#xD;
+					show.setShowDate(rs.getString(&quot;showdate&quot;));&#xD;
+					Screen screen = new Screen();&#xD;
+					screen.setScreenId(rs.getInt(&quot;screenid&quot;));&#xD;
+					screen.setScreenName(rs.getString(&quot;screenname&quot;));&#xD;
+					show.setScreen(screen);&#xD;
+					theatre.getShows().add(show);&#xD;
+				} else {&#xD;
+					Theatre theatre = new Theatre();&#xD;
+					theatre.setTheatreId(rs.getInt(&quot;theatreid&quot;));&#xD;
+					theatre.setTheatreName(rs.getString(&quot;theatrename&quot;));&#xD;
+					theatre.setAddress(rs.getString(&quot;address&quot;));&#xD;
+					List&lt;Show> shows = new ArrayList&lt;Show>();&#xD;
+					Show show = new Show();&#xD;
+					show.setShowId(rs.getInt(&quot;showid&quot;));&#xD;
+					show.setShowTime(rs.getString(&quot;starttime&quot;));&#xD;
+					show.setShowDate(rs.getString(&quot;showdate&quot;));&#xD;
+					Screen screen = new Screen();&#xD;
+					screen.setScreenId(rs.getInt(&quot;screenid&quot;));&#xD;
+					screen.setScreenName(rs.getString(&quot;screenname&quot;));&#xD;
+					show.setScreen(screen);&#xD;
+					shows.add(show);&#xD;
+					theatre.setShows(shows);&#xD;
+					theatreMap.put(rs.getInt(&quot;theatreid&quot;), theatre);&#xD;
+				}&#xD;
+			}&#xD;
+&#xD;
+			con.close();&#xD;
+		} catch (Exception e) {&#xD;
+			System.out.println(e);&#xD;
+		}&#xD;
+		List&lt;Theatre> theatreList = new ArrayList&lt;Theatre>();&#xD;
+		for (Entry&lt;Integer, Theatre> entry : theatreMap.entrySet()) {&#xD;
+			theatreList.add(entry.getValue());&#xD;
+&#xD;
+		}&#xD;
+		return theatreList;&#xD;
+&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_-j768KGlEeyFcYzmq9og-A" name="getTheatreShowsByDate" method="_-vylpaGlEeyFcYzmq9og-A">
+                <ownedParameter xmi:id="_-j8iAKGlEeyFcYzmq9og-A" name="movieId">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_-j8iAaGlEeyFcYzmq9og-A" name="showDate">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_-j8iAqGlEeyFcYzmq9og-A" type="_-kLykKGlEeyFcYzmq9og-A" isOrdered="true" direction="return">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-j8iA6GlEeyFcYzmq9og-A" value="*"/>
+                </ownedParameter>
+              </ownedOperation>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_-jTBwKGlEeyFcYzmq9og-A" name="BookingDao">
+            <ownedOperation xmi:id="_-uFVcKGlEeyFcYzmq9og-A" name="bookShow">
+              <ownedParameter xmi:id="_-uFVcaGlEeyFcYzmq9og-A" name="bookShow" type="_-kAMYKGlEeyFcYzmq9og-A"/>
+              <ownedParameter xmi:id="_-uFVcqGlEeyFcYzmq9og-A" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_-jcLsKGlEeyFcYzmq9og-A" name="EntryDao">
+            <ownedOperation xmi:id="_-jdZ0KGlEeyFcYzmq9og-A" name="userLogin">
+              <ownedParameter xmi:id="_-jeA4KGlEeyFcYzmq9og-A" name="email">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_-uF8gKGlEeyFcYzmq9og-A" type="_-kNAsKGlEeyFcYzmq9og-A" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_-uF8gaGlEeyFcYzmq9og-A" name="userSignUp">
+              <ownedParameter xmi:id="_-uGjkKGlEeyFcYzmq9og-A" name="user" type="_-kNAsKGlEeyFcYzmq9og-A"/>
+              <ownedParameter xmi:id="_-uGjkaGlEeyFcYzmq9og-A" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_-jhEMKGlEeyFcYzmq9og-A" name="MovieDao">
+            <ownedOperation xmi:id="_-ji5YKGlEeyFcYzmq9og-A" name="getMovieDetails">
+              <ownedParameter xmi:id="_-ji5YaGlEeyFcYzmq9og-A" name="movieId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_-uGjkqGlEeyFcYzmq9og-A" type="_-kD2wKGlEeyFcYzmq9og-A" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_-jjgcKGlEeyFcYzmq9og-A" name="RetrieveBookingDao">
+            <ownedOperation xmi:id="_-jkukKGlEeyFcYzmq9og-A" name="retrieveBooking">
+              <ownedParameter xmi:id="_-jkukaGlEeyFcYzmq9og-A" name="userId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_-jlVoKGlEeyFcYzmq9og-A" type="_-kCBkKGlEeyFcYzmq9og-A" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-jlVoaGlEeyFcYzmq9og-A" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_-jnK0KGlEeyFcYzmq9og-A" name="SeatDao">
+            <ownedOperation xmi:id="_-joY8KGlEeyFcYzmq9og-A" name="getSeatDetails">
+              <ownedParameter xmi:id="_-joY8aGlEeyFcYzmq9og-A" name="showId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_-joY8qGlEeyFcYzmq9og-A" name="screenId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_-jpAAKGlEeyFcYzmq9og-A" type="_-kIvQKGlEeyFcYzmq9og-A" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-jpAAaGlEeyFcYzmq9og-A" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_-jpnEKGlEeyFcYzmq9og-A" name="TheatreShowsDao">
+            <ownedOperation xmi:id="_-jq1MKGlEeyFcYzmq9og-A" name="getTheatreShowsByDate">
+              <ownedParameter xmi:id="_-jq1MaGlEeyFcYzmq9og-A" name="movieId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_-jq1MqGlEeyFcYzmq9og-A" name="showDate">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_-jrcQKGlEeyFcYzmq9og-A" type="_-kLykKGlEeyFcYzmq9og-A" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-jrcQaGlEeyFcYzmq9og-A" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_-iZC0KGlEeyFcYzmq9og-A" name="db">
+          <packagedElement xmi:type="uml:Class" xmi:id="_-j9wIKGlEeyFcYzmq9og-A" name="DBConnect">
+            <ownedAttribute xmi:id="_-vVSoKGlEeyFcYzmq9og-A" name="conn" visibility="package" type="_-uIYwaGlEeyFcYzmq9og-A" association="_-wB2MKGlEeyFcYzmq9og-A">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_-vVSoaGlEeyFcYzmq9og-A" value="null"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_-vV5saGlEeyFcYzmq9og-A" name="username" visibility="package">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_-vWgwKGlEeyFcYzmq9og-A" value="&quot;root&quot;"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_-vWgwqGlEeyFcYzmq9og-A" name="pwd" visibility="package">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_-vXH0KGlEeyFcYzmq9og-A" value="&quot;Godislove&quot;"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_-vXH0qGlEeyFcYzmq9og-A" name="JDBC_DRIVER" visibility="package" isLeaf="true" isStatic="true" isReadOnly="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_-vXu4KGlEeyFcYzmq9og-A" value="&quot;com.mysql.cj.jdbc.Driver&quot;"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_-vXu4aGlEeyFcYzmq9og-A" name="DB_URL" visibility="package" isLeaf="true" isStatic="true" isReadOnly="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_-vXu4qGlEeyFcYzmq9og-A" value="&quot;jdbc:mysql://localhost:3306/moviereservation&quot;"/>
+            </ownedAttribute>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-vzMsKGlEeyFcYzmq9og-A" name="getConnection" specification="_-j--QKGlEeyFcYzmq9og-A">
+              <ownedParameter xmi:id="_-vzMsaGlEeyFcYzmq9og-A" type="_-uIYwaGlEeyFcYzmq9og-A" direction="return"/>
+              <language>java</language>
+              <body>try {&#xD;
+			Class.forName(JDBC_DRIVER);&#xD;
+			conn = DriverManager.getConnection(DB_URL, username, pwd);&#xD;
+&#xD;
+		} catch (ClassNotFoundException | SQLException exc1) {&#xD;
+			exc1.printStackTrace();&#xD;
+		}&#xD;
+		return conn;&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_-j--QKGlEeyFcYzmq9og-A" name="getConnection" method="_-vzMsKGlEeyFcYzmq9og-A">
+              <ownedParameter xmi:id="_-u7qAKGlEeyFcYzmq9og-A" type="_-uIYwaGlEeyFcYzmq9og-A" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_-wB2MKGlEeyFcYzmq9og-A" name="" memberEnd="_-wB2MaGlEeyFcYzmq9og-A _-vVSoKGlEeyFcYzmq9og-A">
+            <ownedEnd xmi:id="_-wB2MaGlEeyFcYzmq9og-A" name="" type="_-j9wIKGlEeyFcYzmq9og-A" association="_-wB2MKGlEeyFcYzmq9og-A"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_-ivBEKGlEeyFcYzmq9og-A" name="service">
+          <packagedElement xmi:type="uml:Package" xmi:id="_-iyEYKGlEeyFcYzmq9og-A" name="impl">
+            <packagedElement xmi:type="uml:Class" xmi:id="_-kWxsKGlEeyFcYzmq9og-A" name="BookingServiceImpl">
+              <interfaceRealization xmi:id="_-um54KGlEeyFcYzmq9og-A" client="_-kWxsKGlEeyFcYzmq9og-A" supplier="_-kOO0KGlEeyFcYzmq9og-A" contract="_-kOO0KGlEeyFcYzmq9og-A"/>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-vzzwKGlEeyFcYzmq9og-A" name="bookShow" specification="_-vBwoaGlEeyFcYzmq9og-A">
+                <ownedParameter xmi:id="_-vzzwaGlEeyFcYzmq9og-A" name="session" type="_-uiocKGlEeyFcYzmq9og-A"/>
+                <ownedParameter xmi:id="_-vzzwqGlEeyFcYzmq9og-A" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>BookShow bookShow = new BookShow();&#xD;
+		bookShow.setUserid(((User)session.getAttribute(&quot;user&quot;)).getUserId());&#xD;
+		bookShow.setShowId(((Show) session.getAttribute(&quot;showDetails&quot;)).getShowId());&#xD;
+		&#xD;
+		List&lt;Seat> selectedSeats = (List&lt;Seat>)session.getAttribute(&quot;selectedSeatDetails&quot;);&#xD;
+		bookShow.setSeats(selectedSeats);&#xD;
+		&#xD;
+		bookShow.setPrice(calculateTotalPrice(selectedSeats));&#xD;
+		&#xD;
+		bookShow.setBookingId(prepareBookingId());&#xD;
+		session.setAttribute(&quot;bookingId&quot;, bookShow.getBookingId());&#xD;
+		&#xD;
+		BookingDaoImpl bookingDao = new BookingDaoImpl();&#xD;
+		return bookingDao.bookShow(bookShow);&#xD;
+		&#xD;
+		&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-v0a0KGlEeyFcYzmq9og-A" name="prepareBookingId" specification="_-kXYwKGlEeyFcYzmq9og-A">
+                <ownedParameter xmi:id="_-v0a0aGlEeyFcYzmq9og-A" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>// chose a Character random from this String&#xD;
+     String AlphaNumericString = &quot;ABCDEFGHIJKLMNOPQRSTUVWXYZ&quot;&#xD;
+                                 + &quot;0123456789&quot;&#xD;
+                                 + &quot;abcdefghijklmnopqrstuvxyz&quot;;&#xD;
+  &#xD;
+     // create StringBuffer size of AlphaNumericString&#xD;
+     StringBuilder sb = new StringBuilder(6);&#xD;
+  &#xD;
+     for (int i = 0; i &lt; 6; i++) {&#xD;
+  &#xD;
+         // generate a random number between&#xD;
+         // 0 to AlphaNumericString variable length&#xD;
+         int index&#xD;
+             = (int)(AlphaNumericString.length()&#xD;
+                     * Math.random());&#xD;
+  &#xD;
+         // add Character one by one in end of sb&#xD;
+         sb.append(AlphaNumericString&#xD;
+                       .charAt(index));&#xD;
+     }&#xD;
+  &#xD;
+     return &quot;SC_&quot; +sb.toString();&#xD;
+	    &#xD;
+		&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-v0a0qGlEeyFcYzmq9og-A" name="calculateTotalPrice" specification="_-vCXsqGlEeyFcYzmq9og-A">
+                <ownedParameter xmi:id="_-v0a06GlEeyFcYzmq9og-A" name="selectedSeats" type="_-uHKoKGlEeyFcYzmq9og-A"/>
+                <ownedParameter xmi:id="_-v0a1KGlEeyFcYzmq9og-A" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>int totalPrice = 0;&#xD;
+		for (Seat seat : selectedSeats) {		&#xD;
+				totalPrice = totalPrice + seat.getPrice();		&#xD;
+		}&#xD;
+		return totalPrice;&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_-kXYwKGlEeyFcYzmq9og-A" name="prepareBookingId" method="_-v0a0KGlEeyFcYzmq9og-A">
+                <ownedParameter xmi:id="_-kXYwaGlEeyFcYzmq9og-A" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_-vBwoaGlEeyFcYzmq9og-A" name="bookShow" method="_-vzzwKGlEeyFcYzmq9og-A">
+                <ownedParameter xmi:id="_-vCXsKGlEeyFcYzmq9og-A" name="session" type="_-uiocKGlEeyFcYzmq9og-A"/>
+                <ownedParameter xmi:id="_-vCXsaGlEeyFcYzmq9og-A" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+              </ownedOperation>
+              <ownedOperation xmi:id="_-vCXsqGlEeyFcYzmq9og-A" name="calculateTotalPrice" method="_-v0a0qGlEeyFcYzmq9og-A">
+                <ownedParameter xmi:id="_-vC-wKGlEeyFcYzmq9og-A" name="selectedSeats" type="_-uHKoKGlEeyFcYzmq9og-A"/>
+                <ownedParameter xmi:id="_-vC-waGlEeyFcYzmq9og-A" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_-kYm4KGlEeyFcYzmq9og-A" name="EntryServiceImpl">
+              <interfaceRealization xmi:id="_-ung8KGlEeyFcYzmq9og-A" client="_-kYm4KGlEeyFcYzmq9og-A" supplier="_-kQEAKGlEeyFcYzmq9og-A" contract="_-kQEAKGlEeyFcYzmq9og-A"/>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-v0a1aGlEeyFcYzmq9og-A" name="userLogin" specification="_-kZN8KGlEeyFcYzmq9og-A">
+                <ownedParameter xmi:id="_-v0a1qGlEeyFcYzmq9og-A" name="email">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_-v0a16GlEeyFcYzmq9og-A" name="password">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_-v0a2KGlEeyFcYzmq9og-A" type="_-kNAsKGlEeyFcYzmq9og-A" direction="return"/>
+                <language>java</language>
+                <body>EntryDaoImpl entryDao = new EntryDaoImpl();&#xD;
+		return entryDao.userLogin(email);&#xD;
+	&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-v1B4KGlEeyFcYzmq9og-A" name="userSignUp" specification="_-uoIAaGlEeyFcYzmq9og-A">
+                <ownedParameter xmi:id="_-v1B4aGlEeyFcYzmq9og-A" name="user" type="_-kNAsKGlEeyFcYzmq9og-A"/>
+                <ownedParameter xmi:id="_-v1B4qGlEeyFcYzmq9og-A" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>EntryDaoImpl entryDao = new EntryDaoImpl();		&#xD;
+		return entryDao.userSignUp(user);&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_-kZN8KGlEeyFcYzmq9og-A" name="userLogin" method="_-v0a1aGlEeyFcYzmq9og-A">
+                <ownedParameter xmi:id="_-kZ1AKGlEeyFcYzmq9og-A" name="email">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_-kZ1AaGlEeyFcYzmq9og-A" name="password">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_-uoIAKGlEeyFcYzmq9og-A" type="_-kNAsKGlEeyFcYzmq9og-A" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_-uoIAaGlEeyFcYzmq9og-A" name="userSignUp" method="_-v1B4KGlEeyFcYzmq9og-A">
+                <ownedParameter xmi:id="_-uoIAqGlEeyFcYzmq9og-A" name="user" type="_-kNAsKGlEeyFcYzmq9og-A"/>
+                <ownedParameter xmi:id="_-uoIA6GlEeyFcYzmq9og-A" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_-kacEKGlEeyFcYzmq9og-A" name="MovieServiceImpl">
+              <interfaceRealization xmi:id="_-uovEKGlEeyFcYzmq9og-A" client="_-kacEKGlEeyFcYzmq9og-A" supplier="_-kR5MKGlEeyFcYzmq9og-A" contract="_-kR5MKGlEeyFcYzmq9og-A"/>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-v1B46GlEeyFcYzmq9og-A" name="getMovieDetails" specification="_-kbDIKGlEeyFcYzmq9og-A">
+                <ownedParameter xmi:id="_-v1B5KGlEeyFcYzmq9og-A" name="movieId">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_-v1B5aGlEeyFcYzmq9og-A" type="_-kD2wKGlEeyFcYzmq9og-A" direction="return"/>
+                <language>java</language>
+                <body>MovieDaoImpl movieDao = new MovieDaoImpl();&#xD;
+		return movieDao.getMovieDetails(movieId);&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_-kbDIKGlEeyFcYzmq9og-A" name="getMovieDetails" method="_-v1B46GlEeyFcYzmq9og-A">
+                <ownedParameter xmi:id="_-kbDIaGlEeyFcYzmq9og-A" name="movieId">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_-uovEaGlEeyFcYzmq9og-A" type="_-kD2wKGlEeyFcYzmq9og-A" direction="return"/>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_-kbqMKGlEeyFcYzmq9og-A" name="RetrieveBookingServiceImpl">
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-v1o8KGlEeyFcYzmq9og-A" name="retrieveBooking" specification="_-kcRQKGlEeyFcYzmq9og-A">
+                <ownedParameter xmi:id="_-v1o8aGlEeyFcYzmq9og-A" name="userId">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_-v1o8qGlEeyFcYzmq9og-A" type="_-kCBkKGlEeyFcYzmq9og-A" isOrdered="true" direction="return">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-v1o86GlEeyFcYzmq9og-A" value="*"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>RetrieveBookingDaoImpl retrieveBookingDaoImpl=new RetrieveBookingDaoImpl();&#xD;
+		return retrieveBookingDaoImpl.retrieveBooking( userId);&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_-kcRQKGlEeyFcYzmq9og-A" name="retrieveBooking" method="_-v1o8KGlEeyFcYzmq9og-A">
+                <ownedParameter xmi:id="_-kcRQaGlEeyFcYzmq9og-A" name="userId">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_-kc4UKGlEeyFcYzmq9og-A" type="_-kCBkKGlEeyFcYzmq9og-A" isOrdered="true" direction="return">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-kc4UaGlEeyFcYzmq9og-A" value="*"/>
+                </ownedParameter>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_-kdfYKGlEeyFcYzmq9og-A" name="SeatServiceImpl">
+              <interfaceRealization xmi:id="_-up9MaGlEeyFcYzmq9og-A" client="_-kdfYKGlEeyFcYzmq9og-A" supplier="_-kTuYKGlEeyFcYzmq9og-A" contract="_-kTuYKGlEeyFcYzmq9og-A"/>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-v2QAKGlEeyFcYzmq9og-A" name="getSeatDetails" specification="_-vEM4KGlEeyFcYzmq9og-A">
+                <ownedParameter xmi:id="_-v2QAaGlEeyFcYzmq9og-A" name="showId">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_-v2QAqGlEeyFcYzmq9og-A" name="screenId">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_-v2QA6GlEeyFcYzmq9og-A" name="request" type="_-ulEsaGlEeyFcYzmq9og-A"/>
+                <ownedParameter xmi:id="_-v2QBKGlEeyFcYzmq9og-A" type="_-uVNEaGlEeyFcYzmq9og-A" direction="return"/>
+                <language>java</language>
+                <body>SeatDaoImpl seatDao = new SeatDaoImpl();&#xD;
+		List&lt;Seat> seatList = seatDao.getSeatDetails(showId, screenId);&#xD;
+		request.getSession().setAttribute(&quot;seatList&quot;, seatList);&#xD;
+&#xD;
+		Map&lt;Integer, List&lt;Seat>> seatMap = new HashMap&lt;>();&#xD;
+		for (Seat seat : seatList) {&#xD;
+&#xD;
+			if (seatMap.containsKey(seat.getRownum())) {&#xD;
+				seatMap.get(seat.getRownum()).add(seat);&#xD;
+			} else {&#xD;
+				List&lt;Seat> seatRowList = new ArrayList&lt;Seat>();&#xD;
+				seatRowList.add(seat);&#xD;
+				seatMap.put(seat.getRownum(), seatRowList);&#xD;
+			}&#xD;
+&#xD;
+		}&#xD;
+		for (Entry&lt;Integer, List&lt;Seat>> map : seatMap.entrySet()) {&#xD;
+			map.getValue().sort(Comparator.comparing(Seat::getSeatId));&#xD;
+		}&#xD;
+		&#xD;
+		return seatMap ;&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_-vEM4KGlEeyFcYzmq9og-A" name="getSeatDetails" method="_-v2QAKGlEeyFcYzmq9og-A">
+                <ownedParameter xmi:id="_-vEM4aGlEeyFcYzmq9og-A" name="showId">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_-vEM4qGlEeyFcYzmq9og-A" name="screenId">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_-vEM46GlEeyFcYzmq9og-A" name="request" type="_-ulEsaGlEeyFcYzmq9og-A"/>
+                <ownedParameter xmi:id="_-vEz8aGlEeyFcYzmq9og-A" type="_-uVNEaGlEeyFcYzmq9og-A" direction="return"/>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_-ketgKGlEeyFcYzmq9og-A" name="TheatreShowServiceImpl">
+              <interfaceRealization xmi:id="_-uqkQKGlEeyFcYzmq9og-A" client="_-ketgKGlEeyFcYzmq9og-A" supplier="_-kU8gKGlEeyFcYzmq9og-A" contract="_-kU8gKGlEeyFcYzmq9og-A"/>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-v2QBaGlEeyFcYzmq9og-A" name="getTheatreShowsByDate" specification="_-urLUKGlEeyFcYzmq9og-A">
+                <ownedParameter xmi:id="_-v2QBqGlEeyFcYzmq9og-A" name="movie" type="_-kD2wKGlEeyFcYzmq9og-A"/>
+                <ownedParameter xmi:id="_-v2QB6GlEeyFcYzmq9og-A" name="showDate">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_-v23EKGlEeyFcYzmq9og-A" type="_-kLykKGlEeyFcYzmq9og-A" isOrdered="true" direction="return">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-v23EaGlEeyFcYzmq9og-A" value="*"/>
+                </ownedParameter>
+                <language>java</language>
+                <body>TheatreShowsDaoImpl theatreShowsDao = new TheatreShowsDaoImpl();&#xD;
+		List&lt;Theatre> theatres = theatreShowsDao.getTheatreShowsByDate(movie.getMovieId(), showDate);&#xD;
+		if (!theatres.isEmpty()) {&#xD;
+			for (Theatre theatre : theatres) {&#xD;
+				if (!theatre.getShows().isEmpty()) {&#xD;
+					for (Show show : theatre.getShows()) {&#xD;
+						show.setMovieId(movie.getMovieId());&#xD;
+						show.setMovieName(movie.getMovieName());&#xD;
+					}&#xD;
+&#xD;
+				}&#xD;
+&#xD;
+			}&#xD;
+&#xD;
+		}&#xD;
+&#xD;
+		return theatres;&#xD;
+&#xD;
+	</body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_-urLUKGlEeyFcYzmq9og-A" name="getTheatreShowsByDate" method="_-v2QBaGlEeyFcYzmq9og-A">
+                <ownedParameter xmi:id="_-urLUaGlEeyFcYzmq9og-A" name="movie" type="_-kD2wKGlEeyFcYzmq9og-A"/>
+                <ownedParameter xmi:id="_-urLUqGlEeyFcYzmq9og-A" name="showDate">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_-urLU6GlEeyFcYzmq9og-A" type="_-kLykKGlEeyFcYzmq9og-A" isOrdered="true" direction="return">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-urLVKGlEeyFcYzmq9og-A" value="*"/>
+                </ownedParameter>
+              </ownedOperation>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_-kOO0KGlEeyFcYzmq9og-A" name="BookingService">
+            <ownedOperation xmi:id="_-kO14KGlEeyFcYzmq9og-A" name="prepareBookingId">
+              <ownedParameter xmi:id="_-kPc8KGlEeyFcYzmq9og-A" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_-u-tUKGlEeyFcYzmq9og-A" name="bookShow">
+              <ownedParameter xmi:id="_-u-tUaGlEeyFcYzmq9og-A" name="session" type="_-uiocKGlEeyFcYzmq9og-A"/>
+              <ownedParameter xmi:id="_-u-tUqGlEeyFcYzmq9og-A" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_-u-tU6GlEeyFcYzmq9og-A" name="calculateTotalPrice">
+              <ownedParameter xmi:id="_-u_UYKGlEeyFcYzmq9og-A" name="selectedSeats" type="_-uHKoKGlEeyFcYzmq9og-A"/>
+              <ownedParameter xmi:id="_-u_UYaGlEeyFcYzmq9og-A" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_-kQEAKGlEeyFcYzmq9og-A" name="EntryService">
+            <ownedOperation xmi:id="_-kQrEKGlEeyFcYzmq9og-A" name="userLogin">
+              <ownedParameter xmi:id="_-kRSIKGlEeyFcYzmq9og-A" name="email">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_-kRSIaGlEeyFcYzmq9og-A" name="password">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_-uj2kKGlEeyFcYzmq9og-A" type="_-kNAsKGlEeyFcYzmq9og-A" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_-ukdoKGlEeyFcYzmq9og-A" name="userSignUp">
+              <ownedParameter xmi:id="_-ukdoaGlEeyFcYzmq9og-A" name="user" type="_-kNAsKGlEeyFcYzmq9og-A"/>
+              <ownedParameter xmi:id="_-ukdoqGlEeyFcYzmq9og-A" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_-kR5MKGlEeyFcYzmq9og-A" name="MovieService">
+            <ownedOperation xmi:id="_-kSgQKGlEeyFcYzmq9og-A" name="getMovieDetails">
+              <ownedParameter xmi:id="_-kTHUKGlEeyFcYzmq9og-A" name="movieId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_-ulEsKGlEeyFcYzmq9og-A" type="_-kD2wKGlEeyFcYzmq9og-A" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_-kTuYKGlEeyFcYzmq9og-A" name="SeatService">
+            <ownedOperation xmi:id="_-vAigKGlEeyFcYzmq9og-A" name="getSeatDetails">
+              <ownedParameter xmi:id="_-vAigaGlEeyFcYzmq9og-A" name="showId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_-vAigqGlEeyFcYzmq9og-A" name="screenId">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_-vAig6GlEeyFcYzmq9og-A" name="request" type="_-ulEsaGlEeyFcYzmq9og-A"/>
+              <ownedParameter xmi:id="_-vBwoKGlEeyFcYzmq9og-A" type="_-uVNEaGlEeyFcYzmq9og-A" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_-kU8gKGlEeyFcYzmq9og-A" name="TheatreShowService">
+            <ownedOperation xmi:id="_-umS0KGlEeyFcYzmq9og-A" name="getTheatreShowsByDate">
+              <ownedParameter xmi:id="_-umS0aGlEeyFcYzmq9og-A" name="movie" type="_-kD2wKGlEeyFcYzmq9og-A"/>
+              <ownedParameter xmi:id="_-umS0qGlEeyFcYzmq9og-A" name="showDate">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_-umS06GlEeyFcYzmq9og-A" type="_-kLykKGlEeyFcYzmq9og-A" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-umS1KGlEeyFcYzmq9og-A" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_-i4yEKGlEeyFcYzmq9og-A" name="servlet">
+          <packagedElement xmi:type="uml:Class" xmi:id="_-kgisKGlEeyFcYzmq9og-A" name="BookingServlet">
+            <generalization xmi:id="_-vGpIKGlEeyFcYzmq9og-A" general="_-utnkaGlEeyFcYzmq9og-A"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-v23EqGlEeyFcYzmq9og-A" name="doPost" specification="_-vFbAKGlEeyFcYzmq9og-A">
+              <ownedParameter xmi:id="_-v23E6GlEeyFcYzmq9og-A" name="request" type="_-ulEsaGlEeyFcYzmq9og-A"/>
+              <ownedParameter xmi:id="_-v23FKGlEeyFcYzmq9og-A" name="response" type="_-uuOoaGlEeyFcYzmq9og-A"/>
+              <language>java</language>
+              <body>BookingServiceImpl bookingService = new BookingServiceImpl();&#xD;
+		int isSuccess = bookingService.bookShow(request.getSession());&#xD;
+		&#xD;
+		if(isSuccess == 1) {&#xD;
+			request.getRequestDispatcher(&quot;success.jsp&quot;).forward(request, response);&#xD;
+		}&#xD;
+		else {&#xD;
+			request.getRequestDispatcher(&quot;error.jsp&quot;).forward(request, response);&#xD;
+		}&#xD;
+		&#xD;
+		&#xD;
+		&#xD;
+		&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_-vFbAKGlEeyFcYzmq9og-A" name="doPost" visibility="protected" method="_-v23EqGlEeyFcYzmq9og-A" raisedException="_-usZcaGlEeyFcYzmq9og-A _-uryYKGlEeyFcYzmq9og-A">
+              <ownedParameter xmi:id="_-vFbAaGlEeyFcYzmq9og-A" name="request" type="_-ulEsaGlEeyFcYzmq9og-A"/>
+              <ownedParameter xmi:id="_-vFbAqGlEeyFcYzmq9og-A" name="response" type="_-uuOoaGlEeyFcYzmq9og-A"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_-kk0IKGlEeyFcYzmq9og-A" name="CheckoutServlet">
+            <generalization xmi:id="_-vH3QaGlEeyFcYzmq9og-A" general="_-utnkaGlEeyFcYzmq9og-A"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-v23FaGlEeyFcYzmq9og-A" name="doPost" specification="_-vHQMKGlEeyFcYzmq9og-A">
+              <ownedParameter xmi:id="_-v23FqGlEeyFcYzmq9og-A" name="request" type="_-ulEsaGlEeyFcYzmq9og-A"/>
+              <ownedParameter xmi:id="_-v23F6GlEeyFcYzmq9og-A" name="response" type="_-uuOoaGlEeyFcYzmq9og-A"/>
+              <language>java</language>
+              <body>String[] names = request.getParameterValues(&quot;selectedSeats&quot;);&#xD;
+		List&lt;String> selectedSeats = Arrays.asList(names);&#xD;
+		System.out.println(selectedSeats);&#xD;
+		request.getSession().setAttribute(&quot;selectedSeats&quot;, selectedSeats);&#xD;
+		&#xD;
+		if(request.getSession().getAttribute(&quot;username&quot;)!=null){&#xD;
+			request.getRequestDispatcher(&quot;book.jsp&quot;).forward(request, response);&#xD;
+		}&#xD;
+		else {&#xD;
+			request.getRequestDispatcher(&quot;login.jsp&quot;).forward(request, response);&#xD;
+		}&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_-vHQMKGlEeyFcYzmq9og-A" name="doPost" visibility="protected" method="_-v23FaGlEeyFcYzmq9og-A" raisedException="_-usZcaGlEeyFcYzmq9og-A _-uryYKGlEeyFcYzmq9og-A">
+              <ownedParameter xmi:id="_-vHQMaGlEeyFcYzmq9og-A" name="request" type="_-ulEsaGlEeyFcYzmq9og-A"/>
+              <ownedParameter xmi:id="_-vHQMqGlEeyFcYzmq9og-A" name="response" type="_-uuOoaGlEeyFcYzmq9og-A"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_-knQYKGlEeyFcYzmq9og-A" name="CityServlet">
+            <generalization xmi:id="_-vJscaGlEeyFcYzmq9og-A" general="_-utnkaGlEeyFcYzmq9og-A"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-v23GKGlEeyFcYzmq9og-A" name="doGet" specification="_-vIeUKGlEeyFcYzmq9og-A">
+              <ownedParameter xmi:id="_-v23GaGlEeyFcYzmq9og-A" name="request" type="_-ulEsaGlEeyFcYzmq9og-A"/>
+              <ownedParameter xmi:id="_-v23GqGlEeyFcYzmq9og-A" name="response" type="_-uuOoaGlEeyFcYzmq9og-A"/>
+              <language>java</language>
+              <body>System.out.println(&quot;inside city servelet................................&quot;);	&#xD;
+		&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-v3eIKGlEeyFcYzmq9og-A" name="doPost" specification="_-vJFYaGlEeyFcYzmq9og-A">
+              <ownedParameter xmi:id="_-v3eIaGlEeyFcYzmq9og-A" name="request" type="_-ulEsaGlEeyFcYzmq9og-A"/>
+              <ownedParameter xmi:id="_-v3eIqGlEeyFcYzmq9og-A" name="response" type="_-uuOoaGlEeyFcYzmq9og-A"/>
+              <language>java</language>
+              <body>// TODO Auto-generated method stub&#xD;
+		System.out.println(&quot;inside city servelet................................&quot;);	&#xD;
+		&#xD;
+		doGet(request, response);&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_-vIeUKGlEeyFcYzmq9og-A" name="doGet" visibility="protected" method="_-v23GKGlEeyFcYzmq9og-A" raisedException="_-usZcaGlEeyFcYzmq9og-A _-uryYKGlEeyFcYzmq9og-A">
+              <ownedParameter xmi:id="_-vIeUaGlEeyFcYzmq9og-A" name="request" type="_-ulEsaGlEeyFcYzmq9og-A"/>
+              <ownedParameter xmi:id="_-vIeUqGlEeyFcYzmq9og-A" name="response" type="_-uuOoaGlEeyFcYzmq9og-A"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_-vJFYaGlEeyFcYzmq9og-A" name="doPost" visibility="protected" method="_-v3eIKGlEeyFcYzmq9og-A" raisedException="_-usZcaGlEeyFcYzmq9og-A _-uryYKGlEeyFcYzmq9og-A">
+              <ownedComment xmi:id="_-v89sqGlEeyFcYzmq9og-A">
+                <body>@see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_-vJFYqGlEeyFcYzmq9og-A" name="request" type="_-ulEsaGlEeyFcYzmq9og-A"/>
+              <ownedParameter xmi:id="_-vJFY6GlEeyFcYzmq9og-A" name="response" type="_-uuOoaGlEeyFcYzmq9og-A"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_-kqTsKGlEeyFcYzmq9og-A" name="LoginServlet">
+            <generalization xmi:id="_-vK6kqGlEeyFcYzmq9og-A" general="_-utnkaGlEeyFcYzmq9og-A"/>
+            <ownedAttribute xmi:id="_-vg40KGlEeyFcYzmq9og-A" name="serialVersionUID" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_-vg40aGlEeyFcYzmq9og-A" value="1L"/>
+            </ownedAttribute>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-v3eI6GlEeyFcYzmq9og-A" name="doPost" specification="_-vKTgKGlEeyFcYzmq9og-A">
+              <ownedParameter xmi:id="_-v3eJKGlEeyFcYzmq9og-A" name="request" type="_-ulEsaGlEeyFcYzmq9og-A"/>
+              <ownedParameter xmi:id="_-v3eJaGlEeyFcYzmq9og-A" name="response" type="_-uuOoaGlEeyFcYzmq9og-A"/>
+              <language>java</language>
+              <body>request.getSession().setAttribute(&quot;username&quot;, null);&#xD;
+&#xD;
+		EntryServiceImpl loginService = new EntryServiceImpl();&#xD;
+		User loggedUser = loginService.userLogin(request.getParameter(&quot;email&quot;), request.getParameter(&quot;password&quot;));&#xD;
+&#xD;
+		boolean isSuccess;&#xD;
+		if (loggedUser != null &amp;&amp; loggedUser.getPassword() != null) {&#xD;
+			if (loggedUser.getPassword().equals(request.getParameter(&quot;password&quot;))) {&#xD;
+				isSuccess = true;&#xD;
+			} else {&#xD;
+				isSuccess = false;&#xD;
+			}&#xD;
+		} else {&#xD;
+			isSuccess = false;&#xD;
+		}&#xD;
+&#xD;
+		if (isSuccess) {&#xD;
+			request.getSession().setAttribute(&quot;user&quot;, loggedUser);&#xD;
+			request.getSession().setAttribute(&quot;username&quot;, loggedUser.getName());&#xD;
+			if (((Show) request.getSession().getAttribute(&quot;showDetails&quot;)) != null) {&#xD;
+				request.getRequestDispatcher(&quot;book.jsp&quot;).forward(request, response);&#xD;
+			} else {&#xD;
+				request.getRequestDispatcher(&quot;index.jsp&quot;).forward(request, response);&#xD;
+			}&#xD;
+		} else {&#xD;
+			request.setAttribute(&quot;message&quot;, &quot;Invalid username/password&quot;);&#xD;
+			request.getRequestDispatcher(&quot;login.jsp&quot;).forward(request, response);&#xD;
+		}&#xD;
+&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_-vKTgKGlEeyFcYzmq9og-A" name="doPost" visibility="protected" method="_-v3eI6GlEeyFcYzmq9og-A" raisedException="_-usZcaGlEeyFcYzmq9og-A _-uryYKGlEeyFcYzmq9og-A">
+              <ownedParameter xmi:id="_-vKTgaGlEeyFcYzmq9og-A" name="request" type="_-ulEsaGlEeyFcYzmq9og-A"/>
+              <ownedParameter xmi:id="_-vK6kKGlEeyFcYzmq9og-A" name="response" type="_-uuOoaGlEeyFcYzmq9og-A"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_-ksv8KGlEeyFcYzmq9og-A" name="LogoutServlet">
+            <generalization xmi:id="_-vMIsaGlEeyFcYzmq9og-A" general="_-utnkaGlEeyFcYzmq9og-A"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-v3eJqGlEeyFcYzmq9og-A" name="doGet" specification="_-vLhoKGlEeyFcYzmq9og-A">
+              <ownedParameter xmi:id="_-v3eJ6GlEeyFcYzmq9og-A" name="request" type="_-ulEsaGlEeyFcYzmq9og-A"/>
+              <ownedParameter xmi:id="_-v3eKKGlEeyFcYzmq9og-A" name="response" type="_-uuOoaGlEeyFcYzmq9og-A"/>
+              <language>java</language>
+              <body>request.getSession().invalidate();&#xD;
+		response.sendRedirect(&quot;index.jsp&quot;);&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_-vLhoKGlEeyFcYzmq9og-A" name="doGet" visibility="protected" method="_-v3eJqGlEeyFcYzmq9og-A" raisedException="_-usZcaGlEeyFcYzmq9og-A _-uryYKGlEeyFcYzmq9og-A">
+              <ownedParameter xmi:id="_-vLhoaGlEeyFcYzmq9og-A" name="request" type="_-ulEsaGlEeyFcYzmq9og-A"/>
+              <ownedParameter xmi:id="_-vLhoqGlEeyFcYzmq9og-A" name="response" type="_-uuOoaGlEeyFcYzmq9og-A"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_-kvMMKGlEeyFcYzmq9og-A" name="MovieServlet">
+            <generalization xmi:id="_-vN94aGlEeyFcYzmq9og-A" general="_-utnkaGlEeyFcYzmq9og-A"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-v3eKaGlEeyFcYzmq9og-A" name="doGet" specification="_-vMvwKGlEeyFcYzmq9og-A">
+              <ownedParameter xmi:id="_-v3eKqGlEeyFcYzmq9og-A" name="request" type="_-ulEsaGlEeyFcYzmq9og-A"/>
+              <ownedParameter xmi:id="_-v3eK6GlEeyFcYzmq9og-A" name="response" type="_-uuOoaGlEeyFcYzmq9og-A"/>
+              <language>java</language>
+              <body>Integer movieId = Integer.parseInt(request.getParameter(&quot;movieId&quot;));&#xD;
+		MovieServiceImpl movieService = new MovieServiceImpl();&#xD;
+		Movie movieDetails = movieService.getMovieDetails(movieId);&#xD;
+		request.setAttribute(&quot;movieDetails&quot;, movieDetails);&#xD;
+		HttpSession session = request.getSession();&#xD;
+		session.setAttribute(&quot;movieId&quot;, movieDetails.getMovieId());&#xD;
+		session.setAttribute(&quot;movieName&quot;, movieDetails.getMovieName());&#xD;
+		session.setAttribute(&quot;movieDetails&quot;, movieDetails);&#xD;
+		request.getRequestDispatcher(&quot;movies.jsp&quot;).forward(request, response);&#xD;
+&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-v4FMKGlEeyFcYzmq9og-A" name="doPost" specification="_-vNW0aGlEeyFcYzmq9og-A">
+              <ownedParameter xmi:id="_-v4FMaGlEeyFcYzmq9og-A" name="request" type="_-ulEsaGlEeyFcYzmq9og-A"/>
+              <ownedParameter xmi:id="_-v4FMqGlEeyFcYzmq9og-A" name="response" type="_-uuOoaGlEeyFcYzmq9og-A"/>
+              <language>java</language>
+              <body>// TODO Auto-generated method stub&#xD;
+		doGet(request, response);&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_-vMvwKGlEeyFcYzmq9og-A" name="doGet" visibility="protected" method="_-v3eKaGlEeyFcYzmq9og-A" raisedException="_-usZcaGlEeyFcYzmq9og-A _-uryYKGlEeyFcYzmq9og-A">
+              <ownedParameter xmi:id="_-vMvwaGlEeyFcYzmq9og-A" name="request" type="_-ulEsaGlEeyFcYzmq9og-A"/>
+              <ownedParameter xmi:id="_-vMvwqGlEeyFcYzmq9og-A" name="response" type="_-uuOoaGlEeyFcYzmq9og-A"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_-vNW0aGlEeyFcYzmq9og-A" name="doPost" visibility="protected" method="_-v4FMKGlEeyFcYzmq9og-A" raisedException="_-usZcaGlEeyFcYzmq9og-A _-uryYKGlEeyFcYzmq9og-A">
+              <ownedComment xmi:id="_-v9kwKGlEeyFcYzmq9og-A">
+                <body>@see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse&#xD;
+	 *      response)</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_-vNW0qGlEeyFcYzmq9og-A" name="request" type="_-ulEsaGlEeyFcYzmq9og-A"/>
+              <ownedParameter xmi:id="_-vNW06GlEeyFcYzmq9og-A" name="response" type="_-uuOoaGlEeyFcYzmq9og-A"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_-kxocKGlEeyFcYzmq9og-A" name="RetrieveBookingServlet">
+            <generalization xmi:id="_-vPMAKGlEeyFcYzmq9og-A" general="_-utnkaGlEeyFcYzmq9og-A"/>
+            <ownedAttribute xmi:id="_-vg406GlEeyFcYzmq9og-A" name="serialVersionUID" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_-vhf4KGlEeyFcYzmq9og-A" value="1L"/>
+            </ownedAttribute>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-v4FM6GlEeyFcYzmq9og-A" name="doGet" specification="_-vOk8KGlEeyFcYzmq9og-A">
+              <ownedParameter xmi:id="_-v4FNKGlEeyFcYzmq9og-A" name="request" type="_-ulEsaGlEeyFcYzmq9og-A"/>
+              <ownedParameter xmi:id="_-v4FNaGlEeyFcYzmq9og-A" name="response" type="_-uuOoaGlEeyFcYzmq9og-A"/>
+              <language>java</language>
+              <body>HttpSession session = request.getSession();&#xD;
+		RetrieveBookingServiceImpl retrieveBookingServiceImpl = new RetrieveBookingServiceImpl();&#xD;
+		List&lt;BookedShows> bookedShowsList = retrieveBookingServiceImpl&#xD;
+				.retrieveBooking(((User) session.getAttribute(&quot;user&quot;)).getUserId());&#xD;
+		request.setAttribute(&quot;myBookings&quot;, bookedShowsList);&#xD;
+		request.getRequestDispatcher(&quot;viewbooking.jsp&quot;).forward(request, response);&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_-vOk8KGlEeyFcYzmq9og-A" name="doGet" visibility="protected" method="_-v4FM6GlEeyFcYzmq9og-A" raisedException="_-usZcaGlEeyFcYzmq9og-A _-uryYKGlEeyFcYzmq9og-A">
+              <ownedParameter xmi:id="_-vOk8aGlEeyFcYzmq9og-A" name="request" type="_-ulEsaGlEeyFcYzmq9og-A"/>
+              <ownedParameter xmi:id="_-vOk8qGlEeyFcYzmq9og-A" name="response" type="_-uuOoaGlEeyFcYzmq9og-A"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_-k0EsKGlEeyFcYzmq9og-A" name="SeatServlet">
+            <generalization xmi:id="_-vPzFKGlEeyFcYzmq9og-A" general="_-utnkaGlEeyFcYzmq9og-A"/>
+            <ownedAttribute xmi:id="_-vhf4qGlEeyFcYzmq9og-A" name="serialVersionUID" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_-vhf46GlEeyFcYzmq9og-A" value="1L"/>
+            </ownedAttribute>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-v4FNqGlEeyFcYzmq9og-A" name="doGet" specification="_-vPzEKGlEeyFcYzmq9og-A">
+              <ownedParameter xmi:id="_-v4FN6GlEeyFcYzmq9og-A" name="request" type="_-ulEsaGlEeyFcYzmq9og-A"/>
+              <ownedParameter xmi:id="_-v4FOKGlEeyFcYzmq9og-A" name="response" type="_-uuOoaGlEeyFcYzmq9og-A"/>
+              <language>java</language>
+              <body>Integer screenId = Integer.parseInt(request.getParameter(&quot;screenId&quot;));&#xD;
+		Integer showId = Integer.parseInt(request.getParameter(&quot;showId&quot;));&#xD;
+		&#xD;
+		List&lt;Theatre> allTheatres = (List&lt;Theatre>) request.getSession().getAttribute(&quot;allTheatres&quot;);&#xD;
+		for(Theatre theatre: allTheatres) {&#xD;
+			for(Show show :theatre.getShows()) {&#xD;
+				if(show.getShowId()== showId) {&#xD;
+					request.getSession().setAttribute(&quot;showDetails&quot;, show);&#xD;
+					break;&#xD;
+				}&#xD;
+			}&#xD;
+		}&#xD;
+		&#xD;
+&#xD;
+		SeatServiceImpl seatService = new SeatServiceImpl();&#xD;
+		Map&lt;Integer, List&lt;Seat>> seatDetails =seatService.getSeatDetails(showId,screenId,request);&#xD;
+		request.setAttribute(&quot;showId&quot;, showId);&#xD;
+		request.setAttribute(&quot;seatDetails&quot;, seatDetails);&#xD;
+		request.getRequestDispatcher(&quot;seatbooking.jsp&quot;).forward(request, response);&#xD;
+&#xD;
+&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_-vPzEKGlEeyFcYzmq9og-A" name="doGet" visibility="protected" method="_-v4FNqGlEeyFcYzmq9og-A" raisedException="_-usZcaGlEeyFcYzmq9og-A _-uryYKGlEeyFcYzmq9og-A">
+              <ownedParameter xmi:id="_-vPzEaGlEeyFcYzmq9og-A" name="request" type="_-ulEsaGlEeyFcYzmq9og-A"/>
+              <ownedParameter xmi:id="_-vPzEqGlEeyFcYzmq9og-A" name="response" type="_-uuOoaGlEeyFcYzmq9og-A"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_-k2g8KGlEeyFcYzmq9og-A" name="SignupServlet">
+            <generalization xmi:id="_-vRBMqGlEeyFcYzmq9og-A" general="_-utnkaGlEeyFcYzmq9og-A"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-v4sQKGlEeyFcYzmq9og-A" name="doPost" specification="_-vQaIKGlEeyFcYzmq9og-A">
+              <ownedParameter xmi:id="_-v4sQaGlEeyFcYzmq9og-A" name="request" type="_-ulEsaGlEeyFcYzmq9og-A"/>
+              <ownedParameter xmi:id="_-v4sQqGlEeyFcYzmq9og-A" name="response" type="_-uuOoaGlEeyFcYzmq9og-A"/>
+              <language>java</language>
+              <body>request.getSession().setAttribute(&quot;username&quot;, null);&#xD;
+		&#xD;
+		EntryServiceImpl signupService = new EntryServiceImpl();&#xD;
+		User user = new User();&#xD;
+		user.setEmail(request.getParameter(&quot;email&quot;));&#xD;
+		user.setPassword(request.getParameter(&quot;password&quot;));&#xD;
+		user.setName(request.getParameter(&quot;username&quot;));&#xD;
+		user.setPhone(Integer.parseInt(request.getParameter(&quot;phone&quot;)));&#xD;
+&#xD;
+		int isSuccess = signupService.userSignUp(user);&#xD;
+&#xD;
+		if (isSuccess == 1) {&#xD;
+			request.getSession().setAttribute(&quot;user&quot;, user);&#xD;
+			request.getSession().setAttribute(&quot;username&quot;, user.getName());&#xD;
+			if (((Show) request.getSession().getAttribute(&quot;showDetails&quot;)) != null) {&#xD;
+				request.getRequestDispatcher(&quot;book.jsp&quot;).forward(request, response);&#xD;
+			} else {&#xD;
+				request.getRequestDispatcher(&quot;index.jsp&quot;).forward(request, response);&#xD;
+			}&#xD;
+		} else {&#xD;
+			request.setAttribute(&quot;message&quot;, &quot;Invalid&quot;);&#xD;
+			request.getRequestDispatcher(&quot;login.jsp&quot;).forward(request, response);&#xD;
+		}&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_-vQaIKGlEeyFcYzmq9og-A" name="doPost" visibility="protected" method="_-v4sQKGlEeyFcYzmq9og-A" raisedException="_-usZcaGlEeyFcYzmq9og-A _-uryYKGlEeyFcYzmq9og-A">
+              <ownedParameter xmi:id="_-vQaIaGlEeyFcYzmq9og-A" name="request" type="_-ulEsaGlEeyFcYzmq9og-A"/>
+              <ownedParameter xmi:id="_-vRBMKGlEeyFcYzmq9og-A" name="response" type="_-uuOoaGlEeyFcYzmq9og-A"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_-k49MKGlEeyFcYzmq9og-A" name="TheatreShowsServlet">
+            <generalization xmi:id="_-vS2YaGlEeyFcYzmq9og-A" general="_-utnkaGlEeyFcYzmq9og-A"/>
+            <ownedAttribute xmi:id="_-vhf5aGlEeyFcYzmq9og-A" name="serialVersionUID" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_-viG8KGlEeyFcYzmq9og-A" value="1L"/>
+            </ownedAttribute>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-v4sQ6GlEeyFcYzmq9og-A" name="doGet" specification="_-vRoQKGlEeyFcYzmq9og-A">
+              <ownedParameter xmi:id="_-v4sRKGlEeyFcYzmq9og-A" name="request" type="_-ulEsaGlEeyFcYzmq9og-A"/>
+              <ownedParameter xmi:id="_-v4sRaGlEeyFcYzmq9og-A" name="response" type="_-uuOoaGlEeyFcYzmq9og-A"/>
+              <language>java</language>
+              <body>HttpSession session = request.getSession();&#xD;
+		System.out.println(session.getAttribute(&quot;movieId&quot;));&#xD;
+&#xD;
+		System.out.println(request.getParameter(&quot;showDate&quot;));&#xD;
+&#xD;
+		TheatreShowServiceImpl theatreShowService = new TheatreShowServiceImpl();&#xD;
+		&#xD;
+		List&lt;Theatre> theatres = theatreShowService.getTheatreShowsByDate((Movie)session.getAttribute(&quot;movieDetails&quot;),&#xD;
+				request.getParameter(&quot;showDate&quot;));&#xD;
+		&#xD;
+		if(theatres.isEmpty() || theatres == null) {&#xD;
+			session.setAttribute(&quot;message&quot;, &quot;Movie is not available on the selected date ; Try another date !&quot;);&#xD;
+			request.getRequestDispatcher(&quot;movies.jsp&quot;).forward(request, response);&#xD;
+		}&#xD;
+		else {&#xD;
+			System.out.println(theatres.get(0).getTheatreName());&#xD;
+			System.out.println(theatres.get(1).getTheatreName());&#xD;
+			&#xD;
+			session.setAttribute(&quot;allTheatres&quot;, theatres);&#xD;
+			request.setAttribute(&quot;theatreDetails&quot;, theatres);&#xD;
+			request.getRequestDispatcher(&quot;theatres.jsp&quot;).forward(request, response);&#xD;
+		}&#xD;
+		&#xD;
+&#xD;
+		&#xD;
+&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_-v4sRqGlEeyFcYzmq9og-A" name="doPost" specification="_-vSPUaGlEeyFcYzmq9og-A">
+              <ownedParameter xmi:id="_-v4sR6GlEeyFcYzmq9og-A" name="request" type="_-ulEsaGlEeyFcYzmq9og-A"/>
+              <ownedParameter xmi:id="_-v4sSKGlEeyFcYzmq9og-A" name="response" type="_-uuOoaGlEeyFcYzmq9og-A"/>
+              <language>java</language>
+              <body>// TODO Auto-generated method stub&#xD;
+		doGet(request, response);&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_-vRoQKGlEeyFcYzmq9og-A" name="doGet" visibility="protected" method="_-v4sQ6GlEeyFcYzmq9og-A" raisedException="_-usZcaGlEeyFcYzmq9og-A _-uryYKGlEeyFcYzmq9og-A">
+              <ownedParameter xmi:id="_-vRoQaGlEeyFcYzmq9og-A" name="request" type="_-ulEsaGlEeyFcYzmq9og-A"/>
+              <ownedParameter xmi:id="_-vRoQqGlEeyFcYzmq9og-A" name="response" type="_-uuOoaGlEeyFcYzmq9og-A"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_-vSPUaGlEeyFcYzmq9og-A" name="doPost" visibility="protected" method="_-v4sRqGlEeyFcYzmq9og-A" raisedException="_-usZcaGlEeyFcYzmq9og-A _-uryYKGlEeyFcYzmq9og-A">
+              <ownedComment xmi:id="_-v9kxaGlEeyFcYzmq9og-A">
+                <body>@see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse&#xD;
+	 *      response)</body>
+              </ownedComment>
+              <ownedParameter xmi:id="_-vSPUqGlEeyFcYzmq9og-A" name="request" type="_-ulEsaGlEeyFcYzmq9og-A"/>
+              <ownedParameter xmi:id="_-vSPU6GlEeyFcYzmq9og-A" name="response" type="_-uuOoaGlEeyFcYzmq9og-A"/>
+            </ownedOperation>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_-iUKUKGlEeyFcYzmq9og-A" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_-iUKUaGlEeyFcYzmq9og-A" name="util">
+        <packagedElement xmi:type="uml:Package" xmi:id="_-ig-oKGlEeyFcYzmq9og-A" name="Map">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_-uXCQKGlEeyFcYzmq9og-A" name="Entry"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_-uHKoKGlEeyFcYzmq9og-A" name="List"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_-uTX4KGlEeyFcYzmq9og-A" name="ArrayList"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_-uUmAKGlEeyFcYzmq9og-A" name="HashMap"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_-uVNEaGlEeyFcYzmq9og-A" name="Map"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_-udI4KGlEeyFcYzmq9og-A" name="Date"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_-upWIKGlEeyFcYzmq9og-A" name="Comparator"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_-uvcwKGlEeyFcYzmq9og-A" name="Arrays"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_-iYbwKGlEeyFcYzmq9og-A" name="sql">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_-uIYwaGlEeyFcYzmq9og-A" name="Connection"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_-uJm4aGlEeyFcYzmq9og-A" name="Statement"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_-uQ7oKGlEeyFcYzmq9og-A" name="ResultSet"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_-uY3cKGlEeyFcYzmq9og-A" name="DriverManager"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_-uaFkKGlEeyFcYzmq9og-A" name="SQLException"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_-i1uwKGlEeyFcYzmq9og-A" name="io">
+        <packagedElement xmi:type="uml:Class" xmi:id="_-uryYKGlEeyFcYzmq9og-A" name="IOException"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_-iuaAKGlEeyFcYzmq9og-A" name="javax">
+      <packagedElement xmi:type="uml:Package" xmi:id="_-iuaAaGlEeyFcYzmq9og-A" name="servlet">
+        <packagedElement xmi:type="uml:Package" xmi:id="_-iuaAqGlEeyFcYzmq9og-A" name="http">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_-uiocKGlEeyFcYzmq9og-A" name="HttpSession"/>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_-ulEsaGlEeyFcYzmq9og-A" name="HttpServletRequest"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_-utnkaGlEeyFcYzmq9og-A" name="HttpServlet"/>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_-uuOoaGlEeyFcYzmq9og-A" name="HttpServletResponse"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_-i1uwaGlEeyFcYzmq9og-A" name="annotation">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_-utAgaGlEeyFcYzmq9og-A" name="WebServlet"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_-usZcaGlEeyFcYzmq9og-A" name="ServletException"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_-PMaAKGlEeyFcYzmq9og-A">
+      <eAnnotations xmi:id="_-PQEYKGlEeyFcYzmq9og-A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_-PUV0KGlEeyFcYzmq9og-A" base_Package="_-AvuUKGlEeyFcYzmq9og-A">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_-khJwKGlEeyFcYzmq9og-A" base_Element="_-kgisKGlEeyFcYzmq9og-A"/>
+  <UMLLabProfile:Annotations xmi:id="_-ki-8KGlEeyFcYzmq9og-A" base_Element="_-kgisKGlEeyFcYzmq9og-A">
+    <annotations xmi:id="_-kjmAKGlEeyFcYzmq9og-A" name="WebServlet">
+      <annotationParameters xmi:id="_-kjmAaGlEeyFcYzmq9og-A" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_-v8WoaGlEeyFcYzmq9og-A" value="&quot;/book&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_-klbMKGlEeyFcYzmq9og-A" base_Element="_-kk0IKGlEeyFcYzmq9og-A"/>
+  <UMLLabProfile:Annotations xmi:id="_-kmCQKGlEeyFcYzmq9og-A" base_Element="_-kk0IKGlEeyFcYzmq9og-A">
+    <annotations xmi:id="_-kmCQaGlEeyFcYzmq9og-A" name="WebServlet">
+      <annotationParameters xmi:id="_-kmpUKGlEeyFcYzmq9og-A" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_-v89sKGlEeyFcYzmq9og-A" value="&quot;/checkout&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_-kn3cKGlEeyFcYzmq9og-A" base_Element="_-knQYKGlEeyFcYzmq9og-A"/>
+  <UMLLabProfile:Annotations xmi:id="_-kpFkKGlEeyFcYzmq9og-A" base_Element="_-knQYKGlEeyFcYzmq9og-A">
+    <annotations xmi:id="_-kpFkaGlEeyFcYzmq9og-A" name="WebServlet">
+      <annotationParameters xmi:id="_-kpFkqGlEeyFcYzmq9og-A" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_-v89saGlEeyFcYzmq9og-A" value="&quot;/cities&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_-kq6wKGlEeyFcYzmq9og-A" base_Element="_-kqTsKGlEeyFcYzmq9og-A"/>
+  <UMLLabProfile:Annotations xmi:id="_-krh0KGlEeyFcYzmq9og-A" base_Element="_-kqTsKGlEeyFcYzmq9og-A">
+    <annotations xmi:id="_-krh0aGlEeyFcYzmq9og-A" name="WebServlet">
+      <annotationParameters xmi:id="_-ksI4KGlEeyFcYzmq9og-A" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_-v89s6GlEeyFcYzmq9og-A" value="&quot;/login&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_-ktXAKGlEeyFcYzmq9og-A" base_Element="_-ksv8KGlEeyFcYzmq9og-A"/>
+  <UMLLabProfile:Annotations xmi:id="_-kt-EKGlEeyFcYzmq9og-A" base_Element="_-ksv8KGlEeyFcYzmq9og-A">
+    <annotations xmi:id="_-kt-EaGlEeyFcYzmq9og-A" name="WebServlet">
+      <annotationParameters xmi:id="_-kt-EqGlEeyFcYzmq9og-A" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_-v89tKGlEeyFcYzmq9og-A" value="&quot;/logout&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_-kvzQKGlEeyFcYzmq9og-A" base_Element="_-kvMMKGlEeyFcYzmq9og-A"/>
+  <UMLLabProfile:Annotations xmi:id="_-kwaUKGlEeyFcYzmq9og-A" base_Element="_-kvMMKGlEeyFcYzmq9og-A">
+    <annotations xmi:id="_-kwaUaGlEeyFcYzmq9og-A" name="WebServlet">
+      <annotationParameters xmi:id="_-kwaUqGlEeyFcYzmq9og-A" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_-v89taGlEeyFcYzmq9og-A" value="&quot;/movieDetails&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_-kyPgKGlEeyFcYzmq9og-A" base_Element="_-kxocKGlEeyFcYzmq9og-A"/>
+  <UMLLabProfile:Annotations xmi:id="_-ky2kKGlEeyFcYzmq9og-A" base_Element="_-kxocKGlEeyFcYzmq9og-A">
+    <annotations xmi:id="_-ky2kaGlEeyFcYzmq9og-A" name="WebServlet">
+      <annotationParameters xmi:id="_-ky2kqGlEeyFcYzmq9og-A" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_-v9kwaGlEeyFcYzmq9og-A" value="&quot;/retrieve&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_-k0rwKGlEeyFcYzmq9og-A" base_Element="_-k0EsKGlEeyFcYzmq9og-A"/>
+  <UMLLabProfile:Annotations xmi:id="_-k1S0KGlEeyFcYzmq9og-A" base_Element="_-k0EsKGlEeyFcYzmq9og-A">
+    <annotations xmi:id="_-k1S0aGlEeyFcYzmq9og-A" name="WebServlet">
+      <annotationParameters xmi:id="_-k1S0qGlEeyFcYzmq9og-A" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_-v9kwqGlEeyFcYzmq9og-A" value="&quot;/seats&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_-k3IAKGlEeyFcYzmq9og-A" base_Element="_-k2g8KGlEeyFcYzmq9og-A"/>
+  <UMLLabProfile:Annotations xmi:id="_-k4WIKGlEeyFcYzmq9og-A" base_Element="_-k2g8KGlEeyFcYzmq9og-A">
+    <annotations xmi:id="_-k4WIaGlEeyFcYzmq9og-A" name="WebServlet">
+      <annotationParameters xmi:id="_-k4WIqGlEeyFcYzmq9og-A" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_-v9kw6GlEeyFcYzmq9og-A" value="&quot;/signup&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_-k5kQKGlEeyFcYzmq9og-A" base_Element="_-k49MKGlEeyFcYzmq9og-A"/>
+  <UMLLabProfile:Annotations xmi:id="_-k6yYKGlEeyFcYzmq9og-A" base_Element="_-k49MKGlEeyFcYzmq9og-A">
+    <annotations xmi:id="_-k6yYaGlEeyFcYzmq9og-A" name="WebServlet">
+      <annotationParameters xmi:id="_-k6yYqGlEeyFcYzmq9og-A" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_-v9kxKGlEeyFcYzmq9og-A" value="&quot;/theatre&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_-uHxsKGlEeyFcYzmq9og-A" base_Element="_-uHKoKGlEeyFcYzmq9og-A"/>
+  <UMLLabProfile:Reference xmi:id="_-uJm4KGlEeyFcYzmq9og-A" base_Element="_-uIYwaGlEeyFcYzmq9og-A"/>
+  <UMLLabProfile:Reference xmi:id="_-uKN8KGlEeyFcYzmq9og-A" base_Element="_-uJm4aGlEeyFcYzmq9og-A"/>
+  <UMLLabProfile:Reference xmi:id="_-uRisKGlEeyFcYzmq9og-A" base_Element="_-uQ7oKGlEeyFcYzmq9og-A"/>
+  <UMLLabProfile:Reference xmi:id="_-uT-8KGlEeyFcYzmq9og-A" base_Element="_-uTX4KGlEeyFcYzmq9og-A"/>
+  <UMLLabProfile:Reference xmi:id="_-uVNEKGlEeyFcYzmq9og-A" base_Element="_-uUmAKGlEeyFcYzmq9og-A"/>
+  <UMLLabProfile:Reference xmi:id="_-uWbMKGlEeyFcYzmq9og-A" base_Element="_-uVNEaGlEeyFcYzmq9og-A"/>
+  <UMLLabProfile:Reference xmi:id="_-uYQYKGlEeyFcYzmq9og-A" base_Element="_-uXCQKGlEeyFcYzmq9og-A"/>
+  <UMLLabProfile:Reference xmi:id="_-uZegKGlEeyFcYzmq9og-A" base_Element="_-uY3cKGlEeyFcYzmq9og-A"/>
+  <UMLLabProfile:Reference xmi:id="_-uasoKGlEeyFcYzmq9og-A" base_Element="_-uaFkKGlEeyFcYzmq9og-A"/>
+  <UMLLabProfile:Reference xmi:id="_-udv8KGlEeyFcYzmq9og-A" base_Element="_-udI4KGlEeyFcYzmq9og-A"/>
+  <UMLLabProfile:Reference xmi:id="_-ujPgKGlEeyFcYzmq9og-A" base_Element="_-uiocKGlEeyFcYzmq9og-A"/>
+  <UMLLabProfile:Reference xmi:id="_-ulrwKGlEeyFcYzmq9og-A" base_Element="_-ulEsaGlEeyFcYzmq9og-A"/>
+  <UMLLabProfile:Reference xmi:id="_-up9MKGlEeyFcYzmq9og-A" base_Element="_-upWIKGlEeyFcYzmq9og-A"/>
+  <UMLLabProfile:Reference xmi:id="_-usZcKGlEeyFcYzmq9og-A" base_Element="_-uryYKGlEeyFcYzmq9og-A"/>
+  <UMLLabProfile:Reference xmi:id="_-utAgKGlEeyFcYzmq9og-A" base_Element="_-usZcaGlEeyFcYzmq9og-A"/>
+  <UMLLabProfile:Reference xmi:id="_-utnkKGlEeyFcYzmq9og-A" base_Element="_-utAgaGlEeyFcYzmq9og-A"/>
+  <UMLLabProfile:Reference xmi:id="_-uuOoKGlEeyFcYzmq9og-A" base_Element="_-utnkaGlEeyFcYzmq9og-A"/>
+  <UMLLabProfile:Reference xmi:id="_-uu1sKGlEeyFcYzmq9og-A" base_Element="_-uuOoaGlEeyFcYzmq9og-A"/>
+  <UMLLabProfile:Reference xmi:id="_-uwD0KGlEeyFcYzmq9og-A" base_Element="_-uvcwKGlEeyFcYzmq9og-A"/>
+  <UMLLabProfile:Generics xmi:id="_-u_7cKGlEeyFcYzmq9og-A" genericsValue="Seat" base_Element="_-u_UYKGlEeyFcYzmq9og-A"/>
+  <UMLLabProfile:Generics xmi:id="_-vBJkKGlEeyFcYzmq9og-A" genericsValue="Integer, List&lt;Seat>" base_Element="_-vAigKGlEeyFcYzmq9og-A"/>
+  <UMLLabProfile:Generics xmi:id="_-vDl0KGlEeyFcYzmq9og-A" genericsValue="Seat" base_Element="_-vC-wKGlEeyFcYzmq9og-A"/>
+  <UMLLabProfile:Generics xmi:id="_-vEz8KGlEeyFcYzmq9og-A" genericsValue="Integer, List&lt;Seat>" base_Element="_-vEM4KGlEeyFcYzmq9og-A"/>
+  <UMLLabProfile:StyledElement xmi:id="_-vGCEKGlEeyFcYzmq9og-A" base_Element="_-vFbAKGlEeyFcYzmq9og-A"/>
+  <UMLLabProfile:StyledElement xmi:id="_-vH3QKGlEeyFcYzmq9og-A" base_Element="_-vHQMKGlEeyFcYzmq9og-A"/>
+  <UMLLabProfile:StyledElement xmi:id="_-vJFYKGlEeyFcYzmq9og-A" base_Element="_-vIeUKGlEeyFcYzmq9og-A"/>
+  <UMLLabProfile:StyledElement xmi:id="_-vJscKGlEeyFcYzmq9og-A" base_Element="_-vJFYaGlEeyFcYzmq9og-A"/>
+  <UMLLabProfile:StyledElement xmi:id="_-vK6kaGlEeyFcYzmq9og-A" base_Element="_-vKTgKGlEeyFcYzmq9og-A"/>
+  <UMLLabProfile:StyledElement xmi:id="_-vMIsKGlEeyFcYzmq9og-A" base_Element="_-vLhoKGlEeyFcYzmq9og-A"/>
+  <UMLLabProfile:StyledElement xmi:id="_-vNW0KGlEeyFcYzmq9og-A" base_Element="_-vMvwKGlEeyFcYzmq9og-A"/>
+  <UMLLabProfile:StyledElement xmi:id="_-vN94KGlEeyFcYzmq9og-A" base_Element="_-vNW0aGlEeyFcYzmq9og-A"/>
+  <UMLLabProfile:StyledElement xmi:id="_-vOk86GlEeyFcYzmq9og-A" base_Element="_-vOk8KGlEeyFcYzmq9og-A"/>
+  <UMLLabProfile:StyledElement xmi:id="_-vPzE6GlEeyFcYzmq9og-A" base_Element="_-vPzEKGlEeyFcYzmq9og-A"/>
+  <UMLLabProfile:StyledElement xmi:id="_-vRBMaGlEeyFcYzmq9og-A" base_Element="_-vQaIKGlEeyFcYzmq9og-A"/>
+  <UMLLabProfile:StyledElement xmi:id="_-vSPUKGlEeyFcYzmq9og-A" base_Element="_-vRoQKGlEeyFcYzmq9og-A"/>
+  <UMLLabProfile:StyledElement xmi:id="_-vS2YKGlEeyFcYzmq9og-A" base_Element="_-vSPUaGlEeyFcYzmq9og-A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_-vV5sKGlEeyFcYzmq9og-A" base_Element="_-vVSoKGlEeyFcYzmq9og-A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_-vWgwaGlEeyFcYzmq9og-A" base_Element="_-vV5saGlEeyFcYzmq9og-A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_-vXH0aGlEeyFcYzmq9og-A" base_Element="_-vWgwqGlEeyFcYzmq9og-A"/>
+  <UMLLabProfile:StyledElement xmi:id="_-vg40qGlEeyFcYzmq9og-A" base_Element="_-vg40KGlEeyFcYzmq9og-A"/>
+  <UMLLabProfile:StyledElement xmi:id="_-vhf4aGlEeyFcYzmq9og-A" base_Element="_-vg406GlEeyFcYzmq9og-A"/>
+  <UMLLabProfile:StyledElement xmi:id="_-vhf5KGlEeyFcYzmq9og-A" base_Element="_-vhf4qGlEeyFcYzmq9og-A"/>
+  <UMLLabProfile:StyledElement xmi:id="_-viG8aGlEeyFcYzmq9og-A" base_Element="_-vhf5aGlEeyFcYzmq9og-A"/>
+  <UMLLabProfile:Reference xmi:id="_-wCdQKGlEeyFcYzmq9og-A" base_Element="_-wB2MKGlEeyFcYzmq9og-A"/>
+  <UMLLabProfile:Reference xmi:id="_-wDEUKGlEeyFcYzmq9og-A" base_Element="_-wCdQaGlEeyFcYzmq9og-A"/>
+  <UMLLabProfile:Reference xmi:id="_-wDrYKGlEeyFcYzmq9og-A" base_Element="_-wDEUaGlEeyFcYzmq9og-A"/>
+</xmi:XMI>

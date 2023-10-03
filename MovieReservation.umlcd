@@ -1,0 +1,1826 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_-DkY0KGlEeyFcYzmq9og-A">
+  <modelElement href="MovieReservation.uml#_-iJLMaGlEeyFcYzmq9og-A"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_AHibsKGmEeyFcYzmq9og-A" sourceAnchor="325.0,31.0" targetAnchor="325.0,42.0" dashed="true" superClass="_AGONEKGmEeyFcYzmq9og-A" subClass="_AHkQ4KGmEeyFcYzmq9og-A">
+    <modelElement href="MovieReservation.uml#_-uPtgKGlEeyFcYzmq9og-A"/>
+    <bendpoints xmi:id="_Aex3AKGmEeyFcYzmq9og-A" sourceX="2061" targetX="2237" targetY="1121"/>
+    <bendpoints xmi:id="_AeyeEKGmEeyFcYzmq9og-A" sourceX="2061" sourceY="-1121" targetX="2237"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_AH3L0KGmEeyFcYzmq9og-A" sourceAnchor="133.0,0.0" targetAnchor="267.0,61.0" dashed="true" superClass="_AHOSoKGmEeyFcYzmq9og-A" subClass="_AH5BAKGmEeyFcYzmq9og-A">
+    <modelElement href="MovieReservation.uml#_-uRisaGlEeyFcYzmq9og-A"/>
+    <bendpoints xmi:id="_AezFIKGmEeyFcYzmq9og-A" sourceY="-102" targetX="234"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_AH8EUKGmEeyFcYzmq9og-A" sourceAnchor="319.0,52.0" targetAnchor="159.0,85.0" dashed="true" superClass="_AHTLIKGmEeyFcYzmq9og-A" subClass="_AH9ScKGmEeyFcYzmq9og-A">
+    <modelElement href="MovieReservation.uml#_-uSw0KGlEeyFcYzmq9og-A"/>
+    <bendpoints xmi:id="_AezFIaGmEeyFcYzmq9og-A" sourceX="737" targetY="107"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_AH_usKGmEeyFcYzmq9og-A" sourceAnchor="191.0,63.0" targetAnchor="191.0,85.0" dashed="true" superClass="_AHXckKGmEeyFcYzmq9og-A" subClass="_AIAVwKGmEeyFcYzmq9og-A">
+    <modelElement href="MovieReservation.uml#_-uT-8aGlEeyFcYzmq9og-A"/>
+    <bendpoints xmi:id="_AezFIqGmEeyFcYzmq9og-A" sourceY="24" targetX="-1325" targetY="142"/>
+    <bendpoints xmi:id="_AezFI6GmEeyFcYzmq9og-A" sourceX="1325" sourceY="24" targetY="142"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_AIDZEKGmEeyFcYzmq9og-A" sourceAnchor="0.0,31.0" targetAnchor="235.0,85.0" dashed="true" superClass="_AHZ40KGmEeyFcYzmq9og-A" subClass="_AIFOQKGmEeyFcYzmq9og-A">
+    <modelElement href="MovieReservation.uml#_-uWbMaGlEeyFcYzmq9og-A"/>
+    <bendpoints xmi:id="_AezFJKGmEeyFcYzmq9og-A" sourceX="-1547" targetY="86"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_AIIRkKGmEeyFcYzmq9og-A" sourceAnchor="210.0,0.0" targetAnchor="267.0,0.0" dashed="true" superClass="_AHc8IKGmEeyFcYzmq9og-A" subClass="_AIJfsKGmEeyFcYzmq9og-A">
+    <modelElement href="MovieReservation.uml#_-uYQYaGlEeyFcYzmq9og-A"/>
+    <bendpoints xmi:id="_AezsMKGmEeyFcYzmq9og-A" sourceY="-713" targetX="-1485" targetY="-573"/>
+    <bendpoints xmi:id="_AezsMaGmEeyFcYzmq9og-A" sourceX="1485" sourceY="-713" targetY="-573"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_AISCkKGmEeyFcYzmq9og-A" source="_AISCmaGmEeyFcYzmq9og-A">
+    <modelElement href="MovieReservation.uml#_-wB2MKGlEeyFcYzmq9og-A"/>
+    <stereotypes xmi:id="_AISCkaGmEeyFcYzmq9og-A" name="Reference">
+      <modelElement href="MovieReservation.uml#_-wCdQKGlEeyFcYzmq9og-A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_AISCkqGmEeyFcYzmq9og-A" text=""/>
+    <sourceRole xmi:id="_AISCk6GmEeyFcYzmq9og-A" aggregationKind="NONE" name="">
+      <modelElement href="MovieReservation.uml#_-wB2MaGlEeyFcYzmq9og-A"/>
+      <visibility xmi:id="_AISClKGmEeyFcYzmq9og-A" label="+"/>
+      <cardinality xmi:id="_AISClaGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_AISClqGmEeyFcYzmq9og-A" aggregationKind="NONE" name="conn" navigable="true">
+      <modelElement href="MovieReservation.uml#_-vVSoKGlEeyFcYzmq9og-A"/>
+      <visibility xmi:id="_AISCl6GmEeyFcYzmq9og-A" label="~"/>
+      <cardinality xmi:id="_AISCmKGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_AIbzkKGmEeyFcYzmq9og-A" sourceAnchor="95.0,0.0" targetAnchor="0.0,66.0" superClass="_AIfd8KGmEeyFcYzmq9og-A" subClass="_AIlkmKGmEeyFcYzmq9og-A">
+    <modelElement href="MovieReservation.uml#_-uch0KGlEeyFcYzmq9og-A"/>
+    <bendpoints xmi:id="_AezsMqGmEeyFcYzmq9og-A" sourceY="-121" targetX="-335"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_AIcaoKGmEeyFcYzmq9og-A" sourceAnchor="85.0,0.0" targetAnchor="96.0,201.0" target="_AI8J4KGmEeyFcYzmq9og-A" source="_AIfd8KGmEeyFcYzmq9og-A">
+    <modelElement href="MovieReservation.uml#_-wCdQaGlEeyFcYzmq9og-A"/>
+    <stereotypes xmi:id="_AIeP0aGmEeyFcYzmq9og-A" name="Reference">
+      <modelElement href="MovieReservation.uml#_-wDEUKGlEeyFcYzmq9og-A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_AIdowKGmEeyFcYzmq9og-A" text="">
+      <visualProperties xmi:id="_Ae2IcKGmEeyFcYzmq9og-A" position="-27.873083001104533,-9.606158066485733"/>
+    </nameVisual>
+    <sourceRole xmi:id="_AIdowaGmEeyFcYzmq9og-A" aggregationKind="NONE" name="">
+      <modelElement href="MovieReservation.uml#_-wCdQqGlEeyFcYzmq9og-A"/>
+      <visualProperties xmi:id="_Ae1hYqGmEeyFcYzmq9og-A" position="-19.471935064218542,-79.98470925786245"/>
+      <visibility xmi:id="_AIe24KGmEeyFcYzmq9og-A" label="+"/>
+      <cardinality xmi:id="_AIeP0qGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_AIeP0KGmEeyFcYzmq9og-A" aggregationKind="NONE" name="seats" navigable="true">
+      <modelElement href="MovieReservation.uml#_-vYV8qGlEeyFcYzmq9og-A"/>
+      <visualProperties xmi:id="_Ae2vgKGmEeyFcYzmq9og-A" position="-35.24432818910964,33.58764418841196"/>
+      <visibility xmi:id="_AIe24qGmEeyFcYzmq9og-A" label="+"/>
+      <cardinality xmi:id="_AIe24aGmEeyFcYzmq9og-A" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_AIlkkKGmEeyFcYzmq9og-A" sourceAnchor="0.0,24.0" targetAnchor="95.0,109.0" target="_AIlkmKGmEeyFcYzmq9og-A" source="_AJHwEKGmEeyFcYzmq9og-A">
+    <modelElement href="MovieReservation.uml#_-v7IgKGlEeyFcYzmq9og-A"/>
+    <bendpoints xmi:id="_Ae0TQKGmEeyFcYzmq9og-A" sourceX="-167" targetY="79"/>
+    <nameVisual xmi:id="_AIlkkaGmEeyFcYzmq9og-A" text="">
+      <visualProperties xmi:id="_Ae4ksKGmEeyFcYzmq9og-A" position="162.8287276776598,-18.015615926763473"/>
+    </nameVisual>
+    <sourceRole xmi:id="_AIlkkqGmEeyFcYzmq9og-A" aggregationKind="NONE" name="show" navigable="true">
+      <modelElement href="MovieReservation.uml#_-vY9AaGlEeyFcYzmq9og-A"/>
+      <visualProperties xmi:id="_Ae39oKGmEeyFcYzmq9og-A" position="-72.04526433714364,-38.045048820547436"/>
+      <visibility xmi:id="_AIlkk6GmEeyFcYzmq9og-A" label="+"/>
+      <cardinality xmi:id="_AIlklKGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_AIlklaGmEeyFcYzmq9og-A" aggregationKind="NONE" name="">
+      <modelElement href="MovieReservation.uml#_-v7IgaGlEeyFcYzmq9og-A"/>
+      <visualProperties xmi:id="_Ae5LwKGmEeyFcYzmq9og-A" position="200.481217186943,40.705814739891366"/>
+      <visibility xmi:id="_AIlklqGmEeyFcYzmq9og-A" label="+"/>
+      <cardinality xmi:id="_AIlkl6GmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_AIpO8KGmEeyFcYzmq9og-A" sourceAnchor="85.0,0.0" targetAnchor="235.0,123.0" superClass="_AIs5UKGmEeyFcYzmq9og-A" subClass="_AJHwEKGmEeyFcYzmq9og-A">
+    <modelElement href="MovieReservation.uml#_-ugzQKGlEeyFcYzmq9og-A"/>
+    <bendpoints xmi:id="_Ae0TQaGmEeyFcYzmq9og-A" sourceY="-179" targetX="414"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_AIrEIKGmEeyFcYzmq9og-A" sourceAnchor="0.0,17.0" targetAnchor="0.0,54.0" target="_AJHwEKGmEeyFcYzmq9og-A" source="_AJNPoKGmEeyFcYzmq9og-A">
+    <modelElement href="MovieReservation.uml#_-wDEUaGlEeyFcYzmq9og-A"/>
+    <bendpoints xmi:id="_Ae0TQqGmEeyFcYzmq9og-A" sourceX="-1089" targetX="-15" targetY="127"/>
+    <bendpoints xmi:id="_Ae0TQ6GmEeyFcYzmq9og-A" sourceX="-1089" sourceY="-127" targetX="-15"/>
+    <stereotypes xmi:id="_AIrrM6GmEeyFcYzmq9og-A" name="Reference">
+      <modelElement href="MovieReservation.uml#_-wDrYKGlEeyFcYzmq9og-A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_AIrrMKGmEeyFcYzmq9og-A" text="">
+      <visualProperties xmi:id="_Ae5y0aGmEeyFcYzmq9og-A" position="996.5733241605352,47.854129954612745"/>
+    </nameVisual>
+    <sourceRole xmi:id="_AIrrMaGmEeyFcYzmq9og-A" aggregationKind="NONE" name="">
+      <modelElement href="MovieReservation.uml#_-wDEUqGlEeyFcYzmq9og-A"/>
+      <visualProperties xmi:id="_Ae5y0KGmEeyFcYzmq9og-A" position="-52.33831366534844,-37.2699669896333"/>
+      <visibility xmi:id="_AIsSQKGmEeyFcYzmq9og-A" label="+"/>
+      <cardinality xmi:id="_AIrrNKGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_AIrrMqGmEeyFcYzmq9og-A" aggregationKind="NONE" name="shows" navigable="true">
+      <modelElement href="MovieReservation.uml#_-vfqs6GlEeyFcYzmq9og-A"/>
+      <visualProperties xmi:id="_Ae6Z4KGmEeyFcYzmq9og-A" position="941.1984943988078,89.28012087525087"/>
+      <visibility xmi:id="_AIsSQqGmEeyFcYzmq9og-A" label="+"/>
+      <cardinality xmi:id="_AIsSQaGmEeyFcYzmq9og-A" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_AIsSQ6GmEeyFcYzmq9og-A" target="_AIs5UKGmEeyFcYzmq9og-A">
+    <modelElement href="MovieReservation.uml#_-v7vkKGlEeyFcYzmq9og-A"/>
+    <nameVisual xmi:id="_AIsSRKGmEeyFcYzmq9og-A" text=""/>
+    <sourceRole xmi:id="_AIsSRaGmEeyFcYzmq9og-A" aggregationKind="NONE" name="releaseDate" navigable="true">
+      <modelElement href="MovieReservation.uml#_-vbZQKGlEeyFcYzmq9og-A"/>
+      <visibility xmi:id="_AIsSRqGmEeyFcYzmq9og-A" label="+"/>
+      <cardinality xmi:id="_AIsSR6GmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_AIsSSKGmEeyFcYzmq9og-A" aggregationKind="NONE" name="">
+      <modelElement href="MovieReservation.uml#_-v7vkaGlEeyFcYzmq9og-A"/>
+      <visibility xmi:id="_AIsSSaGmEeyFcYzmq9og-A" label="+"/>
+      <cardinality xmi:id="_AIsSSqGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_AIyY4KGmEeyFcYzmq9og-A" sourceAnchor="70.0,0.0" targetAnchor="83.0,109.0" superClass="_AI0OEKGmEeyFcYzmq9og-A" subClass="_AJQS8KGmEeyFcYzmq9og-A">
+    <modelElement href="MovieReservation.uml#_-uiBYKGlEeyFcYzmq9og-A"/>
+    <bendpoints xmi:id="_Ae06UKGmEeyFcYzmq9og-A" sourceY="-15" targetX="1600" targetY="40"/>
+    <bendpoints xmi:id="_Ae06UaGmEeyFcYzmq9og-A" sourceX="-1600" sourceY="-15" targetY="40"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_AI34cKGmEeyFcYzmq9og-A" sourceAnchor="93.0,0.0" targetAnchor="85.0,109.0" target="_AJHwEKGmEeyFcYzmq9og-A" source="_AI5GkKGmEeyFcYzmq9og-A">
+    <modelElement href="MovieReservation.uml#_-v7vkqGlEeyFcYzmq9og-A"/>
+    <bendpoints xmi:id="_AezsM6GmEeyFcYzmq9og-A" sourceY="-22" targetX="1357" targetY="40"/>
+    <bendpoints xmi:id="_AezsNKGmEeyFcYzmq9og-A" sourceX="-1357" sourceY="-22" targetY="40"/>
+    <nameVisual xmi:id="_AI4fgKGmEeyFcYzmq9og-A" text="">
+      <visualProperties xmi:id="_Ae3WkaGmEeyFcYzmq9og-A" position="664.5407439740435,-21.522161482400236"/>
+    </nameVisual>
+    <sourceRole xmi:id="_AI4fgaGmEeyFcYzmq9og-A" aggregationKind="NONE" name="screen" navigable="true">
+      <modelElement href="MovieReservation.uml#_-vfDo6GlEeyFcYzmq9og-A"/>
+      <visualProperties xmi:id="_Ae3WkKGmEeyFcYzmq9og-A" position="-40.80046266945712,-78.95434426223119"/>
+      <visibility xmi:id="_AI4fhKGmEeyFcYzmq9og-A" label="+"/>
+      <cardinality xmi:id="_AI4fg6GmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_AI4fgqGmEeyFcYzmq9og-A" aggregationKind="NONE" name="">
+      <modelElement href="MovieReservation.uml#_-v8WoKGlEeyFcYzmq9og-A"/>
+      <visualProperties xmi:id="_Ae3WkqGmEeyFcYzmq9og-A" position="1336.7030157811932,28.835976400011702"/>
+      <visibility xmi:id="_AI4fhqGmEeyFcYzmq9og-A" label="+"/>
+      <cardinality xmi:id="_AI4fhaGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_AJim0KGmEeyFcYzmq9og-A" sourceAnchor="0.0,92.0" targetAnchor="176.0,131.0" dashed="true" superClass="_AJTWQKGmEeyFcYzmq9og-A" subClass="_AJj08KGmEeyFcYzmq9og-A">
+    <modelElement href="MovieReservation.uml#_-um54KGlEeyFcYzmq9og-A"/>
+    <bendpoints xmi:id="_Ae06UqGmEeyFcYzmq9og-A" sourceX="-1444" targetY="147"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_AJm4QKGmEeyFcYzmq9og-A" sourceAnchor="388.0,56.0" targetAnchor="194.0,108.0" dashed="true" superClass="_AJXnsKGmEeyFcYzmq9og-A" subClass="_AJoGYKGmEeyFcYzmq9og-A">
+    <modelElement href="MovieReservation.uml#_-ung8KGlEeyFcYzmq9og-A"/>
+    <bendpoints xmi:id="_Ae06U6GmEeyFcYzmq9og-A" sourceX="1884" targetY="111"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_AJp7kKGmEeyFcYzmq9og-A" sourceAnchor="0.0,31.0" targetAnchor="319.0,38.0" dashed="true" superClass="_AJarAKGmEeyFcYzmq9og-A" subClass="_AJrwwKGmEeyFcYzmq9og-A">
+    <modelElement href="MovieReservation.uml#_-uovEKGlEeyFcYzmq9og-A"/>
+    <bendpoints xmi:id="_Ae06VKGmEeyFcYzmq9og-A" sourceX="-763" targetX="689" targetY="133"/>
+    <bendpoints xmi:id="_Ae06VaGmEeyFcYzmq9og-A" sourceX="-763" sourceY="-133" targetX="689"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_AJu0EKGmEeyFcYzmq9og-A" sourceAnchor="0.0,31.0" targetAnchor="332.0,85.0" dashed="true" superClass="_AJdHQKGmEeyFcYzmq9og-A" subClass="_AJwpQKGmEeyFcYzmq9og-A">
+    <modelElement href="MovieReservation.uml#_-up9MaGlEeyFcYzmq9og-A"/>
+    <bendpoints xmi:id="_Ae1hYKGmEeyFcYzmq9og-A" sourceX="-1063" targetY="86"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_AJyecKGmEeyFcYzmq9og-A" sourceAnchor="546.0,31.0" targetAnchor="273.0,85.0" dashed="true" superClass="_AJgKkKGmEeyFcYzmq9og-A" subClass="_AJzFgKGmEeyFcYzmq9og-A">
+    <modelElement href="MovieReservation.uml#_-uqkQKGlEeyFcYzmq9og-A"/>
+    <bendpoints xmi:id="_Ae1hYaGmEeyFcYzmq9og-A" sourceX="1641" targetY="86"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_AKAg4KGmEeyFcYzmq9og-A" targetItem="_AKBH_6GmEeyFcYzmq9og-A" sourceItem="_AJ_50KGmEeyFcYzmq9og-A"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_AKLgAaGmEeyFcYzmq9og-A" targetItem="_AKMHH6GmEeyFcYzmq9og-A" sourceItem="_AKLgAKGmEeyFcYzmq9og-A"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_AKaJgaGmEeyFcYzmq9og-A" targetItem="_AKawpKGmEeyFcYzmq9og-A" sourceItem="_AKaJgKGmEeyFcYzmq9og-A"/>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_AJ_50KGmEeyFcYzmq9og-A" sourceConnectionVisual="_AKAg4KGmEeyFcYzmq9og-A" text="@see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)" item="_AKBH_6GmEeyFcYzmq9og-A">
+    <modelElement href="MovieReservation.uml#_-v89sqGlEeyFcYzmq9og-A"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_AKLgAKGmEeyFcYzmq9og-A" sourceConnectionVisual="_AKLgAaGmEeyFcYzmq9og-A" text="@see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse&#xD;&#xA;&#x9; *      response)" item="_AKMHH6GmEeyFcYzmq9og-A">
+    <modelElement href="MovieReservation.uml#_-v9kwKGlEeyFcYzmq9og-A"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_AKaJgKGmEeyFcYzmq9og-A" sourceConnectionVisual="_AKaJgaGmEeyFcYzmq9og-A" text="@see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse&#xD;&#xA;&#x9; *      response)" item="_AKawpKGmEeyFcYzmq9og-A">
+    <modelElement href="MovieReservation.uml#_-v9kxaGlEeyFcYzmq9og-A"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_AGONEKGmEeyFcYzmq9og-A" name="BookingDao" subclassedBy="_AHibsKGmEeyFcYzmq9og-A">
+    <modelElement href="MovieReservation.uml#_-jTBwKGlEeyFcYzmq9og-A"/>
+    <visualProperties xmi:id="_AGONEaGmEeyFcYzmq9og-A" position="30.0,30.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_AGONEqGmEeyFcYzmq9og-A" label="+"/>
+    <operations xmi:id="_AGONE6GmEeyFcYzmq9og-A" name="bookShow">
+      <modelElement href="MovieReservation.uml#_-uFVcKGlEeyFcYzmq9og-A"/>
+      <visibility xmi:id="_AGONFKGmEeyFcYzmq9og-A" label="+"/>
+      <cardinality xmi:id="_AGONFaGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_AGONFqGmEeyFcYzmq9og-A">
+        <modelElement href="MovieReservation.uml#_-uFVcqGlEeyFcYzmq9og-A"/>
+        <type xmi:id="_AGONF6GmEeyFcYzmq9og-A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_AGONGKGmEeyFcYzmq9og-A" name="bookShow">
+        <modelElement href="MovieReservation.uml#_-uFVcaGlEeyFcYzmq9og-A"/>
+        <cardinality xmi:id="_AGONGaGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+        <type xmi:id="_AGONGqGmEeyFcYzmq9og-A" name="BookShow">
+          <modelElement href="MovieReservation.uml#_-kAMYKGlEeyFcYzmq9og-A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_AHOSoKGmEeyFcYzmq9og-A" name="EntryDao" subclassedBy="_AH3L0KGmEeyFcYzmq9og-A">
+    <modelElement href="MovieReservation.uml#_-jcLsKGlEeyFcYzmq9og-A"/>
+    <visualProperties xmi:id="_AHOSoaGmEeyFcYzmq9og-A" position="-309.0,69.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_AHOSoqGmEeyFcYzmq9og-A" label="+"/>
+    <operations xmi:id="_AHOSo6GmEeyFcYzmq9og-A" name="userLogin">
+      <modelElement href="MovieReservation.uml#_-jdZ0KGlEeyFcYzmq9og-A"/>
+      <visibility xmi:id="_AHOSpKGmEeyFcYzmq9og-A" label="+"/>
+      <cardinality xmi:id="_AHOSpaGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_AHOSpqGmEeyFcYzmq9og-A">
+        <modelElement href="MovieReservation.uml#_-uF8gKGlEeyFcYzmq9og-A"/>
+        <type xmi:id="_AHOSp6GmEeyFcYzmq9og-A" name="User">
+          <modelElement href="MovieReservation.uml#_-kNAsKGlEeyFcYzmq9og-A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_AHOSqKGmEeyFcYzmq9og-A" name="email">
+        <modelElement href="MovieReservation.uml#_-jeA4KGlEeyFcYzmq9og-A"/>
+        <cardinality xmi:id="_AHOSqaGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+        <type xmi:id="_AHOSqqGmEeyFcYzmq9og-A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_AHOSq6GmEeyFcYzmq9og-A" name="userSignUp">
+      <modelElement href="MovieReservation.uml#_-uF8gaGlEeyFcYzmq9og-A"/>
+      <visibility xmi:id="_AHOSrKGmEeyFcYzmq9og-A" label="+"/>
+      <cardinality xmi:id="_AHOSraGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_AHOSrqGmEeyFcYzmq9og-A">
+        <modelElement href="MovieReservation.uml#_-uGjkaGlEeyFcYzmq9og-A"/>
+        <type xmi:id="_AHOSr6GmEeyFcYzmq9og-A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_AHOSsKGmEeyFcYzmq9og-A" name="user">
+        <modelElement href="MovieReservation.uml#_-uGjkKGlEeyFcYzmq9og-A"/>
+        <cardinality xmi:id="_AHOSsaGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+        <type xmi:id="_AHOSsqGmEeyFcYzmq9og-A" name="User">
+          <modelElement href="MovieReservation.uml#_-kNAsKGlEeyFcYzmq9og-A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_AHTLIKGmEeyFcYzmq9og-A" name="MovieDao" subclassedBy="_AH8EUKGmEeyFcYzmq9og-A">
+    <modelElement href="MovieReservation.uml#_-jhEMKGlEeyFcYzmq9og-A"/>
+    <visualProperties xmi:id="_AHTLIaGmEeyFcYzmq9og-A" position="908.0,269.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_AHTLIqGmEeyFcYzmq9og-A" label="+"/>
+    <operations xmi:id="_AHTLI6GmEeyFcYzmq9og-A" name="getMovieDetails">
+      <modelElement href="MovieReservation.uml#_-ji5YKGlEeyFcYzmq9og-A"/>
+      <visibility xmi:id="_AHTLJKGmEeyFcYzmq9og-A" label="+"/>
+      <cardinality xmi:id="_AHTLJaGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_AHTLJqGmEeyFcYzmq9og-A">
+        <modelElement href="MovieReservation.uml#_-uGjkqGlEeyFcYzmq9og-A"/>
+        <type xmi:id="_AHTLJ6GmEeyFcYzmq9og-A" name="Movie">
+          <modelElement href="MovieReservation.uml#_-kD2wKGlEeyFcYzmq9og-A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_AHTLKKGmEeyFcYzmq9og-A" name="movieId">
+        <modelElement href="MovieReservation.uml#_-ji5YaGlEeyFcYzmq9og-A"/>
+        <cardinality xmi:id="_AHTLKaGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+        <type xmi:id="_AHTLKqGmEeyFcYzmq9og-A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_AHXckKGmEeyFcYzmq9og-A" name="RetrieveBookingDao" subclassedBy="_AH_usKGmEeyFcYzmq9og-A">
+    <modelElement href="MovieReservation.uml#_-jjgcKGlEeyFcYzmq9og-A"/>
+    <visualProperties xmi:id="_AHXckaGmEeyFcYzmq9og-A" position="1303.0,392.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_AHXckqGmEeyFcYzmq9og-A" label="+"/>
+    <operations xmi:id="_AHXck6GmEeyFcYzmq9og-A" name="retrieveBooking">
+      <modelElement href="MovieReservation.uml#_-jkukKGlEeyFcYzmq9og-A"/>
+      <visibility xmi:id="_AHXclKGmEeyFcYzmq9og-A" label="+"/>
+      <cardinality xmi:id="_AHXclaGmEeyFcYzmq9og-A" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_AHXclqGmEeyFcYzmq9og-A">
+        <modelElement href="MovieReservation.uml#_-jlVoKGlEeyFcYzmq9og-A"/>
+        <type xmi:id="_AHXcl6GmEeyFcYzmq9og-A" name="BookedShows">
+          <modelElement href="MovieReservation.uml#_-kCBkKGlEeyFcYzmq9og-A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_AHXcmKGmEeyFcYzmq9og-A" name="userId">
+        <modelElement href="MovieReservation.uml#_-jkukaGlEeyFcYzmq9og-A"/>
+        <cardinality xmi:id="_AHXcmaGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+        <type xmi:id="_AHXcmqGmEeyFcYzmq9og-A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_AHZ40KGmEeyFcYzmq9og-A" name="SeatDao" subclassedBy="_AIDZEKGmEeyFcYzmq9og-A">
+    <modelElement href="MovieReservation.uml#_-jnK0KGlEeyFcYzmq9og-A"/>
+    <visualProperties xmi:id="_AHZ40aGmEeyFcYzmq9og-A" position="-1824.0,543.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_AHZ40qGmEeyFcYzmq9og-A" label="+"/>
+    <operations xmi:id="_AHZ406GmEeyFcYzmq9og-A" name="getSeatDetails">
+      <modelElement href="MovieReservation.uml#_-joY8KGlEeyFcYzmq9og-A"/>
+      <visibility xmi:id="_AHZ41KGmEeyFcYzmq9og-A" label="+"/>
+      <cardinality xmi:id="_AHZ41aGmEeyFcYzmq9og-A" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_AHZ41qGmEeyFcYzmq9og-A">
+        <modelElement href="MovieReservation.uml#_-jpAAKGlEeyFcYzmq9og-A"/>
+        <type xmi:id="_AHZ416GmEeyFcYzmq9og-A" name="Seat">
+          <modelElement href="MovieReservation.uml#_-kIvQKGlEeyFcYzmq9og-A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_AHZ42KGmEeyFcYzmq9og-A" name="showId">
+        <modelElement href="MovieReservation.uml#_-joY8aGlEeyFcYzmq9og-A"/>
+        <cardinality xmi:id="_AHZ42aGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+        <type xmi:id="_AHZ42qGmEeyFcYzmq9og-A" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_AHZ426GmEeyFcYzmq9og-A" name="screenId">
+        <modelElement href="MovieReservation.uml#_-joY8qGlEeyFcYzmq9og-A"/>
+        <cardinality xmi:id="_AHZ43KGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+        <type xmi:id="_AHZ43aGmEeyFcYzmq9og-A" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_AHc8IKGmEeyFcYzmq9og-A" name="TheatreShowsDao" subclassedBy="_AIIRkKGmEeyFcYzmq9og-A">
+    <modelElement href="MovieReservation.uml#_-jpnEKGlEeyFcYzmq9og-A"/>
+    <visualProperties xmi:id="_AHc8IaGmEeyFcYzmq9og-A" position="894.0,93.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_AHc8IqGmEeyFcYzmq9og-A" label="+"/>
+    <operations xmi:id="_AHc8I6GmEeyFcYzmq9og-A" name="getTheatreShowsByDate">
+      <modelElement href="MovieReservation.uml#_-jq1MKGlEeyFcYzmq9og-A"/>
+      <visibility xmi:id="_AHc8JKGmEeyFcYzmq9og-A" label="+"/>
+      <cardinality xmi:id="_AHc8JaGmEeyFcYzmq9og-A" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_AHc8JqGmEeyFcYzmq9og-A">
+        <modelElement href="MovieReservation.uml#_-jrcQKGlEeyFcYzmq9og-A"/>
+        <type xmi:id="_AHc8J6GmEeyFcYzmq9og-A" name="Theatre">
+          <modelElement href="MovieReservation.uml#_-kLykKGlEeyFcYzmq9og-A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_AHc8KKGmEeyFcYzmq9og-A" name="movieId">
+        <modelElement href="MovieReservation.uml#_-jq1MaGlEeyFcYzmq9og-A"/>
+        <cardinality xmi:id="_AHc8KaGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+        <type xmi:id="_AHc8KqGmEeyFcYzmq9og-A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_AHc8K6GmEeyFcYzmq9og-A" name="showDate">
+        <modelElement href="MovieReservation.uml#_-jq1MqGlEeyFcYzmq9og-A"/>
+        <cardinality xmi:id="_AHc8LKGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+        <type xmi:id="_AHc8LaGmEeyFcYzmq9og-A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_AHkQ4KGmEeyFcYzmq9og-A" name="BookingDaoImpl" generalizations="_AHibsKGmEeyFcYzmq9og-A">
+    <modelElement href="MovieReservation.uml#_-jsqYKGlEeyFcYzmq9og-A"/>
+    <visualProperties xmi:id="_AHkQ4aGmEeyFcYzmq9og-A" position="206.0,1162.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_AHkQ4qGmEeyFcYzmq9og-A" label="+"/>
+    <operations xmi:id="_AHkQ46GmEeyFcYzmq9og-A" name="bookShow">
+      <modelElement href="MovieReservation.uml#_-uQUkKGlEeyFcYzmq9og-A"/>
+      <visibility xmi:id="_AHkQ5KGmEeyFcYzmq9og-A" label="+"/>
+      <cardinality xmi:id="_AHkQ5aGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_AHkQ5qGmEeyFcYzmq9og-A">
+        <modelElement href="MovieReservation.uml#_-uQUkqGlEeyFcYzmq9og-A"/>
+        <type xmi:id="_AHkQ56GmEeyFcYzmq9og-A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_AHkQ6KGmEeyFcYzmq9og-A" name="bookShow">
+        <modelElement href="MovieReservation.uml#_-uQUkaGlEeyFcYzmq9og-A"/>
+        <cardinality xmi:id="_AHkQ6aGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+        <type xmi:id="_AHkQ6qGmEeyFcYzmq9og-A" name="BookShow">
+          <modelElement href="MovieReservation.uml#_-kAMYKGlEeyFcYzmq9og-A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_AH5BAKGmEeyFcYzmq9og-A" name="EntryDaoImpl" generalizations="_AH3L0KGmEeyFcYzmq9og-A">
+    <modelElement href="MovieReservation.uml#_-jvGoKGlEeyFcYzmq9og-A"/>
+    <visualProperties xmi:id="_AH5BAaGmEeyFcYzmq9og-A" position="59.0,232.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_AH5BAqGmEeyFcYzmq9og-A" label="+"/>
+    <operations xmi:id="_AH5BA6GmEeyFcYzmq9og-A" name="userLogin">
+      <modelElement href="MovieReservation.uml#_-jwUwKGlEeyFcYzmq9og-A"/>
+      <visibility xmi:id="_AH5BBKGmEeyFcYzmq9og-A" label="+"/>
+      <cardinality xmi:id="_AH5BBaGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_AH5BBqGmEeyFcYzmq9og-A">
+        <modelElement href="MovieReservation.uml#_-uSJwKGlEeyFcYzmq9og-A"/>
+        <type xmi:id="_AH5BB6GmEeyFcYzmq9og-A" name="User">
+          <modelElement href="MovieReservation.uml#_-kNAsKGlEeyFcYzmq9og-A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_AH5BCKGmEeyFcYzmq9og-A" name="email">
+        <modelElement href="MovieReservation.uml#_-jwUwaGlEeyFcYzmq9og-A"/>
+        <cardinality xmi:id="_AH5BCaGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+        <type xmi:id="_AH5BCqGmEeyFcYzmq9og-A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_AH5BC6GmEeyFcYzmq9og-A" name="userSignUp">
+      <modelElement href="MovieReservation.uml#_-uSJwaGlEeyFcYzmq9og-A"/>
+      <visibility xmi:id="_AH5BDKGmEeyFcYzmq9og-A" label="+"/>
+      <cardinality xmi:id="_AH5BDaGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_AH5BDqGmEeyFcYzmq9og-A">
+        <modelElement href="MovieReservation.uml#_-uSJw6GlEeyFcYzmq9og-A"/>
+        <type xmi:id="_AH5BD6GmEeyFcYzmq9og-A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_AH5BEKGmEeyFcYzmq9og-A" name="user">
+        <modelElement href="MovieReservation.uml#_-uSJwqGlEeyFcYzmq9og-A"/>
+        <cardinality xmi:id="_AH5BEaGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+        <type xmi:id="_AH5BEqGmEeyFcYzmq9og-A" name="User">
+          <modelElement href="MovieReservation.uml#_-kNAsKGlEeyFcYzmq9og-A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_AH9ScKGmEeyFcYzmq9og-A" name="MovieDaoImpl" generalizations="_AH8EUKGmEeyFcYzmq9og-A">
+    <modelElement href="MovieReservation.uml#_-jyxAKGlEeyFcYzmq9og-A"/>
+    <visualProperties xmi:id="_AH9ScaGmEeyFcYzmq9og-A" position="11.0,409.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_AH9ScqGmEeyFcYzmq9og-A" label="+"/>
+    <operations xmi:id="_AH9Sc6GmEeyFcYzmq9og-A" name="getMovieDetails">
+      <modelElement href="MovieReservation.uml#_-jzYEKGlEeyFcYzmq9og-A"/>
+      <visibility xmi:id="_AH9SdKGmEeyFcYzmq9og-A" label="+"/>
+      <cardinality xmi:id="_AH9SdaGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_AH9SdqGmEeyFcYzmq9og-A">
+        <modelElement href="MovieReservation.uml#_-uSw0aGlEeyFcYzmq9og-A"/>
+        <type xmi:id="_AH9Sd6GmEeyFcYzmq9og-A" name="Movie">
+          <modelElement href="MovieReservation.uml#_-kD2wKGlEeyFcYzmq9og-A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_AH9SeKGmEeyFcYzmq9og-A" name="movieId">
+        <modelElement href="MovieReservation.uml#_-jzYEaGlEeyFcYzmq9og-A"/>
+        <cardinality xmi:id="_AH9SeaGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+        <type xmi:id="_AH9SeqGmEeyFcYzmq9og-A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_AIAVwKGmEeyFcYzmq9og-A" name="RetrieveBookingDaoImpl" generalizations="_AH_usKGmEeyFcYzmq9og-A">
+    <modelElement href="MovieReservation.uml#_-j0mMKGlEeyFcYzmq9og-A"/>
+    <visualProperties xmi:id="_AIA80KGmEeyFcYzmq9og-A" position="-22.0,532.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_AIA80aGmEeyFcYzmq9og-A" label="+"/>
+    <operations xmi:id="_AIA80qGmEeyFcYzmq9og-A" name="retrieveBooking">
+      <modelElement href="MovieReservation.uml#_-j10UKGlEeyFcYzmq9og-A"/>
+      <visibility xmi:id="_AIA806GmEeyFcYzmq9og-A" label="+"/>
+      <cardinality xmi:id="_AIA81KGmEeyFcYzmq9og-A" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_AIA81aGmEeyFcYzmq9og-A">
+        <modelElement href="MovieReservation.uml#_-j2bYaGlEeyFcYzmq9og-A"/>
+        <type xmi:id="_AIA81qGmEeyFcYzmq9og-A" name="BookedShows">
+          <modelElement href="MovieReservation.uml#_-kCBkKGlEeyFcYzmq9og-A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_AIA816GmEeyFcYzmq9og-A" name="userId">
+        <modelElement href="MovieReservation.uml#_-j2bYKGlEeyFcYzmq9og-A"/>
+        <cardinality xmi:id="_AIA82KGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+        <type xmi:id="_AIA82aGmEeyFcYzmq9og-A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_AIFOQKGmEeyFcYzmq9og-A" name="SeatDaoImpl" generalizations="_AIDZEKGmEeyFcYzmq9og-A">
+    <modelElement href="MovieReservation.uml#_-j3pgKGlEeyFcYzmq9og-A"/>
+    <visualProperties xmi:id="_AIFOQaGmEeyFcYzmq9og-A" position="-42.0,683.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_AIFOQqGmEeyFcYzmq9og-A" label="+"/>
+    <operations xmi:id="_AIFOQ6GmEeyFcYzmq9og-A" name="getSeatDetails">
+      <modelElement href="MovieReservation.uml#_-j43oKGlEeyFcYzmq9og-A"/>
+      <visibility xmi:id="_AIFORKGmEeyFcYzmq9og-A" label="+"/>
+      <cardinality xmi:id="_AIFORaGmEeyFcYzmq9og-A" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_AIFORqGmEeyFcYzmq9og-A">
+        <modelElement href="MovieReservation.uml#_-j5esqGlEeyFcYzmq9og-A"/>
+        <type xmi:id="_AIFOR6GmEeyFcYzmq9og-A" name="Seat">
+          <modelElement href="MovieReservation.uml#_-kIvQKGlEeyFcYzmq9og-A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_AIFOSKGmEeyFcYzmq9og-A" name="showId">
+        <modelElement href="MovieReservation.uml#_-j5esKGlEeyFcYzmq9og-A"/>
+        <cardinality xmi:id="_AIFOSaGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+        <type xmi:id="_AIFOSqGmEeyFcYzmq9og-A" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_AIFOS6GmEeyFcYzmq9og-A" name="screenId">
+        <modelElement href="MovieReservation.uml#_-j5esaGlEeyFcYzmq9og-A"/>
+        <cardinality xmi:id="_AIFOTKGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+        <type xmi:id="_AIFOTaGmEeyFcYzmq9og-A" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_AIJfsKGmEeyFcYzmq9og-A" name="TheatreShowsDaoImpl" generalizations="_AIIRkKGmEeyFcYzmq9og-A">
+    <modelElement href="MovieReservation.uml#_-j7T4KGlEeyFcYzmq9og-A"/>
+    <visualProperties xmi:id="_AIJfsaGmEeyFcYzmq9og-A" position="-534.0,233.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_AIJfsqGmEeyFcYzmq9og-A" label="+"/>
+    <operations xmi:id="_AIJfs6GmEeyFcYzmq9og-A" name="getTheatreShowsByDate">
+      <modelElement href="MovieReservation.uml#_-j768KGlEeyFcYzmq9og-A"/>
+      <visibility xmi:id="_AIJftKGmEeyFcYzmq9og-A" label="+"/>
+      <cardinality xmi:id="_AIJftaGmEeyFcYzmq9og-A" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_AIJftqGmEeyFcYzmq9og-A">
+        <modelElement href="MovieReservation.uml#_-j8iAqGlEeyFcYzmq9og-A"/>
+        <type xmi:id="_AIJft6GmEeyFcYzmq9og-A" name="Theatre">
+          <modelElement href="MovieReservation.uml#_-kLykKGlEeyFcYzmq9og-A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_AIJfuKGmEeyFcYzmq9og-A" name="movieId">
+        <modelElement href="MovieReservation.uml#_-j8iAKGlEeyFcYzmq9og-A"/>
+        <cardinality xmi:id="_AIJfuaGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+        <type xmi:id="_AIJfuqGmEeyFcYzmq9og-A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_AIJfu6GmEeyFcYzmq9og-A" name="showDate">
+        <modelElement href="MovieReservation.uml#_-j8iAaGlEeyFcYzmq9og-A"/>
+        <cardinality xmi:id="_AIJfvKGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+        <type xmi:id="_AIJfvaGmEeyFcYzmq9og-A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_AISCmaGmEeyFcYzmq9og-A" name="DBConnect" associationsOut="_AISCkKGmEeyFcYzmq9og-A">
+    <modelElement href="MovieReservation.uml#_-j9wIKGlEeyFcYzmq9og-A"/>
+    <visualProperties xmi:id="_AISCmqGmEeyFcYzmq9og-A" position="435.0,142.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_AISCm6GmEeyFcYzmq9og-A" label="+"/>
+    <attributes xmi:id="_AISCnKGmEeyFcYzmq9og-A" defaultValue="null" name="conn">
+      <modelElement href="MovieReservation.uml#_-vVSoKGlEeyFcYzmq9og-A"/>
+      <stereotypes xmi:id="_AISCnaGmEeyFcYzmq9og-A" name="LegacyStyledElement">
+        <modelElement href="MovieReservation.uml#_-vV5sKGlEeyFcYzmq9og-A"/>
+      </stereotypes>
+      <visibility xmi:id="_AISCnqGmEeyFcYzmq9og-A" label="~"/>
+      <cardinality xmi:id="_AISCn6GmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+      <type xmi:id="_AISCoKGmEeyFcYzmq9og-A" name="Connection">
+        <modelElement href="MovieReservation.uml#_-uIYwaGlEeyFcYzmq9og-A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_AISCoaGmEeyFcYzmq9og-A" defaultValue="&quot;root&quot;" name="username">
+      <modelElement href="MovieReservation.uml#_-vV5saGlEeyFcYzmq9og-A"/>
+      <stereotypes xmi:id="_AISCoqGmEeyFcYzmq9og-A" name="LegacyStyledElement">
+        <modelElement href="MovieReservation.uml#_-vWgwaGlEeyFcYzmq9og-A"/>
+      </stereotypes>
+      <visibility xmi:id="_AISCo6GmEeyFcYzmq9og-A" label="~"/>
+      <cardinality xmi:id="_AISCpKGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+      <type xmi:id="_AISCpaGmEeyFcYzmq9og-A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_AISCpqGmEeyFcYzmq9og-A" defaultValue="&quot;Godislove&quot;" name="pwd">
+      <modelElement href="MovieReservation.uml#_-vWgwqGlEeyFcYzmq9og-A"/>
+      <stereotypes xmi:id="_AISCp6GmEeyFcYzmq9og-A" name="LegacyStyledElement">
+        <modelElement href="MovieReservation.uml#_-vXH0aGlEeyFcYzmq9og-A"/>
+      </stereotypes>
+      <visibility xmi:id="_AISCqKGmEeyFcYzmq9og-A" label="~"/>
+      <cardinality xmi:id="_AISCqaGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+      <type xmi:id="_AISCqqGmEeyFcYzmq9og-A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_AISCq6GmEeyFcYzmq9og-A" defaultValue="&quot;com.mysql.cj.jdbc.Driver&quot;" name="JDBC_DRIVER" staticAttribute="true">
+      <modelElement href="MovieReservation.uml#_-vXH0qGlEeyFcYzmq9og-A"/>
+      <visibility xmi:id="_AISCrKGmEeyFcYzmq9og-A" label="~"/>
+      <cardinality xmi:id="_AISCraGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+      <type xmi:id="_AISCrqGmEeyFcYzmq9og-A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_AISCr6GmEeyFcYzmq9og-A" defaultValue="&quot;jdbc:mysql://localhost:3306/moviereservation&quot;" name="DB_URL" staticAttribute="true">
+      <modelElement href="MovieReservation.uml#_-vXu4aGlEeyFcYzmq9og-A"/>
+      <visibility xmi:id="_AISCsKGmEeyFcYzmq9og-A" label="~"/>
+      <cardinality xmi:id="_AISCsaGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+      <type xmi:id="_AISCsqGmEeyFcYzmq9og-A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_AISCs6GmEeyFcYzmq9og-A" name="getConnection">
+      <modelElement href="MovieReservation.uml#_-j--QKGlEeyFcYzmq9og-A"/>
+      <visibility xmi:id="_AISCtKGmEeyFcYzmq9og-A" label="+"/>
+      <cardinality xmi:id="_AISCtaGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_AISCtqGmEeyFcYzmq9og-A">
+        <modelElement href="MovieReservation.uml#_-u7qAKGlEeyFcYzmq9og-A"/>
+        <type xmi:id="_AISCt6GmEeyFcYzmq9og-A" name="Connection">
+          <modelElement href="MovieReservation.uml#_-uIYwaGlEeyFcYzmq9og-A"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_AIfd8KGmEeyFcYzmq9og-A" name="BookShow" associationsOut="_AIcaoKGmEeyFcYzmq9og-A" subclassedBy="_AIbzkKGmEeyFcYzmq9og-A">
+    <modelElement href="MovieReservation.uml#_-kAMYKGlEeyFcYzmq9og-A"/>
+    <visualProperties xmi:id="_AIfd8aGmEeyFcYzmq9og-A" position="-1423.0,-160.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_AIfd8qGmEeyFcYzmq9og-A" label="+"/>
+    <attributes xmi:id="_AIfd86GmEeyFcYzmq9og-A" name="userid">
+      <modelElement href="MovieReservation.uml#_-vYV8KGlEeyFcYzmq9og-A"/>
+      <visibility xmi:id="_AIfd9KGmEeyFcYzmq9og-A" label="+"/>
+      <cardinality xmi:id="_AIfd9aGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+      <type xmi:id="_AIfd9qGmEeyFcYzmq9og-A" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_AIfd96GmEeyFcYzmq9og-A" name="showId">
+      <modelElement href="MovieReservation.uml#_-vYV8aGlEeyFcYzmq9og-A"/>
+      <visibility xmi:id="_AIfd-KGmEeyFcYzmq9og-A" label="+"/>
+      <cardinality xmi:id="_AIfd-aGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+      <type xmi:id="_AIfd-qGmEeyFcYzmq9og-A" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_AIfd-6GmEeyFcYzmq9og-A" name="seats">
+      <modelElement href="MovieReservation.uml#_-vYV8qGlEeyFcYzmq9og-A"/>
+      <visibility xmi:id="_AIfd_KGmEeyFcYzmq9og-A" label="+"/>
+      <cardinality xmi:id="_AIfd_aGmEeyFcYzmq9og-A" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_AIfd_qGmEeyFcYzmq9og-A" name="Seat">
+        <modelElement href="MovieReservation.uml#_-kIvQKGlEeyFcYzmq9og-A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_AIfd_6GmEeyFcYzmq9og-A" name="bookingId">
+      <modelElement href="MovieReservation.uml#_-vYV9KGlEeyFcYzmq9og-A"/>
+      <visibility xmi:id="_AIfeAKGmEeyFcYzmq9og-A" label="+"/>
+      <cardinality xmi:id="_AIfeAaGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+      <type xmi:id="_AIfeAqGmEeyFcYzmq9og-A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_AIfeA6GmEeyFcYzmq9og-A" name="price">
+      <modelElement href="MovieReservation.uml#_-vY9AKGlEeyFcYzmq9og-A"/>
+      <visibility xmi:id="_AIfeBKGmEeyFcYzmq9og-A" label="+"/>
+      <cardinality xmi:id="_AIfeBaGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+      <type xmi:id="_AIfeBqGmEeyFcYzmq9og-A" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_AIlkmKGmEeyFcYzmq9og-A" name="BookedShows" associationsIn="_AIlkkKGmEeyFcYzmq9og-A" generalizations="_AIbzkKGmEeyFcYzmq9og-A">
+    <modelElement href="MovieReservation.uml#_-kCBkKGlEeyFcYzmq9og-A"/>
+    <visualProperties xmi:id="_AIlkmaGmEeyFcYzmq9og-A" position="-1853.0,27.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_AIlkmqGmEeyFcYzmq9og-A" label="+"/>
+    <attributes xmi:id="_AIlkm6GmEeyFcYzmq9og-A" name="show">
+      <modelElement href="MovieReservation.uml#_-vY9AaGlEeyFcYzmq9og-A"/>
+      <visibility xmi:id="_AIlknKGmEeyFcYzmq9og-A" label="+"/>
+      <cardinality xmi:id="_AIlknaGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+      <type xmi:id="_AIlknqGmEeyFcYzmq9og-A" name="Show">
+        <modelElement href="MovieReservation.uml#_-kJ9YKGlEeyFcYzmq9og-A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_AIlkn6GmEeyFcYzmq9og-A" name="screenName">
+      <modelElement href="MovieReservation.uml#_-vY9AqGlEeyFcYzmq9og-A"/>
+      <visibility xmi:id="_AIlkoKGmEeyFcYzmq9og-A" label="+"/>
+      <cardinality xmi:id="_AIlkoaGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+      <type xmi:id="_AIlkoqGmEeyFcYzmq9og-A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_AIlko6GmEeyFcYzmq9og-A" name="theatreName">
+      <modelElement href="MovieReservation.uml#_-vZkEKGlEeyFcYzmq9og-A"/>
+      <visibility xmi:id="_AIlkpKGmEeyFcYzmq9og-A" label="+"/>
+      <cardinality xmi:id="_AIlkpaGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+      <type xmi:id="_AIlkpqGmEeyFcYzmq9og-A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_AIlkp6GmEeyFcYzmq9og-A" name="movieName">
+      <modelElement href="MovieReservation.uml#_-vZkEaGlEeyFcYzmq9og-A"/>
+      <visibility xmi:id="_AIlkqKGmEeyFcYzmq9og-A" label="+"/>
+      <cardinality xmi:id="_AIlkqaGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+      <type xmi:id="_AIlkqqGmEeyFcYzmq9og-A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_AIs5UKGmEeyFcYzmq9og-A" name="Movie" associationsIn="_AIsSQ6GmEeyFcYzmq9og-A" subclassedBy="_AIpO8KGmEeyFcYzmq9og-A">
+    <modelElement href="MovieReservation.uml#_-kD2wKGlEeyFcYzmq9og-A"/>
+    <visualProperties xmi:id="_AIs5UaGmEeyFcYzmq9og-A" position="-2155.0,-111.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_AIs5UqGmEeyFcYzmq9og-A" label="+"/>
+    <attributes xmi:id="_AIs5U6GmEeyFcYzmq9og-A" name="movieId">
+      <modelElement href="MovieReservation.uml#_-vaLIKGlEeyFcYzmq9og-A"/>
+      <visibility xmi:id="_AIs5VKGmEeyFcYzmq9og-A" label="+"/>
+      <cardinality xmi:id="_AIs5VaGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+      <type xmi:id="_AIs5VqGmEeyFcYzmq9og-A" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_AIs5V6GmEeyFcYzmq9og-A" name="movieName">
+      <modelElement href="MovieReservation.uml#_-vaLIaGlEeyFcYzmq9og-A"/>
+      <visibility xmi:id="_AIs5WKGmEeyFcYzmq9og-A" label="+"/>
+      <cardinality xmi:id="_AIs5WaGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+      <type xmi:id="_AIs5WqGmEeyFcYzmq9og-A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_AIs5W6GmEeyFcYzmq9og-A" name="language">
+      <modelElement href="MovieReservation.uml#_-vayMKGlEeyFcYzmq9og-A"/>
+      <visibility xmi:id="_AIs5XKGmEeyFcYzmq9og-A" label="+"/>
+      <cardinality xmi:id="_AIs5XaGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+      <type xmi:id="_AIs5XqGmEeyFcYzmq9og-A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_AIs5X6GmEeyFcYzmq9og-A" name="genre">
+      <modelElement href="MovieReservation.uml#_-vayMaGlEeyFcYzmq9og-A"/>
+      <visibility xmi:id="_AIs5YKGmEeyFcYzmq9og-A" label="+"/>
+      <cardinality xmi:id="_AIs5YaGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+      <type xmi:id="_AIs5YqGmEeyFcYzmq9og-A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_AIs5Y6GmEeyFcYzmq9og-A" name="description">
+      <modelElement href="MovieReservation.uml#_-vayMqGlEeyFcYzmq9og-A"/>
+      <visibility xmi:id="_AIs5ZKGmEeyFcYzmq9og-A" label="+"/>
+      <cardinality xmi:id="_AIs5ZaGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+      <type xmi:id="_AIs5ZqGmEeyFcYzmq9og-A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_AIs5Z6GmEeyFcYzmq9og-A" name="releaseDate">
+      <modelElement href="MovieReservation.uml#_-vbZQKGlEeyFcYzmq9og-A"/>
+      <visibility xmi:id="_AIs5aKGmEeyFcYzmq9og-A" label="+"/>
+      <cardinality xmi:id="_AIs5aaGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+      <type xmi:id="_AIs5aqGmEeyFcYzmq9og-A" name="Date">
+        <modelElement href="MovieReservation.uml#_-udI4KGlEeyFcYzmq9og-A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_AIs5a6GmEeyFcYzmq9og-A" name="duration">
+      <modelElement href="MovieReservation.uml#_-vbZQaGlEeyFcYzmq9og-A"/>
+      <visibility xmi:id="_AIs5bKGmEeyFcYzmq9og-A" label="+"/>
+      <cardinality xmi:id="_AIs5baGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+      <type xmi:id="_AIs5bqGmEeyFcYzmq9og-A" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_AIs5b6GmEeyFcYzmq9og-A" name="rating">
+      <modelElement href="MovieReservation.uml#_-vbZQqGlEeyFcYzmq9og-A"/>
+      <visibility xmi:id="_AIs5cKGmEeyFcYzmq9og-A" label="+"/>
+      <cardinality xmi:id="_AIs5caGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+      <type xmi:id="_AIs5cqGmEeyFcYzmq9og-A" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_AIs5c6GmEeyFcYzmq9og-A" name="availableShows">
+      <modelElement href="MovieReservation.uml#_-vbZQ6GlEeyFcYzmq9og-A"/>
+      <visibility xmi:id="_AIs5dKGmEeyFcYzmq9og-A" label="+"/>
+      <cardinality xmi:id="_AIs5daGmEeyFcYzmq9og-A" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_AIs5dqGmEeyFcYzmq9og-A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_AI0OEKGmEeyFcYzmq9og-A" name="Person" subclassedBy="_AIyY4KGmEeyFcYzmq9og-A">
+    <modelElement href="MovieReservation.uml#_-kGTAKGlEeyFcYzmq9og-A"/>
+    <visualProperties xmi:id="_AI0OEaGmEeyFcYzmq9og-A" position="-1850.0,352.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_AI0OEqGmEeyFcYzmq9og-A" label="+"/>
+    <attributes xmi:id="_AI0OE6GmEeyFcYzmq9og-A" name="userId">
+      <modelElement href="MovieReservation.uml#_-vcAUaGlEeyFcYzmq9og-A"/>
+      <visibility xmi:id="_AI0OFKGmEeyFcYzmq9og-A" label="+"/>
+      <cardinality xmi:id="_AI0OFaGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+      <type xmi:id="_AI0OFqGmEeyFcYzmq9og-A" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_AI0OF6GmEeyFcYzmq9og-A" name="email">
+      <modelElement href="MovieReservation.uml#_-vcAUqGlEeyFcYzmq9og-A"/>
+      <visibility xmi:id="_AI0OGKGmEeyFcYzmq9og-A" label="+"/>
+      <cardinality xmi:id="_AI0OGaGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+      <type xmi:id="_AI0OGqGmEeyFcYzmq9og-A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_AI0OG6GmEeyFcYzmq9og-A" name="password">
+      <modelElement href="MovieReservation.uml#_-vcnYKGlEeyFcYzmq9og-A"/>
+      <visibility xmi:id="_AI0OHKGmEeyFcYzmq9og-A" label="+"/>
+      <cardinality xmi:id="_AI0OHaGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+      <type xmi:id="_AI0OHqGmEeyFcYzmq9og-A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_AI5GkKGmEeyFcYzmq9og-A" name="Screen" associationsOut="_AI34cKGmEeyFcYzmq9og-A">
+    <modelElement href="MovieReservation.uml#_-kHhIKGlEeyFcYzmq9og-A"/>
+    <visualProperties xmi:id="_AI5GkaGmEeyFcYzmq9og-A" position="-242.0,362.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_AI5GkqGmEeyFcYzmq9og-A" label="+"/>
+    <attributes xmi:id="_AI5Gk6GmEeyFcYzmq9og-A" name="screenId">
+      <modelElement href="MovieReservation.uml#_-vcnYaGlEeyFcYzmq9og-A"/>
+      <visibility xmi:id="_AI5GlKGmEeyFcYzmq9og-A" label="+"/>
+      <cardinality xmi:id="_AI5GlaGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+      <type xmi:id="_AI5GlqGmEeyFcYzmq9og-A" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_AI5Gl6GmEeyFcYzmq9og-A" name="screenName">
+      <modelElement href="MovieReservation.uml#_-vcnYqGlEeyFcYzmq9og-A"/>
+      <visibility xmi:id="_AI5GmKGmEeyFcYzmq9og-A" label="+"/>
+      <cardinality xmi:id="_AI5GmaGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+      <type xmi:id="_AI5GmqGmEeyFcYzmq9og-A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_AI8J4KGmEeyFcYzmq9og-A" name="Seat" associationsIn="_AIcaoKGmEeyFcYzmq9og-A">
+    <modelElement href="MovieReservation.uml#_-kIvQKGlEeyFcYzmq9og-A"/>
+    <visualProperties xmi:id="_AI8J4aGmEeyFcYzmq9og-A" position="-1434.0,-416.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_AI8J4qGmEeyFcYzmq9og-A" label="+"/>
+    <attributes xmi:id="_AI8J46GmEeyFcYzmq9og-A" name="seatId">
+      <modelElement href="MovieReservation.uml#_-vcnY6GlEeyFcYzmq9og-A"/>
+      <visibility xmi:id="_AI8J5KGmEeyFcYzmq9og-A" label="+"/>
+      <cardinality xmi:id="_AI8J5aGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+      <type xmi:id="_AI8J5qGmEeyFcYzmq9og-A" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_AI8J56GmEeyFcYzmq9og-A" name="seatNumber">
+      <modelElement href="MovieReservation.uml#_-vdOcKGlEeyFcYzmq9og-A"/>
+      <visibility xmi:id="_AI8J6KGmEeyFcYzmq9og-A" label="+"/>
+      <cardinality xmi:id="_AI8J6aGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+      <type xmi:id="_AI8J6qGmEeyFcYzmq9og-A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_AI8J66GmEeyFcYzmq9og-A" name="categoryType">
+      <modelElement href="MovieReservation.uml#_-vdOcaGlEeyFcYzmq9og-A"/>
+      <visibility xmi:id="_AI8J7KGmEeyFcYzmq9og-A" label="+"/>
+      <cardinality xmi:id="_AI8J7aGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+      <type xmi:id="_AI8J7qGmEeyFcYzmq9og-A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_AI8J76GmEeyFcYzmq9og-A" name="screenId">
+      <modelElement href="MovieReservation.uml#_-vd1gKGlEeyFcYzmq9og-A"/>
+      <visibility xmi:id="_AI8J8KGmEeyFcYzmq9og-A" label="+"/>
+      <cardinality xmi:id="_AI8J8aGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+      <type xmi:id="_AI8J8qGmEeyFcYzmq9og-A" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_AI8J86GmEeyFcYzmq9og-A" name="rownum">
+      <modelElement href="MovieReservation.uml#_-vd1gaGlEeyFcYzmq9og-A"/>
+      <visibility xmi:id="_AI8J9KGmEeyFcYzmq9og-A" label="+"/>
+      <cardinality xmi:id="_AI8J9aGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+      <type xmi:id="_AI8J9qGmEeyFcYzmq9og-A" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_AI8J96GmEeyFcYzmq9og-A" name="price">
+      <modelElement href="MovieReservation.uml#_-veckKGlEeyFcYzmq9og-A"/>
+      <visibility xmi:id="_AI8J-KGmEeyFcYzmq9og-A" label="+"/>
+      <cardinality xmi:id="_AI8J-aGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+      <type xmi:id="_AI8J-qGmEeyFcYzmq9og-A" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_AI8J-6GmEeyFcYzmq9og-A" name="status">
+      <modelElement href="MovieReservation.uml#_-veckaGlEeyFcYzmq9og-A"/>
+      <visibility xmi:id="_AI8J_KGmEeyFcYzmq9og-A" label="+"/>
+      <cardinality xmi:id="_AI8J_aGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+      <type xmi:id="_AI8J_qGmEeyFcYzmq9og-A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_AJHwEKGmEeyFcYzmq9og-A" name="Show" associationsIn="_AIrEIKGmEeyFcYzmq9og-A _AI34cKGmEeyFcYzmq9og-A" associationsOut="_AIlkkKGmEeyFcYzmq9og-A" generalizations="_AIpO8KGmEeyFcYzmq9og-A">
+    <modelElement href="MovieReservation.uml#_-kJ9YKGlEeyFcYzmq9og-A"/>
+    <visualProperties xmi:id="_AJHwEaGmEeyFcYzmq9og-A" position="-1591.0,191.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_AJHwEqGmEeyFcYzmq9og-A" label="+"/>
+    <attributes xmi:id="_AJHwE6GmEeyFcYzmq9og-A" name="showId">
+      <modelElement href="MovieReservation.uml#_-vfDoKGlEeyFcYzmq9og-A"/>
+      <visibility xmi:id="_AJHwFKGmEeyFcYzmq9og-A" label="+"/>
+      <cardinality xmi:id="_AJHwFaGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+      <type xmi:id="_AJHwFqGmEeyFcYzmq9og-A" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_AJHwF6GmEeyFcYzmq9og-A" name="showTime">
+      <modelElement href="MovieReservation.uml#_-vfDoaGlEeyFcYzmq9og-A"/>
+      <visibility xmi:id="_AJHwGKGmEeyFcYzmq9og-A" label="+"/>
+      <cardinality xmi:id="_AJHwGaGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+      <type xmi:id="_AJHwGqGmEeyFcYzmq9og-A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_AJHwG6GmEeyFcYzmq9og-A" name="showDate">
+      <modelElement href="MovieReservation.uml#_-vfDoqGlEeyFcYzmq9og-A"/>
+      <visibility xmi:id="_AJHwHKGmEeyFcYzmq9og-A" label="+"/>
+      <cardinality xmi:id="_AJHwHaGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+      <type xmi:id="_AJHwHqGmEeyFcYzmq9og-A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_AJHwH6GmEeyFcYzmq9og-A" name="screen">
+      <modelElement href="MovieReservation.uml#_-vfDo6GlEeyFcYzmq9og-A"/>
+      <visibility xmi:id="_AJHwIKGmEeyFcYzmq9og-A" label="+"/>
+      <cardinality xmi:id="_AJHwIaGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+      <type xmi:id="_AJHwIqGmEeyFcYzmq9og-A" name="Screen">
+        <modelElement href="MovieReservation.uml#_-kHhIKGlEeyFcYzmq9og-A"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_AJNPoKGmEeyFcYzmq9og-A" name="Theatre" associationsOut="_AIrEIKGmEeyFcYzmq9og-A">
+    <modelElement href="MovieReservation.uml#_-kLykKGlEeyFcYzmq9og-A"/>
+    <visualProperties xmi:id="_AJNPoaGmEeyFcYzmq9og-A" position="-517.0,355.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_AJNPoqGmEeyFcYzmq9og-A" label="+"/>
+    <attributes xmi:id="_AJNPo6GmEeyFcYzmq9og-A" name="theatreId">
+      <modelElement href="MovieReservation.uml#_-vfqsKGlEeyFcYzmq9og-A"/>
+      <visibility xmi:id="_AJNPpKGmEeyFcYzmq9og-A" label="+"/>
+      <cardinality xmi:id="_AJNPpaGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+      <type xmi:id="_AJNPpqGmEeyFcYzmq9og-A" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_AJNPp6GmEeyFcYzmq9og-A" name="theatreName">
+      <modelElement href="MovieReservation.uml#_-vfqsaGlEeyFcYzmq9og-A"/>
+      <visibility xmi:id="_AJNPqKGmEeyFcYzmq9og-A" label="+"/>
+      <cardinality xmi:id="_AJNPqaGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+      <type xmi:id="_AJNPqqGmEeyFcYzmq9og-A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_AJNPq6GmEeyFcYzmq9og-A" name="address">
+      <modelElement href="MovieReservation.uml#_-vfqsqGlEeyFcYzmq9og-A"/>
+      <visibility xmi:id="_AJNPrKGmEeyFcYzmq9og-A" label="+"/>
+      <cardinality xmi:id="_AJNPraGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+      <type xmi:id="_AJNPrqGmEeyFcYzmq9og-A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_AJNPr6GmEeyFcYzmq9og-A" name="shows">
+      <modelElement href="MovieReservation.uml#_-vfqs6GlEeyFcYzmq9og-A"/>
+      <visibility xmi:id="_AJNPsKGmEeyFcYzmq9og-A" label="+"/>
+      <cardinality xmi:id="_AJNPsaGmEeyFcYzmq9og-A" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_AJNPsqGmEeyFcYzmq9og-A" name="Show">
+        <modelElement href="MovieReservation.uml#_-kJ9YKGlEeyFcYzmq9og-A"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_AJQS8KGmEeyFcYzmq9og-A" name="User" generalizations="_AIyY4KGmEeyFcYzmq9og-A">
+    <modelElement href="MovieReservation.uml#_-kNAsKGlEeyFcYzmq9og-A"/>
+    <visualProperties xmi:id="_AJQS8aGmEeyFcYzmq9og-A" position="-237.0,516.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_AJQS8qGmEeyFcYzmq9og-A" label="+"/>
+    <attributes xmi:id="_AJQS86GmEeyFcYzmq9og-A" name="name">
+      <modelElement href="MovieReservation.uml#_-vgRwKGlEeyFcYzmq9og-A"/>
+      <visibility xmi:id="_AJQS9KGmEeyFcYzmq9og-A" label="+"/>
+      <cardinality xmi:id="_AJQS9aGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+      <type xmi:id="_AJQS9qGmEeyFcYzmq9og-A" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_AJQS96GmEeyFcYzmq9og-A" name="phone">
+      <modelElement href="MovieReservation.uml#_-vgRwaGlEeyFcYzmq9og-A"/>
+      <visibility xmi:id="_AJQS-KGmEeyFcYzmq9og-A" label="+"/>
+      <cardinality xmi:id="_AJQS-aGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+      <type xmi:id="_AJQS-qGmEeyFcYzmq9og-A" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_AJTWQKGmEeyFcYzmq9og-A" name="BookingService" subclassedBy="_AJim0KGmEeyFcYzmq9og-A">
+    <modelElement href="MovieReservation.uml#_-kOO0KGlEeyFcYzmq9og-A"/>
+    <visualProperties xmi:id="_AJTWQaGmEeyFcYzmq9og-A" position="-2283.0,365.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_AJTWQqGmEeyFcYzmq9og-A" label="+"/>
+    <operations xmi:id="_AJTWQ6GmEeyFcYzmq9og-A" name="prepareBookingId">
+      <modelElement href="MovieReservation.uml#_-kO14KGlEeyFcYzmq9og-A"/>
+      <visibility xmi:id="_AJTWRKGmEeyFcYzmq9og-A" label="+"/>
+      <cardinality xmi:id="_AJTWRaGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_AJTWRqGmEeyFcYzmq9og-A">
+        <modelElement href="MovieReservation.uml#_-kPc8KGlEeyFcYzmq9og-A"/>
+        <type xmi:id="_AJTWR6GmEeyFcYzmq9og-A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_AJTWSKGmEeyFcYzmq9og-A" name="bookShow">
+      <modelElement href="MovieReservation.uml#_-u-tUKGlEeyFcYzmq9og-A"/>
+      <visibility xmi:id="_AJTWSaGmEeyFcYzmq9og-A" label="+"/>
+      <cardinality xmi:id="_AJTWSqGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_AJTWS6GmEeyFcYzmq9og-A">
+        <modelElement href="MovieReservation.uml#_-u-tUqGlEeyFcYzmq9og-A"/>
+        <type xmi:id="_AJTWTKGmEeyFcYzmq9og-A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_AJTWTaGmEeyFcYzmq9og-A" name="session">
+        <modelElement href="MovieReservation.uml#_-u-tUaGlEeyFcYzmq9og-A"/>
+        <cardinality xmi:id="_AJTWTqGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+        <type xmi:id="_AJTWT6GmEeyFcYzmq9og-A" name="HttpSession">
+          <modelElement href="MovieReservation.uml#_-uiocKGlEeyFcYzmq9og-A"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_AJTWUKGmEeyFcYzmq9og-A" name="calculateTotalPrice">
+      <modelElement href="MovieReservation.uml#_-u-tU6GlEeyFcYzmq9og-A"/>
+      <visibility xmi:id="_AJTWUaGmEeyFcYzmq9og-A" label="+"/>
+      <cardinality xmi:id="_AJTWUqGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_AJTWU6GmEeyFcYzmq9og-A">
+        <modelElement href="MovieReservation.uml#_-u_UYaGlEeyFcYzmq9og-A"/>
+        <type xmi:id="_AJTWVKGmEeyFcYzmq9og-A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_AJTWVaGmEeyFcYzmq9og-A" name="selectedSeats">
+        <modelElement href="MovieReservation.uml#_-u_UYKGlEeyFcYzmq9og-A"/>
+        <cardinality xmi:id="_AJTWVqGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+        <type xmi:id="_AJTWV6GmEeyFcYzmq9og-A" name="List">
+          <modelElement href="MovieReservation.uml#_-uHKoKGlEeyFcYzmq9og-A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_AJXnsKGmEeyFcYzmq9og-A" name="EntryService" subclassedBy="_AJm4QKGmEeyFcYzmq9og-A">
+    <modelElement href="MovieReservation.uml#_-kQEAKGlEeyFcYzmq9og-A"/>
+    <visualProperties xmi:id="_AJXnsaGmEeyFcYzmq9og-A" position="1585.0,572.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_AJXnsqGmEeyFcYzmq9og-A" label="+"/>
+    <operations xmi:id="_AJXns6GmEeyFcYzmq9og-A" name="userLogin">
+      <modelElement href="MovieReservation.uml#_-kQrEKGlEeyFcYzmq9og-A"/>
+      <visibility xmi:id="_AJXntKGmEeyFcYzmq9og-A" label="+"/>
+      <cardinality xmi:id="_AJXntaGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_AJXntqGmEeyFcYzmq9og-A">
+        <modelElement href="MovieReservation.uml#_-uj2kKGlEeyFcYzmq9og-A"/>
+        <type xmi:id="_AJXnt6GmEeyFcYzmq9og-A" name="User">
+          <modelElement href="MovieReservation.uml#_-kNAsKGlEeyFcYzmq9og-A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_AJXnuKGmEeyFcYzmq9og-A" name="email">
+        <modelElement href="MovieReservation.uml#_-kRSIKGlEeyFcYzmq9og-A"/>
+        <cardinality xmi:id="_AJXnuaGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+        <type xmi:id="_AJXnuqGmEeyFcYzmq9og-A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_AJXnu6GmEeyFcYzmq9og-A" name="password">
+        <modelElement href="MovieReservation.uml#_-kRSIaGlEeyFcYzmq9og-A"/>
+        <cardinality xmi:id="_AJXnvKGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+        <type xmi:id="_AJXnvaGmEeyFcYzmq9og-A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_AJXnvqGmEeyFcYzmq9og-A" name="userSignUp">
+      <modelElement href="MovieReservation.uml#_-ukdoKGlEeyFcYzmq9og-A"/>
+      <visibility xmi:id="_AJXnv6GmEeyFcYzmq9og-A" label="+"/>
+      <cardinality xmi:id="_AJXnwKGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_AJXnwaGmEeyFcYzmq9og-A">
+        <modelElement href="MovieReservation.uml#_-ukdoqGlEeyFcYzmq9og-A"/>
+        <type xmi:id="_AJXnwqGmEeyFcYzmq9og-A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_AJXnw6GmEeyFcYzmq9og-A" name="user">
+        <modelElement href="MovieReservation.uml#_-ukdoaGlEeyFcYzmq9og-A"/>
+        <cardinality xmi:id="_AJXnxKGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+        <type xmi:id="_AJXnxaGmEeyFcYzmq9og-A" name="User">
+          <modelElement href="MovieReservation.uml#_-kNAsKGlEeyFcYzmq9og-A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_AJarAKGmEeyFcYzmq9og-A" name="MovieService" subclassedBy="_AJp7kKGmEeyFcYzmq9og-A">
+    <modelElement href="MovieReservation.uml#_-kR5MKGlEeyFcYzmq9og-A"/>
+    <visualProperties xmi:id="_AJarAaGmEeyFcYzmq9og-A" position="-2674.0,247.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_AJarAqGmEeyFcYzmq9og-A" label="+"/>
+    <operations xmi:id="_AJarA6GmEeyFcYzmq9og-A" name="getMovieDetails">
+      <modelElement href="MovieReservation.uml#_-kSgQKGlEeyFcYzmq9og-A"/>
+      <visibility xmi:id="_AJarBKGmEeyFcYzmq9og-A" label="+"/>
+      <cardinality xmi:id="_AJarBaGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_AJarBqGmEeyFcYzmq9og-A">
+        <modelElement href="MovieReservation.uml#_-ulEsKGlEeyFcYzmq9og-A"/>
+        <type xmi:id="_AJarB6GmEeyFcYzmq9og-A" name="Movie">
+          <modelElement href="MovieReservation.uml#_-kD2wKGlEeyFcYzmq9og-A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_AJarCKGmEeyFcYzmq9og-A" name="movieId">
+        <modelElement href="MovieReservation.uml#_-kTHUKGlEeyFcYzmq9og-A"/>
+        <cardinality xmi:id="_AJarCaGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+        <type xmi:id="_AJarCqGmEeyFcYzmq9og-A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_AJdHQKGmEeyFcYzmq9og-A" name="SeatService" subclassedBy="_AJu0EKGmEeyFcYzmq9og-A">
+    <modelElement href="MovieReservation.uml#_-kTuYKGlEeyFcYzmq9og-A"/>
+    <visualProperties xmi:id="_AJdHQaGmEeyFcYzmq9og-A" position="-1876.0,876.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_AJdHQqGmEeyFcYzmq9og-A" label="+"/>
+    <operations xmi:id="_AJdHQ6GmEeyFcYzmq9og-A" name="getSeatDetails">
+      <modelElement href="MovieReservation.uml#_-vAigKGlEeyFcYzmq9og-A"/>
+      <stereotypes xmi:id="_AJdHRKGmEeyFcYzmq9og-A" name="Generics">
+        <modelElement href="MovieReservation.uml#_-vBJkKGlEeyFcYzmq9og-A"/>
+      </stereotypes>
+      <visibility xmi:id="_AJdHRaGmEeyFcYzmq9og-A" label="+"/>
+      <cardinality xmi:id="_AJdHRqGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_AJdHR6GmEeyFcYzmq9og-A">
+        <modelElement href="MovieReservation.uml#_-vBwoKGlEeyFcYzmq9og-A"/>
+        <type xmi:id="_AJdHSKGmEeyFcYzmq9og-A" name="Map">
+          <modelElement href="MovieReservation.uml#_-uVNEaGlEeyFcYzmq9og-A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_AJdHSaGmEeyFcYzmq9og-A" name="showId">
+        <modelElement href="MovieReservation.uml#_-vAigaGlEeyFcYzmq9og-A"/>
+        <cardinality xmi:id="_AJdHSqGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+        <type xmi:id="_AJdHS6GmEeyFcYzmq9og-A" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_AJdHTKGmEeyFcYzmq9og-A" name="screenId">
+        <modelElement href="MovieReservation.uml#_-vAigqGlEeyFcYzmq9og-A"/>
+        <cardinality xmi:id="_AJdHTaGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+        <type xmi:id="_AJdHTqGmEeyFcYzmq9og-A" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_AJdHT6GmEeyFcYzmq9og-A" name="request">
+        <modelElement href="MovieReservation.uml#_-vAig6GlEeyFcYzmq9og-A"/>
+        <cardinality xmi:id="_AJdHUKGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+        <type xmi:id="_AJdHUaGmEeyFcYzmq9og-A" name="HttpServletRequest">
+          <modelElement href="MovieReservation.uml#_-ulEsaGlEeyFcYzmq9og-A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_AJgKkKGmEeyFcYzmq9og-A" name="TheatreShowService" subclassedBy="_AJyecKGmEeyFcYzmq9og-A">
+    <modelElement href="MovieReservation.uml#_-kU8gKGlEeyFcYzmq9og-A"/>
+    <visualProperties xmi:id="_AJgKkaGmEeyFcYzmq9og-A" position="2031.0,714.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_AJgKkqGmEeyFcYzmq9og-A" label="+"/>
+    <operations xmi:id="_AJgKk6GmEeyFcYzmq9og-A" name="getTheatreShowsByDate">
+      <modelElement href="MovieReservation.uml#_-umS0KGlEeyFcYzmq9og-A"/>
+      <visibility xmi:id="_AJgKlKGmEeyFcYzmq9og-A" label="+"/>
+      <cardinality xmi:id="_AJgKlaGmEeyFcYzmq9og-A" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_AJgKlqGmEeyFcYzmq9og-A">
+        <modelElement href="MovieReservation.uml#_-umS06GlEeyFcYzmq9og-A"/>
+        <type xmi:id="_AJgKl6GmEeyFcYzmq9og-A" name="Theatre">
+          <modelElement href="MovieReservation.uml#_-kLykKGlEeyFcYzmq9og-A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_AJgKmKGmEeyFcYzmq9og-A" name="movie">
+        <modelElement href="MovieReservation.uml#_-umS0aGlEeyFcYzmq9og-A"/>
+        <cardinality xmi:id="_AJgKmaGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+        <type xmi:id="_AJgKmqGmEeyFcYzmq9og-A" name="Movie">
+          <modelElement href="MovieReservation.uml#_-kD2wKGlEeyFcYzmq9og-A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_AJgKm6GmEeyFcYzmq9og-A" name="showDate">
+        <modelElement href="MovieReservation.uml#_-umS0qGlEeyFcYzmq9og-A"/>
+        <cardinality xmi:id="_AJgKnKGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+        <type xmi:id="_AJgKnaGmEeyFcYzmq9og-A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_AJj08KGmEeyFcYzmq9og-A" name="BookingServiceImpl" generalizations="_AJim0KGmEeyFcYzmq9og-A">
+    <modelElement href="MovieReservation.uml#_-kWxsKGlEeyFcYzmq9og-A"/>
+    <visualProperties xmi:id="_AJj08aGmEeyFcYzmq9og-A" position="-663.0,551.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_AJj08qGmEeyFcYzmq9og-A" label="+"/>
+    <operations xmi:id="_AJj086GmEeyFcYzmq9og-A" name="prepareBookingId">
+      <modelElement href="MovieReservation.uml#_-kXYwKGlEeyFcYzmq9og-A"/>
+      <visibility xmi:id="_AJj09KGmEeyFcYzmq9og-A" label="+"/>
+      <cardinality xmi:id="_AJj09aGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_AJj09qGmEeyFcYzmq9og-A">
+        <modelElement href="MovieReservation.uml#_-kXYwaGlEeyFcYzmq9og-A"/>
+        <type xmi:id="_AJj096GmEeyFcYzmq9og-A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_AJj0-KGmEeyFcYzmq9og-A" name="bookShow">
+      <modelElement href="MovieReservation.uml#_-vBwoaGlEeyFcYzmq9og-A"/>
+      <visibility xmi:id="_AJj0-aGmEeyFcYzmq9og-A" label="+"/>
+      <cardinality xmi:id="_AJj0-qGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_AJj0-6GmEeyFcYzmq9og-A">
+        <modelElement href="MovieReservation.uml#_-vCXsaGlEeyFcYzmq9og-A"/>
+        <type xmi:id="_AJj0_KGmEeyFcYzmq9og-A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_AJj0_aGmEeyFcYzmq9og-A" name="session">
+        <modelElement href="MovieReservation.uml#_-vCXsKGlEeyFcYzmq9og-A"/>
+        <cardinality xmi:id="_AJj0_qGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+        <type xmi:id="_AJj0_6GmEeyFcYzmq9og-A" name="HttpSession">
+          <modelElement href="MovieReservation.uml#_-uiocKGlEeyFcYzmq9og-A"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_AJj1AKGmEeyFcYzmq9og-A" name="calculateTotalPrice">
+      <modelElement href="MovieReservation.uml#_-vCXsqGlEeyFcYzmq9og-A"/>
+      <visibility xmi:id="_AJj1AaGmEeyFcYzmq9og-A" label="+"/>
+      <cardinality xmi:id="_AJj1AqGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_AJj1A6GmEeyFcYzmq9og-A">
+        <modelElement href="MovieReservation.uml#_-vC-waGlEeyFcYzmq9og-A"/>
+        <type xmi:id="_AJj1BKGmEeyFcYzmq9og-A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_AJj1BaGmEeyFcYzmq9og-A" name="selectedSeats">
+        <modelElement href="MovieReservation.uml#_-vC-wKGlEeyFcYzmq9og-A"/>
+        <cardinality xmi:id="_AJj1BqGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+        <type xmi:id="_AJj1B6GmEeyFcYzmq9og-A" name="List">
+          <modelElement href="MovieReservation.uml#_-uHKoKGlEeyFcYzmq9og-A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_AJoGYKGmEeyFcYzmq9og-A" name="EntryServiceImpl" generalizations="_AJm4QKGmEeyFcYzmq9og-A">
+    <modelElement href="MovieReservation.uml#_-kYm4KGlEeyFcYzmq9og-A"/>
+    <visualProperties xmi:id="_AJoGYaGmEeyFcYzmq9og-A" position="-493.0,735.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_AJoGYqGmEeyFcYzmq9og-A" label="+"/>
+    <operations xmi:id="_AJoGY6GmEeyFcYzmq9og-A" name="userLogin">
+      <modelElement href="MovieReservation.uml#_-kZN8KGlEeyFcYzmq9og-A"/>
+      <visibility xmi:id="_AJoGZKGmEeyFcYzmq9og-A" label="+"/>
+      <cardinality xmi:id="_AJoGZaGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_AJoGZqGmEeyFcYzmq9og-A">
+        <modelElement href="MovieReservation.uml#_-uoIAKGlEeyFcYzmq9og-A"/>
+        <type xmi:id="_AJoGZ6GmEeyFcYzmq9og-A" name="User">
+          <modelElement href="MovieReservation.uml#_-kNAsKGlEeyFcYzmq9og-A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_AJoGaKGmEeyFcYzmq9og-A" name="email">
+        <modelElement href="MovieReservation.uml#_-kZ1AKGlEeyFcYzmq9og-A"/>
+        <cardinality xmi:id="_AJoGaaGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+        <type xmi:id="_AJoGaqGmEeyFcYzmq9og-A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_AJoGa6GmEeyFcYzmq9og-A" name="password">
+        <modelElement href="MovieReservation.uml#_-kZ1AaGlEeyFcYzmq9og-A"/>
+        <cardinality xmi:id="_AJoGbKGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+        <type xmi:id="_AJoGbaGmEeyFcYzmq9og-A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_AJoGbqGmEeyFcYzmq9og-A" name="userSignUp">
+      <modelElement href="MovieReservation.uml#_-uoIAaGlEeyFcYzmq9og-A"/>
+      <visibility xmi:id="_AJoGb6GmEeyFcYzmq9og-A" label="+"/>
+      <cardinality xmi:id="_AJoGcKGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_AJoGcaGmEeyFcYzmq9og-A">
+        <modelElement href="MovieReservation.uml#_-uoIA6GlEeyFcYzmq9og-A"/>
+        <type xmi:id="_AJoGcqGmEeyFcYzmq9og-A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_AJoGc6GmEeyFcYzmq9og-A" name="user">
+        <modelElement href="MovieReservation.uml#_-uoIAqGlEeyFcYzmq9og-A"/>
+        <cardinality xmi:id="_AJoGdKGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+        <type xmi:id="_AJoGdaGmEeyFcYzmq9og-A" name="User">
+          <modelElement href="MovieReservation.uml#_-kNAsKGlEeyFcYzmq9og-A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_AJrwwKGmEeyFcYzmq9og-A" name="MovieServiceImpl" generalizations="_AJp7kKGmEeyFcYzmq9og-A">
+    <modelElement href="MovieReservation.uml#_-kacEKGlEeyFcYzmq9og-A"/>
+    <visualProperties xmi:id="_AJrwwaGmEeyFcYzmq9og-A" position="-903.0,387.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_AJrwwqGmEeyFcYzmq9og-A" label="+"/>
+    <operations xmi:id="_AJrww6GmEeyFcYzmq9og-A" name="getMovieDetails">
+      <modelElement href="MovieReservation.uml#_-kbDIKGlEeyFcYzmq9og-A"/>
+      <visibility xmi:id="_AJrwxKGmEeyFcYzmq9og-A" label="+"/>
+      <cardinality xmi:id="_AJrwxaGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_AJrwxqGmEeyFcYzmq9og-A">
+        <modelElement href="MovieReservation.uml#_-uovEaGlEeyFcYzmq9og-A"/>
+        <type xmi:id="_AJrwx6GmEeyFcYzmq9og-A" name="Movie">
+          <modelElement href="MovieReservation.uml#_-kD2wKGlEeyFcYzmq9og-A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_AJrwyKGmEeyFcYzmq9og-A" name="movieId">
+        <modelElement href="MovieReservation.uml#_-kbDIaGlEeyFcYzmq9og-A"/>
+        <cardinality xmi:id="_AJrwyaGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+        <type xmi:id="_AJrwyqGmEeyFcYzmq9og-A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_AJtl8KGmEeyFcYzmq9og-A" name="RetrieveBookingServiceImpl">
+    <modelElement href="MovieReservation.uml#_-kbqMKGlEeyFcYzmq9og-A"/>
+    <visualProperties xmi:id="_AJtl8aGmEeyFcYzmq9og-A" position="-341.0,877.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_AJtl8qGmEeyFcYzmq9og-A" label="+"/>
+    <operations xmi:id="_AJtl86GmEeyFcYzmq9og-A" name="retrieveBooking">
+      <modelElement href="MovieReservation.uml#_-kcRQKGlEeyFcYzmq9og-A"/>
+      <visibility xmi:id="_AJtl9KGmEeyFcYzmq9og-A" label="+"/>
+      <cardinality xmi:id="_AJtl9aGmEeyFcYzmq9og-A" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_AJtl9qGmEeyFcYzmq9og-A">
+        <modelElement href="MovieReservation.uml#_-kc4UKGlEeyFcYzmq9og-A"/>
+        <type xmi:id="_AJtl96GmEeyFcYzmq9og-A" name="BookedShows">
+          <modelElement href="MovieReservation.uml#_-kCBkKGlEeyFcYzmq9og-A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_AJtl-KGmEeyFcYzmq9og-A" name="userId">
+        <modelElement href="MovieReservation.uml#_-kcRQaGlEeyFcYzmq9og-A"/>
+        <cardinality xmi:id="_AJtl-aGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+        <type xmi:id="_AJtl-qGmEeyFcYzmq9og-A" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_AJwpQKGmEeyFcYzmq9og-A" name="SeatServiceImpl" generalizations="_AJu0EKGmEeyFcYzmq9og-A">
+    <modelElement href="MovieReservation.uml#_-kdfYKGlEeyFcYzmq9og-A"/>
+    <visualProperties xmi:id="_AJwpQaGmEeyFcYzmq9og-A" position="-481.0,1016.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_AJwpQqGmEeyFcYzmq9og-A" label="+"/>
+    <operations xmi:id="_AJwpQ6GmEeyFcYzmq9og-A" name="getSeatDetails">
+      <modelElement href="MovieReservation.uml#_-vEM4KGlEeyFcYzmq9og-A"/>
+      <stereotypes xmi:id="_AJwpRKGmEeyFcYzmq9og-A" name="Generics">
+        <modelElement href="MovieReservation.uml#_-vEz8KGlEeyFcYzmq9og-A"/>
+      </stereotypes>
+      <visibility xmi:id="_AJwpRaGmEeyFcYzmq9og-A" label="+"/>
+      <cardinality xmi:id="_AJwpRqGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_AJwpR6GmEeyFcYzmq9og-A">
+        <modelElement href="MovieReservation.uml#_-vEz8aGlEeyFcYzmq9og-A"/>
+        <type xmi:id="_AJwpSKGmEeyFcYzmq9og-A" name="Map">
+          <modelElement href="MovieReservation.uml#_-uVNEaGlEeyFcYzmq9og-A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_AJwpSaGmEeyFcYzmq9og-A" name="showId">
+        <modelElement href="MovieReservation.uml#_-vEM4aGlEeyFcYzmq9og-A"/>
+        <cardinality xmi:id="_AJwpSqGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+        <type xmi:id="_AJwpS6GmEeyFcYzmq9og-A" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_AJwpTKGmEeyFcYzmq9og-A" name="screenId">
+        <modelElement href="MovieReservation.uml#_-vEM4qGlEeyFcYzmq9og-A"/>
+        <cardinality xmi:id="_AJwpTaGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+        <type xmi:id="_AJwpTqGmEeyFcYzmq9og-A" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_AJwpT6GmEeyFcYzmq9og-A" name="request">
+        <modelElement href="MovieReservation.uml#_-vEM46GlEeyFcYzmq9og-A"/>
+        <cardinality xmi:id="_AJwpUKGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+        <type xmi:id="_AJwpUaGmEeyFcYzmq9og-A" name="HttpServletRequest">
+          <modelElement href="MovieReservation.uml#_-ulEsaGlEeyFcYzmq9og-A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_AJzFgKGmEeyFcYzmq9og-A" name="TheatreShowServiceImpl" generalizations="_AJyecKGmEeyFcYzmq9og-A">
+    <modelElement href="MovieReservation.uml#_-ketgKGlEeyFcYzmq9og-A"/>
+    <visualProperties xmi:id="_AJzFgaGmEeyFcYzmq9og-A" position="117.0,854.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_AJzFgqGmEeyFcYzmq9og-A" label="+"/>
+    <operations xmi:id="_AJzFg6GmEeyFcYzmq9og-A" name="getTheatreShowsByDate">
+      <modelElement href="MovieReservation.uml#_-urLUKGlEeyFcYzmq9og-A"/>
+      <visibility xmi:id="_AJzFhKGmEeyFcYzmq9og-A" label="+"/>
+      <cardinality xmi:id="_AJzFhaGmEeyFcYzmq9og-A" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_AJzFhqGmEeyFcYzmq9og-A">
+        <modelElement href="MovieReservation.uml#_-urLU6GlEeyFcYzmq9og-A"/>
+        <type xmi:id="_AJzFh6GmEeyFcYzmq9og-A" name="Theatre">
+          <modelElement href="MovieReservation.uml#_-kLykKGlEeyFcYzmq9og-A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_AJzFiKGmEeyFcYzmq9og-A" name="movie">
+        <modelElement href="MovieReservation.uml#_-urLUaGlEeyFcYzmq9og-A"/>
+        <cardinality xmi:id="_AJzFiaGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+        <type xmi:id="_AJzFiqGmEeyFcYzmq9og-A" name="Movie">
+          <modelElement href="MovieReservation.uml#_-kD2wKGlEeyFcYzmq9og-A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_AJzFi6GmEeyFcYzmq9og-A" name="showDate">
+        <modelElement href="MovieReservation.uml#_-urLUqGlEeyFcYzmq9og-A"/>
+        <cardinality xmi:id="_AJzFjKGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+        <type xmi:id="_AJzFjaGmEeyFcYzmq9og-A" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_AJ2I0KGmEeyFcYzmq9og-A" name="BookingServlet">
+    <modelElement href="MovieReservation.uml#_-kgisKGlEeyFcYzmq9og-A"/>
+    <visualProperties xmi:id="_AJ2I0aGmEeyFcYzmq9og-A" position="-1113.0,743.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_AJ2I0qGmEeyFcYzmq9og-A" name="LegacyStyledElement">
+      <modelElement href="MovieReservation.uml#_-khJwKGlEeyFcYzmq9og-A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_AJ2I06GmEeyFcYzmq9og-A" name="Annotations">
+      <modelElement href="MovieReservation.uml#_-ki-8KGlEeyFcYzmq9og-A"/>
+    </stereotypes>
+    <visibility xmi:id="_AJ2I1KGmEeyFcYzmq9og-A" label="+"/>
+    <operations xmi:id="_AJ2I1aGmEeyFcYzmq9og-A" name="doPost">
+      <modelElement href="MovieReservation.uml#_-vFbAKGlEeyFcYzmq9og-A"/>
+      <stereotypes xmi:id="_AJ2I1qGmEeyFcYzmq9og-A" name="StyledElement">
+        <modelElement href="MovieReservation.uml#_-vGCEKGlEeyFcYzmq9og-A"/>
+      </stereotypes>
+      <visibility xmi:id="_AJ2I16GmEeyFcYzmq9og-A" label="#"/>
+      <cardinality xmi:id="_AJ2I2KGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_AJ2I2aGmEeyFcYzmq9og-A" name="request">
+        <modelElement href="MovieReservation.uml#_-vFbAaGlEeyFcYzmq9og-A"/>
+        <cardinality xmi:id="_AJ2I2qGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+        <type xmi:id="_AJ2I26GmEeyFcYzmq9og-A" name="HttpServletRequest">
+          <modelElement href="MovieReservation.uml#_-ulEsaGlEeyFcYzmq9og-A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_AJ2I3KGmEeyFcYzmq9og-A" name="response">
+        <modelElement href="MovieReservation.uml#_-vFbAqGlEeyFcYzmq9og-A"/>
+        <cardinality xmi:id="_AJ2I3aGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+        <type xmi:id="_AJ2I3qGmEeyFcYzmq9og-A" name="HttpServletResponse">
+          <modelElement href="MovieReservation.uml#_-uuOoaGlEeyFcYzmq9og-A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_AJ5zMKGmEeyFcYzmq9og-A" name="ServletException">
+    <modelElement href="MovieReservation.uml#_-usZcaGlEeyFcYzmq9og-A"/>
+    <visualProperties xmi:id="_AJ5zMaGmEeyFcYzmq9og-A" position="-726.0,258.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_AJ5zMqGmEeyFcYzmq9og-A" name="Reference">
+      <modelElement href="MovieReservation.uml#_-utAgKGlEeyFcYzmq9og-A"/>
+    </stereotypes>
+    <visibility xmi:id="_AJ5zM6GmEeyFcYzmq9og-A" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_AJ7BUKGmEeyFcYzmq9og-A" name="IOException">
+    <modelElement href="MovieReservation.uml#_-uryYKGlEeyFcYzmq9og-A"/>
+    <visualProperties xmi:id="_AJ7oYKGmEeyFcYzmq9og-A" position="417.0,392.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_AJ7oYaGmEeyFcYzmq9og-A" name="Reference">
+      <modelElement href="MovieReservation.uml#_-usZcKGlEeyFcYzmq9og-A"/>
+    </stereotypes>
+    <visibility xmi:id="_AJ7oYqGmEeyFcYzmq9og-A" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_AJ82gKGmEeyFcYzmq9og-A" name="CheckoutServlet">
+    <modelElement href="MovieReservation.uml#_-kk0IKGlEeyFcYzmq9og-A"/>
+    <visualProperties xmi:id="_AJ82gaGmEeyFcYzmq9og-A" position="-1281.0,519.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_AJ82gqGmEeyFcYzmq9og-A" name="LegacyStyledElement">
+      <modelElement href="MovieReservation.uml#_-klbMKGlEeyFcYzmq9og-A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_AJ82g6GmEeyFcYzmq9og-A" name="Annotations">
+      <modelElement href="MovieReservation.uml#_-kmCQKGlEeyFcYzmq9og-A"/>
+    </stereotypes>
+    <visibility xmi:id="_AJ82hKGmEeyFcYzmq9og-A" label="+"/>
+    <operations xmi:id="_AJ82haGmEeyFcYzmq9og-A" name="doPost">
+      <modelElement href="MovieReservation.uml#_-vHQMKGlEeyFcYzmq9og-A"/>
+      <stereotypes xmi:id="_AJ82hqGmEeyFcYzmq9og-A" name="StyledElement">
+        <modelElement href="MovieReservation.uml#_-vH3QKGlEeyFcYzmq9og-A"/>
+      </stereotypes>
+      <visibility xmi:id="_AJ82h6GmEeyFcYzmq9og-A" label="#"/>
+      <cardinality xmi:id="_AJ82iKGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_AJ82iaGmEeyFcYzmq9og-A" name="request">
+        <modelElement href="MovieReservation.uml#_-vHQMaGlEeyFcYzmq9og-A"/>
+        <cardinality xmi:id="_AJ82iqGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+        <type xmi:id="_AJ82i6GmEeyFcYzmq9og-A" name="HttpServletRequest">
+          <modelElement href="MovieReservation.uml#_-ulEsaGlEeyFcYzmq9og-A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_AJ82jKGmEeyFcYzmq9og-A" name="response">
+        <modelElement href="MovieReservation.uml#_-vHQMqGlEeyFcYzmq9og-A"/>
+        <cardinality xmi:id="_AJ82jaGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+        <type xmi:id="_AJ82jqGmEeyFcYzmq9og-A" name="HttpServletResponse">
+          <modelElement href="MovieReservation.uml#_-uuOoaGlEeyFcYzmq9og-A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_AKBH8KGmEeyFcYzmq9og-A" name="CityServlet">
+    <modelElement href="MovieReservation.uml#_-knQYKGlEeyFcYzmq9og-A"/>
+    <visualProperties xmi:id="_AKBH8aGmEeyFcYzmq9og-A" position="-1349.0,188.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_AKBH8qGmEeyFcYzmq9og-A" name="LegacyStyledElement">
+      <modelElement href="MovieReservation.uml#_-kn3cKGlEeyFcYzmq9og-A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_AKBH86GmEeyFcYzmq9og-A" name="Annotations">
+      <modelElement href="MovieReservation.uml#_-kpFkKGlEeyFcYzmq9og-A"/>
+    </stereotypes>
+    <visibility xmi:id="_AKBH9KGmEeyFcYzmq9og-A" label="+"/>
+    <operations xmi:id="_AKBH9aGmEeyFcYzmq9og-A" name="doGet">
+      <modelElement href="MovieReservation.uml#_-vIeUKGlEeyFcYzmq9og-A"/>
+      <stereotypes xmi:id="_AKBH9qGmEeyFcYzmq9og-A" name="StyledElement">
+        <modelElement href="MovieReservation.uml#_-vJFYKGlEeyFcYzmq9og-A"/>
+      </stereotypes>
+      <visibility xmi:id="_AKBH96GmEeyFcYzmq9og-A" label="#"/>
+      <cardinality xmi:id="_AKBH-KGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_AKBH-aGmEeyFcYzmq9og-A" name="request">
+        <modelElement href="MovieReservation.uml#_-vIeUaGlEeyFcYzmq9og-A"/>
+        <cardinality xmi:id="_AKBH-qGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+        <type xmi:id="_AKBH-6GmEeyFcYzmq9og-A" name="HttpServletRequest">
+          <modelElement href="MovieReservation.uml#_-ulEsaGlEeyFcYzmq9og-A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_AKBH_KGmEeyFcYzmq9og-A" name="response">
+        <modelElement href="MovieReservation.uml#_-vIeUqGlEeyFcYzmq9og-A"/>
+        <cardinality xmi:id="_AKBH_aGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+        <type xmi:id="_AKBH_qGmEeyFcYzmq9og-A" name="HttpServletResponse">
+          <modelElement href="MovieReservation.uml#_-uuOoaGlEeyFcYzmq9og-A"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_AKBH_6GmEeyFcYzmq9og-A" comments="_AJ_50KGmEeyFcYzmq9og-A" targetConnectionVisual="_AKAg4KGmEeyFcYzmq9og-A" name="doPost">
+      <modelElement href="MovieReservation.uml#_-vJFYaGlEeyFcYzmq9og-A"/>
+      <stereotypes xmi:id="_AKBIAKGmEeyFcYzmq9og-A" name="StyledElement">
+        <modelElement href="MovieReservation.uml#_-vJscKGlEeyFcYzmq9og-A"/>
+      </stereotypes>
+      <visibility xmi:id="_AKBIAaGmEeyFcYzmq9og-A" label="#"/>
+      <cardinality xmi:id="_AKBIAqGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_AKBIA6GmEeyFcYzmq9og-A" name="request">
+        <modelElement href="MovieReservation.uml#_-vJFYqGlEeyFcYzmq9og-A"/>
+        <cardinality xmi:id="_AKBIBKGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+        <type xmi:id="_AKBIBaGmEeyFcYzmq9og-A" name="HttpServletRequest">
+          <modelElement href="MovieReservation.uml#_-ulEsaGlEeyFcYzmq9og-A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_AKBIBqGmEeyFcYzmq9og-A" name="response">
+        <modelElement href="MovieReservation.uml#_-vJFY6GlEeyFcYzmq9og-A"/>
+        <cardinality xmi:id="_AKBIB6GmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+        <type xmi:id="_AKBICKGmEeyFcYzmq9og-A" name="HttpServletResponse">
+          <modelElement href="MovieReservation.uml#_-uuOoaGlEeyFcYzmq9og-A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_AKEyUKGmEeyFcYzmq9og-A" name="LoginServlet">
+    <modelElement href="MovieReservation.uml#_-kqTsKGlEeyFcYzmq9og-A"/>
+    <visualProperties xmi:id="_AKEyUaGmEeyFcYzmq9og-A" position="-413.0,1141.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_AKEyUqGmEeyFcYzmq9og-A" name="LegacyStyledElement">
+      <modelElement href="MovieReservation.uml#_-kq6wKGlEeyFcYzmq9og-A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_AKEyU6GmEeyFcYzmq9og-A" name="Annotations">
+      <modelElement href="MovieReservation.uml#_-krh0KGlEeyFcYzmq9og-A"/>
+    </stereotypes>
+    <visibility xmi:id="_AKEyVKGmEeyFcYzmq9og-A" label="+"/>
+    <attributes xmi:id="_AKEyVaGmEeyFcYzmq9og-A" defaultValue="1L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="MovieReservation.uml#_-vg40KGlEeyFcYzmq9og-A"/>
+      <stereotypes xmi:id="_AKEyVqGmEeyFcYzmq9og-A" name="StyledElement">
+        <modelElement href="MovieReservation.uml#_-vg40qGlEeyFcYzmq9og-A"/>
+      </stereotypes>
+      <visibility xmi:id="_AKEyV6GmEeyFcYzmq9og-A" label="-"/>
+      <cardinality xmi:id="_AKEyWKGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+      <type xmi:id="_AKEyWaGmEeyFcYzmq9og-A" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_AKEyWqGmEeyFcYzmq9og-A" name="doPost">
+      <modelElement href="MovieReservation.uml#_-vKTgKGlEeyFcYzmq9og-A"/>
+      <stereotypes xmi:id="_AKEyW6GmEeyFcYzmq9og-A" name="StyledElement">
+        <modelElement href="MovieReservation.uml#_-vK6kaGlEeyFcYzmq9og-A"/>
+      </stereotypes>
+      <visibility xmi:id="_AKEyXKGmEeyFcYzmq9og-A" label="#"/>
+      <cardinality xmi:id="_AKEyXaGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_AKEyXqGmEeyFcYzmq9og-A" name="request">
+        <modelElement href="MovieReservation.uml#_-vKTgaGlEeyFcYzmq9og-A"/>
+        <cardinality xmi:id="_AKEyX6GmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+        <type xmi:id="_AKEyYKGmEeyFcYzmq9og-A" name="HttpServletRequest">
+          <modelElement href="MovieReservation.uml#_-ulEsaGlEeyFcYzmq9og-A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_AKEyYaGmEeyFcYzmq9og-A" name="response">
+        <modelElement href="MovieReservation.uml#_-vK6kKGlEeyFcYzmq9og-A"/>
+        <cardinality xmi:id="_AKEyYqGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+        <type xmi:id="_AKEyY6GmEeyFcYzmq9og-A" name="HttpServletResponse">
+          <modelElement href="MovieReservation.uml#_-uuOoaGlEeyFcYzmq9og-A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_AKIcsKGmEeyFcYzmq9og-A" name="LogoutServlet">
+    <modelElement href="MovieReservation.uml#_-ksv8KGlEeyFcYzmq9og-A"/>
+    <visualProperties xmi:id="_AKIcsaGmEeyFcYzmq9og-A" position="457.0,519.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_AKIcsqGmEeyFcYzmq9og-A" name="LegacyStyledElement">
+      <modelElement href="MovieReservation.uml#_-ktXAKGlEeyFcYzmq9og-A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_AKIcs6GmEeyFcYzmq9og-A" name="Annotations">
+      <modelElement href="MovieReservation.uml#_-kt-EKGlEeyFcYzmq9og-A"/>
+    </stereotypes>
+    <visibility xmi:id="_AKIctKGmEeyFcYzmq9og-A" label="+"/>
+    <operations xmi:id="_AKIctaGmEeyFcYzmq9og-A" name="doGet">
+      <modelElement href="MovieReservation.uml#_-vLhoKGlEeyFcYzmq9og-A"/>
+      <stereotypes xmi:id="_AKIctqGmEeyFcYzmq9og-A" name="StyledElement">
+        <modelElement href="MovieReservation.uml#_-vMIsKGlEeyFcYzmq9og-A"/>
+      </stereotypes>
+      <visibility xmi:id="_AKIct6GmEeyFcYzmq9og-A" label="#"/>
+      <cardinality xmi:id="_AKIcuKGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_AKIcuaGmEeyFcYzmq9og-A" name="request">
+        <modelElement href="MovieReservation.uml#_-vLhoaGlEeyFcYzmq9og-A"/>
+        <cardinality xmi:id="_AKIcuqGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+        <type xmi:id="_AKIcu6GmEeyFcYzmq9og-A" name="HttpServletRequest">
+          <modelElement href="MovieReservation.uml#_-ulEsaGlEeyFcYzmq9og-A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_AKIcvKGmEeyFcYzmq9og-A" name="response">
+        <modelElement href="MovieReservation.uml#_-vLhoqGlEeyFcYzmq9og-A"/>
+        <cardinality xmi:id="_AKIcvaGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+        <type xmi:id="_AKIcvqGmEeyFcYzmq9og-A" name="HttpServletResponse">
+          <modelElement href="MovieReservation.uml#_-uuOoaGlEeyFcYzmq9og-A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_AKMHEKGmEeyFcYzmq9og-A" name="MovieServlet">
+    <modelElement href="MovieReservation.uml#_-kvMMKGlEeyFcYzmq9og-A"/>
+    <visualProperties xmi:id="_AKMHEaGmEeyFcYzmq9og-A" position="-1079.0,908.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_AKMHEqGmEeyFcYzmq9og-A" name="LegacyStyledElement">
+      <modelElement href="MovieReservation.uml#_-kvzQKGlEeyFcYzmq9og-A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_AKMHE6GmEeyFcYzmq9og-A" name="Annotations">
+      <modelElement href="MovieReservation.uml#_-kwaUKGlEeyFcYzmq9og-A"/>
+    </stereotypes>
+    <visibility xmi:id="_AKMHFKGmEeyFcYzmq9og-A" label="+"/>
+    <operations xmi:id="_AKMHFaGmEeyFcYzmq9og-A" name="doGet">
+      <modelElement href="MovieReservation.uml#_-vMvwKGlEeyFcYzmq9og-A"/>
+      <stereotypes xmi:id="_AKMHFqGmEeyFcYzmq9og-A" name="StyledElement">
+        <modelElement href="MovieReservation.uml#_-vNW0KGlEeyFcYzmq9og-A"/>
+      </stereotypes>
+      <visibility xmi:id="_AKMHF6GmEeyFcYzmq9og-A" label="#"/>
+      <cardinality xmi:id="_AKMHGKGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_AKMHGaGmEeyFcYzmq9og-A" name="request">
+        <modelElement href="MovieReservation.uml#_-vMvwaGlEeyFcYzmq9og-A"/>
+        <cardinality xmi:id="_AKMHGqGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+        <type xmi:id="_AKMHG6GmEeyFcYzmq9og-A" name="HttpServletRequest">
+          <modelElement href="MovieReservation.uml#_-ulEsaGlEeyFcYzmq9og-A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_AKMHHKGmEeyFcYzmq9og-A" name="response">
+        <modelElement href="MovieReservation.uml#_-vMvwqGlEeyFcYzmq9og-A"/>
+        <cardinality xmi:id="_AKMHHaGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+        <type xmi:id="_AKMHHqGmEeyFcYzmq9og-A" name="HttpServletResponse">
+          <modelElement href="MovieReservation.uml#_-uuOoaGlEeyFcYzmq9og-A"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_AKMHH6GmEeyFcYzmq9og-A" comments="_AKLgAKGmEeyFcYzmq9og-A" targetConnectionVisual="_AKLgAaGmEeyFcYzmq9og-A" name="doPost">
+      <modelElement href="MovieReservation.uml#_-vNW0aGlEeyFcYzmq9og-A"/>
+      <stereotypes xmi:id="_AKMHIKGmEeyFcYzmq9og-A" name="StyledElement">
+        <modelElement href="MovieReservation.uml#_-vN94KGlEeyFcYzmq9og-A"/>
+      </stereotypes>
+      <visibility xmi:id="_AKMHIaGmEeyFcYzmq9og-A" label="#"/>
+      <cardinality xmi:id="_AKMHIqGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_AKMHI6GmEeyFcYzmq9og-A" name="request">
+        <modelElement href="MovieReservation.uml#_-vNW0qGlEeyFcYzmq9og-A"/>
+        <cardinality xmi:id="_AKMHJKGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+        <type xmi:id="_AKMHJaGmEeyFcYzmq9og-A" name="HttpServletRequest">
+          <modelElement href="MovieReservation.uml#_-ulEsaGlEeyFcYzmq9og-A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_AKMHJqGmEeyFcYzmq9og-A" name="response">
+        <modelElement href="MovieReservation.uml#_-vNW06GlEeyFcYzmq9og-A"/>
+        <cardinality xmi:id="_AKMHJ6GmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+        <type xmi:id="_AKMHKKGmEeyFcYzmq9og-A" name="HttpServletResponse">
+          <modelElement href="MovieReservation.uml#_-uuOoaGlEeyFcYzmq9og-A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_AKPxcKGmEeyFcYzmq9og-A" name="RetrieveBookingServlet">
+    <modelElement href="MovieReservation.uml#_-kxocKGlEeyFcYzmq9og-A"/>
+    <visualProperties xmi:id="_AKPxcaGmEeyFcYzmq9og-A" position="519.0,661.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_AKPxcqGmEeyFcYzmq9og-A" name="LegacyStyledElement">
+      <modelElement href="MovieReservation.uml#_-kyPgKGlEeyFcYzmq9og-A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_AKPxc6GmEeyFcYzmq9og-A" name="Annotations">
+      <modelElement href="MovieReservation.uml#_-ky2kKGlEeyFcYzmq9og-A"/>
+    </stereotypes>
+    <visibility xmi:id="_AKPxdKGmEeyFcYzmq9og-A" label="+"/>
+    <attributes xmi:id="_AKPxdaGmEeyFcYzmq9og-A" defaultValue="1L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="MovieReservation.uml#_-vg406GlEeyFcYzmq9og-A"/>
+      <stereotypes xmi:id="_AKPxdqGmEeyFcYzmq9og-A" name="StyledElement">
+        <modelElement href="MovieReservation.uml#_-vhf4aGlEeyFcYzmq9og-A"/>
+      </stereotypes>
+      <visibility xmi:id="_AKPxd6GmEeyFcYzmq9og-A" label="-"/>
+      <cardinality xmi:id="_AKPxeKGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+      <type xmi:id="_AKPxeaGmEeyFcYzmq9og-A" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_AKPxeqGmEeyFcYzmq9og-A" name="doGet">
+      <modelElement href="MovieReservation.uml#_-vOk8KGlEeyFcYzmq9og-A"/>
+      <stereotypes xmi:id="_AKPxe6GmEeyFcYzmq9og-A" name="StyledElement">
+        <modelElement href="MovieReservation.uml#_-vOk86GlEeyFcYzmq9og-A"/>
+      </stereotypes>
+      <visibility xmi:id="_AKPxfKGmEeyFcYzmq9og-A" label="#"/>
+      <cardinality xmi:id="_AKPxfaGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_AKPxfqGmEeyFcYzmq9og-A" name="request">
+        <modelElement href="MovieReservation.uml#_-vOk8aGlEeyFcYzmq9og-A"/>
+        <cardinality xmi:id="_AKPxf6GmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+        <type xmi:id="_AKPxgKGmEeyFcYzmq9og-A" name="HttpServletRequest">
+          <modelElement href="MovieReservation.uml#_-ulEsaGlEeyFcYzmq9og-A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_AKPxgaGmEeyFcYzmq9og-A" name="response">
+        <modelElement href="MovieReservation.uml#_-vOk8qGlEeyFcYzmq9og-A"/>
+        <cardinality xmi:id="_AKPxgqGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+        <type xmi:id="_AKPxg6GmEeyFcYzmq9og-A" name="HttpServletResponse">
+          <modelElement href="MovieReservation.uml#_-uuOoaGlEeyFcYzmq9og-A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_AKS0wKGmEeyFcYzmq9og-A" name="SeatServlet">
+    <modelElement href="MovieReservation.uml#_-k0EsKGlEeyFcYzmq9og-A"/>
+    <visualProperties xmi:id="_AKS0waGmEeyFcYzmq9og-A" position="279.0,991.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_AKS0wqGmEeyFcYzmq9og-A" name="LegacyStyledElement">
+      <modelElement href="MovieReservation.uml#_-k0rwKGlEeyFcYzmq9og-A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_AKS0w6GmEeyFcYzmq9og-A" name="Annotations">
+      <modelElement href="MovieReservation.uml#_-k1S0KGlEeyFcYzmq9og-A"/>
+    </stereotypes>
+    <visibility xmi:id="_AKS0xKGmEeyFcYzmq9og-A" label="+"/>
+    <attributes xmi:id="_AKS0xaGmEeyFcYzmq9og-A" defaultValue="1L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="MovieReservation.uml#_-vhf4qGlEeyFcYzmq9og-A"/>
+      <stereotypes xmi:id="_AKS0xqGmEeyFcYzmq9og-A" name="StyledElement">
+        <modelElement href="MovieReservation.uml#_-vhf5KGlEeyFcYzmq9og-A"/>
+      </stereotypes>
+      <visibility xmi:id="_AKS0x6GmEeyFcYzmq9og-A" label="-"/>
+      <cardinality xmi:id="_AKS0yKGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+      <type xmi:id="_AKS0yaGmEeyFcYzmq9og-A" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_AKS0yqGmEeyFcYzmq9og-A" name="doGet">
+      <modelElement href="MovieReservation.uml#_-vPzEKGlEeyFcYzmq9og-A"/>
+      <stereotypes xmi:id="_AKS0y6GmEeyFcYzmq9og-A" name="StyledElement">
+        <modelElement href="MovieReservation.uml#_-vPzE6GlEeyFcYzmq9og-A"/>
+      </stereotypes>
+      <visibility xmi:id="_AKS0zKGmEeyFcYzmq9og-A" label="#"/>
+      <cardinality xmi:id="_AKS0zaGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_AKS0zqGmEeyFcYzmq9og-A" name="request">
+        <modelElement href="MovieReservation.uml#_-vPzEaGlEeyFcYzmq9og-A"/>
+        <cardinality xmi:id="_AKS0z6GmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+        <type xmi:id="_AKS00KGmEeyFcYzmq9og-A" name="HttpServletRequest">
+          <modelElement href="MovieReservation.uml#_-ulEsaGlEeyFcYzmq9og-A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_AKS00aGmEeyFcYzmq9og-A" name="response">
+        <modelElement href="MovieReservation.uml#_-vPzEqGlEeyFcYzmq9og-A"/>
+        <cardinality xmi:id="_AKS00qGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+        <type xmi:id="_AKS006GmEeyFcYzmq9og-A" name="HttpServletResponse">
+          <modelElement href="MovieReservation.uml#_-uuOoaGlEeyFcYzmq9og-A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_AKWfIKGmEeyFcYzmq9og-A" name="SignupServlet">
+    <modelElement href="MovieReservation.uml#_-k2g8KGlEeyFcYzmq9og-A"/>
+    <visualProperties xmi:id="_AKWfIaGmEeyFcYzmq9og-A" position="-1085.0,1107.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_AKWfIqGmEeyFcYzmq9og-A" name="LegacyStyledElement">
+      <modelElement href="MovieReservation.uml#_-k3IAKGlEeyFcYzmq9og-A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_AKWfI6GmEeyFcYzmq9og-A" name="Annotations">
+      <modelElement href="MovieReservation.uml#_-k4WIKGlEeyFcYzmq9og-A"/>
+    </stereotypes>
+    <visibility xmi:id="_AKWfJKGmEeyFcYzmq9og-A" label="+"/>
+    <operations xmi:id="_AKWfJaGmEeyFcYzmq9og-A" name="doPost">
+      <modelElement href="MovieReservation.uml#_-vQaIKGlEeyFcYzmq9og-A"/>
+      <stereotypes xmi:id="_AKWfJqGmEeyFcYzmq9og-A" name="StyledElement">
+        <modelElement href="MovieReservation.uml#_-vRBMaGlEeyFcYzmq9og-A"/>
+      </stereotypes>
+      <visibility xmi:id="_AKWfJ6GmEeyFcYzmq9og-A" label="#"/>
+      <cardinality xmi:id="_AKWfKKGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_AKWfKaGmEeyFcYzmq9og-A" name="request">
+        <modelElement href="MovieReservation.uml#_-vQaIaGlEeyFcYzmq9og-A"/>
+        <cardinality xmi:id="_AKWfKqGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+        <type xmi:id="_AKWfK6GmEeyFcYzmq9og-A" name="HttpServletRequest">
+          <modelElement href="MovieReservation.uml#_-ulEsaGlEeyFcYzmq9og-A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_AKWfLKGmEeyFcYzmq9og-A" name="response">
+        <modelElement href="MovieReservation.uml#_-vRBMKGlEeyFcYzmq9og-A"/>
+        <cardinality xmi:id="_AKWfLaGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+        <type xmi:id="_AKWfLqGmEeyFcYzmq9og-A" name="HttpServletResponse">
+          <modelElement href="MovieReservation.uml#_-uuOoaGlEeyFcYzmq9og-A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_AKawkKGmEeyFcYzmq9og-A" name="TheatreShowsServlet">
+    <modelElement href="MovieReservation.uml#_-k49MKGlEeyFcYzmq9og-A"/>
+    <visualProperties xmi:id="_AKawkaGmEeyFcYzmq9og-A" position="-419.0,1342.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_AKawkqGmEeyFcYzmq9og-A" name="LegacyStyledElement">
+      <modelElement href="MovieReservation.uml#_-k5kQKGlEeyFcYzmq9og-A"/>
+    </stereotypes>
+    <stereotypes xmi:id="_AKawk6GmEeyFcYzmq9og-A" name="Annotations">
+      <modelElement href="MovieReservation.uml#_-k6yYKGlEeyFcYzmq9og-A"/>
+    </stereotypes>
+    <visibility xmi:id="_AKawlKGmEeyFcYzmq9og-A" label="+"/>
+    <attributes xmi:id="_AKawlaGmEeyFcYzmq9og-A" defaultValue="1L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="MovieReservation.uml#_-vhf5aGlEeyFcYzmq9og-A"/>
+      <stereotypes xmi:id="_AKawlqGmEeyFcYzmq9og-A" name="StyledElement">
+        <modelElement href="MovieReservation.uml#_-viG8aGlEeyFcYzmq9og-A"/>
+      </stereotypes>
+      <visibility xmi:id="_AKawl6GmEeyFcYzmq9og-A" label="-"/>
+      <cardinality xmi:id="_AKawmKGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+      <type xmi:id="_AKawmaGmEeyFcYzmq9og-A" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_AKawmqGmEeyFcYzmq9og-A" name="doGet">
+      <modelElement href="MovieReservation.uml#_-vRoQKGlEeyFcYzmq9og-A"/>
+      <stereotypes xmi:id="_AKawm6GmEeyFcYzmq9og-A" name="StyledElement">
+        <modelElement href="MovieReservation.uml#_-vSPUKGlEeyFcYzmq9og-A"/>
+      </stereotypes>
+      <visibility xmi:id="_AKawnKGmEeyFcYzmq9og-A" label="#"/>
+      <cardinality xmi:id="_AKawnaGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_AKawnqGmEeyFcYzmq9og-A" name="request">
+        <modelElement href="MovieReservation.uml#_-vRoQaGlEeyFcYzmq9og-A"/>
+        <cardinality xmi:id="_AKawn6GmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+        <type xmi:id="_AKawoKGmEeyFcYzmq9og-A" name="HttpServletRequest">
+          <modelElement href="MovieReservation.uml#_-ulEsaGlEeyFcYzmq9og-A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_AKawoaGmEeyFcYzmq9og-A" name="response">
+        <modelElement href="MovieReservation.uml#_-vRoQqGlEeyFcYzmq9og-A"/>
+        <cardinality xmi:id="_AKawoqGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+        <type xmi:id="_AKawo6GmEeyFcYzmq9og-A" name="HttpServletResponse">
+          <modelElement href="MovieReservation.uml#_-uuOoaGlEeyFcYzmq9og-A"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_AKawpKGmEeyFcYzmq9og-A" comments="_AKaJgKGmEeyFcYzmq9og-A" targetConnectionVisual="_AKaJgaGmEeyFcYzmq9og-A" name="doPost">
+      <modelElement href="MovieReservation.uml#_-vSPUaGlEeyFcYzmq9og-A"/>
+      <stereotypes xmi:id="_AKawpaGmEeyFcYzmq9og-A" name="StyledElement">
+        <modelElement href="MovieReservation.uml#_-vS2YKGlEeyFcYzmq9og-A"/>
+      </stereotypes>
+      <visibility xmi:id="_AKawpqGmEeyFcYzmq9og-A" label="#"/>
+      <cardinality xmi:id="_AKawp6GmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+      <parameters xmi:id="_AKawqKGmEeyFcYzmq9og-A" name="request">
+        <modelElement href="MovieReservation.uml#_-vSPUqGlEeyFcYzmq9og-A"/>
+        <cardinality xmi:id="_AKawqaGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+        <type xmi:id="_AKawqqGmEeyFcYzmq9og-A" name="HttpServletRequest">
+          <modelElement href="MovieReservation.uml#_-ulEsaGlEeyFcYzmq9og-A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_AKawq6GmEeyFcYzmq9og-A" name="response">
+        <modelElement href="MovieReservation.uml#_-vSPU6GlEeyFcYzmq9og-A"/>
+        <cardinality xmi:id="_AKawrKGmEeyFcYzmq9og-A" label="1" max="1" min="1"/>
+        <type xmi:id="_AKawraGmEeyFcYzmq9og-A" name="HttpServletResponse">
+          <modelElement href="MovieReservation.uml#_-uuOoaGlEeyFcYzmq9og-A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
